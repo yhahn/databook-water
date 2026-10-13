@@ -1,0 +1,19 @@
+# County: Cortland County
+
+- County code: 023
+- State: New York
+- Sites: 7
+
+The USGS sites of Cortland County, New York, with daily means or annual peaks, a page each.
+
+## Sites
+
+| Site | Site ID | Number | Type | Drainage area | Daily from | Daily to | Days | Peaks | Field measurements |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [GROUT BROOK TRIB SOUTHEAST OF FAIR HAVEN NY](./Cortland%20County/GROUT%20BROOK%20TRIB%20SOUTHEAST%20OF%20FAIR%20HAVEN%20NY.md) | USGS-04235820 | 04235820 | Stream | 0.27 | 1996-06-26 | 1999-09-29 | 1191 | 3 | 72 |
+| [MERRILL CREEK TRIB NEAR TEXAS VALLEY NY](./Cortland%20County/MERRILL%20CREEK%20TRIB%20NEAR%20TEXAS%20VALLEY%20NY.md) | USGS-01510610 | 01510610 | Stream | 5.32 |  |  | 0 | 50 | 81 |
+| [OTSELIC RIVER AT CINCINNATUS NY](./Cortland%20County/OTSELIC%20RIVER%20AT%20CINCINNATUS%20NY.md) | USGS-01510000 | 01510000 | Stream | 147 | 1938-06-24 | 2026-10-12 | 30426 | 85 | 2722 |
+| [OTTER CR TRIB @ STATE HWY 222 NR CORTLAND NY](./Cortland%20County/OTTER%20CR%20TRIB%20%40%20STATE%20HWY%20222%20NR%20CORTLAND%20NY.md) | USGS-01508946 | 01508946 | Stream | 2.94 |  |  | 0 | 11 | 6 |
+| [OTTER CREEK AT MOUTH, CORTLAND, N.Y.](./Cortland%20County/OTTER%20CREEK%20AT%20MOUTH,%20CORTLAND,%20N.Y.md) | USGS-01508962 | 01508962 | Stream | 14.3 | 1975-12-01 | 1976-12-31 | 397 | 0 | 0 |
+| [TIOUGHNIOGA RIVER AT CORTLAND NY](./Cortland%20County/TIOUGHNIOGA%20RIVER%20AT%20CORTLAND%20NY.md) | USGS-01509000 | 01509000 | Stream | 292 | 1938-05-20 | 2026-10-12 | 32288 | 87 | 2551 |
+| [WEST BR TIOUGHNIOGA RIVER AT HOMER NY](./Cortland%20County/WEST%20BR%20TIOUGHNIOGA%20RIVER%20AT%20HOMER%20NY.md) | USGS-01508803 | 01508803 | Stream | 71.5 | 1966-11-22 | 1986-09-29 | 5791 | 22 | 370 |

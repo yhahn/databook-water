@@ -1,0 +1,21 @@
+# County: Steuben County
+
+- County code: 101
+- State: New York
+- Sites: 9
+
+The USGS sites of Steuben County, New York, with daily means or annual peaks, a page each.
+
+## Sites
+
+| Site | Site ID | Number | Type | Drainage area | Daily from | Daily to | Days | Peaks | Field measurements |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [BENNETTS CR AT CANISTEO NY](./Steuben%20County/BENNETTS%20CR%20AT%20CANISTEO%20NY.md) | USGS-01525000 | 01525000 | Stream | 95.3 | 1938-10-01 | 1947-09-29 | 3286 | 11 | 1 |
+| [BIG CREEK NEAR HOWARD NY](./Steuben%20County/BIG%20CREEK%20NEAR%20HOWARD%20NY.md) | USGS-01521596 | 01521596 | Stream | 6.32 |  |  | 0 | 50 | 42 |
+| [CANACADEA CR AT HORNELL NY](./Steuben%20County/CANACADEA%20CR%20AT%20HORNELL%20NY.md) | USGS-01524000 | 01524000 | Stream | 58.5 |  |  | 0 | 7 | 0 |
+| [COHOCTON RIVER AT AVOCA NY](./Steuben%20County/COHOCTON%20RIVER%20AT%20AVOCA%20NY.md) | USGS-01527500 | 01527500 | Stream | 152 | 1938-06-01 | 2026-10-12 | 12390 | 36 | 813 |
+| [MILL CREEK AT PATCHINVILLE NY](./Steuben%20County/MILL%20CREEK%20AT%20PATCHINVILLE%20NY.md) | USGS-04224900 | 04224900 | Stream | 4.22 |  |  | 0 | 23 | 56 |
+| [MULHOLLAND CR NR ERWINS NY](./Steuben%20County/MULHOLLAND%20CR%20NR%20ERWINS%20NY.md) | USGS-01526495 | 01526495 | Stream | 5.06 | 1966-08-01 | 1968-09-29 | 791 | 4 | 0 |
+| [STONY BROOK AT CO HWY 46 AT SOUTH DANSVILLE NY](./Steuben%20County/STONY%20BROOK%20AT%20CO%20HWY%2046%20AT%20SOUTH%20DANSVILLE%20NY.md) | USGS-04224803 | 04224803 | Stream | 2.58 |  |  | 0 | 13 | 22 |
+| [STONY BROOK TRIBUTARY AT SOUTH DANSVILLE NY](./Steuben%20County/STONY%20BROOK%20TRIBUTARY%20AT%20SOUTH%20DANSVILLE%20NY.md) | USGS-04224807 | 04224807 | Stream | 3.15 |  |  | 0 | 38 | 10 |
+| [TUSCARORA CR NR SOUTH ADDISON NY](./Steuben%20County/TUSCARORA%20CR%20NR%20SOUTH%20ADDISON%20NY.md) | USGS-01526000 | 01526000 | Stream | 114 | 1937-04-01 | 1970-09-29 | 12235 | 37 | 435 |

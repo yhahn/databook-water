@@ -10,7 +10,7 @@
 // series of daily means of either, whole; the annual peaks of both; the
 // field measurements of both. Paged by the API's own next link (a cursor);
 // at most 50,000 records a page (the API's limit). A 429 is waited out by
-// its Retry-After and never gone round; all wait, and the run stops after six.
+// its Retry-After and never gone round; all wait, and the run stops after forty.
 
 const fs = require('node:fs');
 const path = require('node:path');
@@ -23,14 +23,14 @@ const TYPES = ['ST', 'ST-TS', 'ST-CA', 'ST-DCH', 'LK', 'ES'];
 const BOX = '-79.8,40.45,-71.8,45.05'; // New York and a margin; sites outside are dropped by state
 const NY = 'state_name=New%20York';
 const PARAMS = ['00060', '00065'];
-const WORKERS = 3;
+const WORKERS = 1;
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 let refusals = 0;
 let asks = 0;
 
 // One pause for every worker: a 429's Retry-After is waited out by all,
-// never gone round. Six refusals and the run stops, saying so.
+// never gone round. Forty refusals and the run stops, saying so: a run without a key waits out the hourly limit, many times over.
 let pausedUntil = 0;
 async function get(url) {
   for (;;) {
@@ -38,7 +38,7 @@ async function get(url) {
     asks++;
     const r = await fetch(url, { headers: { 'User-Agent': 'databook-water (a personal databook)' } });
     if (r.status === 429) {
-      if (++refusals > 6) throw new Error(`429 six times; stopped. Last: ${url}`);
+      if (++refusals > 40) throw new Error(`429 forty times; stopped. Last: ${url}`);
       const wait = Number(r.headers.get('retry-after') || 600);
       pausedUntil = Math.max(pausedUntil, Date.now() + wait * 1000 + 5000);
       console.error(`429 (limit ${r.headers.get('x-ratelimit-limit')}), all waiting ${wait}s as asked`);

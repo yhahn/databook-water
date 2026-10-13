@@ -105,7 +105,8 @@
  ],
  "fieldCodes": [
   "NoMeasurement",
-  "Obstructed"
+  "Obstructed",
+  "Revised"
  ],
  "rows": {
   "locations": [

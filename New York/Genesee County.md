@@ -1,0 +1,20 @@
+# County: Genesee County
+
+- County code: 037
+- State: New York
+- Sites: 8
+
+The USGS sites of Genesee County, New York, with daily means or annual peaks, a page each.
+
+## Sites
+
+| Site | Site ID | Number | Type | Drainage area | Daily from | Daily to | Days | Peaks | Field measurements |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [LITTLE TONAWANDA CR TRIB NR BATAVIA NY](./Genesee%20County/LITTLE%20TONAWANDA%20CR%20TRIB%20NR%20BATAVIA%20NY.md) | USGS-04216875 | 04216875 | Stream | 0.96 |  |  | 0 | 11 | 14 |
+| [MUD CREEK NEAR LE ROY NY](./Genesee%20County/MUD%20CREEK%20NEAR%20LE%20ROY%20NY.md) | USGS-04230470 | 04230470 | Stream | 10.2 |  |  | 0 | 2 | 48 |
+| [MURDER CREEK AT PEMBROKE NY](./Genesee%20County/MURDER%20CREEK%20AT%20PEMBROKE%20NY.md) | USGS-04217700 | 04217700 | Stream | 42.5 |  |  | 0 | 25 | 40 |
+| [OAK ORCHARD CR AT BARRVILLE RD NR ELBA NY](./Genesee%20County/OAK%20ORCHARD%20CR%20AT%20BARRVILLE%20RD%20NR%20ELBA%20NY.md) | USGS-04219922 | 04219922 | Stream | 6.04 |  |  | 0 | 11 | 6 |
+| [OAK ORCHARD CREEK AT COUNTY LINE NEAR ELBA NY](./Genesee%20County/OAK%20ORCHARD%20CREEK%20AT%20COUNTY%20LINE%20NEAR%20ELBA%20NY.md) | USGS-04219930 | 04219930 | Stream | 21.9 |  |  | 0 | 4 | 0 |
+| [OAK ORCHARD CREEK NEAR ELBA NY](./Genesee%20County/OAK%20ORCHARD%20CREEK%20NEAR%20ELBA%20NY.md) | USGS-04219925 | 04219925 | Stream | 7.49 |  |  | 0 | 3 | 18 |
+| [OATKA CREEK NEAR PAVILION CENTER NY](./Genesee%20County/OATKA%20CREEK%20NEAR%20PAVILION%20CENTER%20NY.md) | USGS-04230423 | 04230423 | Stream | 110 |  |  | 0 | 3 | 65 |
+| [TONAWANDA CREEK NEAR ALABAMA NY](./Genesee%20County/TONAWANDA%20CREEK%20NEAR%20ALABAMA%20NY.md) | USGS-04217500 | 04217500 | Stream | 231 | 1955-10-01 | 1989-09-29 | 12418 | 41 | 140 |

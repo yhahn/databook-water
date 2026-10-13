@@ -87,6 +87,7 @@ function load(raw = RAW) {
   const files = fs.readdirSync(path.join(raw, 'daily'));
   const dailyFile = id => { const f = files.find(n => n.endsWith(`-${id}.json`)); return f && path.join(raw, 'daily', f); };
   const dailyOf = id => { const f = dailyFile(id); return f ? readJSON(f).features.map(x => x.properties) : null; };
+  dailyOf.has = id => Boolean(dailyFile(id));
   return { locations, series, peaks, field, dailyOf, dailyFiles: files.length };
 }
 
@@ -105,7 +106,8 @@ function checkShape(input, shape) {
   keysOf(input.peaks, shape.keys.peaks, 'peaks');
   keysOf(input.field, shape.keys.field, 'field measurements');
   for (const l of input.locations) {
-    if (!/^USGS-\d{8,15}$/.test(l.id) || l.id !== `USGS-${l.monitoring_location_number}`) bad(`a site keyed otherwise: ${l.id}`);
+    // USGS's own: USGS- and eight to fifteen digits; another agency's, its code and its number.
+    if (l.id !== `${l.agency_code}-${l.monitoring_location_number}` || (l.agency_code === 'USGS' && !/^USGS-\d{8,15}$/.test(l.id))) bad(`a site keyed otherwise: ${l.id}`);
     if (l.state_name !== STATE) bad(`a site not in ${STATE}: ${l.id}`);
   }
   if (new Set(input.locations.map(l => l.id)).size !== input.locations.length) bad('a site listed twice');
@@ -402,12 +404,16 @@ function buildListings(sites, datum) {
 // The whole book from an input held in memory (the vectors): { locations,
 // series, peaks, field, daily: { id: rows } }.
 function build(input, shape) {
-  const run = assemble(input, id => input.daily[id] || null, shape);
+  const dailyOf = id => input.daily[id] || null;
+  dailyOf.has = id => id in input.daily;
+  const run = assemble(input, dailyOf, shape);
   return run;
 }
 
 // The sites in the book, and each built.
-function assemble(input, dailyOf, shape, onSite) {
+// partial: a site whose series are not all fetched yet is left for the
+// next run, and counted (node import.js --fetched), never written in part.
+function assemble(input, dailyOf, shape, onSite, partial = false) {
   const loc = new Map(input.locations.map(l => [l.id, l]));
   const series = new Map();
   for (const s of input.series) {
@@ -431,7 +437,14 @@ function assemble(input, dailyOf, shape, onSite) {
   // Pages named alike in a county take the site's number (B7).
   const names = new Map();
   for (const id of ids) { const l = loc.get(id); const k = `${l.county_name}|${safe(l.monitoring_location_name).toLowerCase()}`; names.set(k, (names.get(k) || 0) + 1); }
+  const waiting = { sites: 0, series: 0, peaks: 0, field: 0 };
   for (const id of ids) {
+    const missing = (series.get(id) || []).filter(s => !dailyOf.has(s.id));
+    if (missing.length && partial) {
+      waiting.sites++; waiting.series += (series.get(id) || []).length;
+      waiting.peaks += (peaks.get(id) || []).length; waiting.field += (field.get(id) || []).length;
+      continue;
+    }
     const l0 = loc.get(id);
     const k = `${l0.county_name}|${safe(l0.monitoring_location_name).toLowerCase()}`;
     const l = names.get(k) > 1 ? { ...l0, monitoring_location_name: `${l0.monitoring_location_name} ${l0.monitoring_location_number}` } : l0;
@@ -468,6 +481,12 @@ function assemble(input, dailyOf, shape, onSite) {
   counts.changes = new Set(datum.map(d => d.wy)).size;
   counts.datumSites = datum.length;
   counts.withDaily = sites.filter(s => s.days).length;
+  counts.waiting = waiting;
+  // The README's example: the longest record among sites still reporting.
+  const lastDay = sites.map(s => s.last).filter(Boolean).sort().pop() || '';
+  const ex = sites.filter(s => s.last && s.last >= lastDay.slice(0, 4) + '-01-01').sort((a, b) => b.days - a.days || a.id.localeCompare(b.id))[0];
+  counts.example = ex ? { id: ex.id, name: ex.name, days: ex.days, first: ex.first, county: ex.county } : null;
+  counts.seriesAll = [...series.values()].reduce((a, l) => a + l.length, 0);
   counts.firstDay = sites.map(s => s.first).filter(Boolean).sort()[0] || '';
   return { pages, counts, left };
 }
@@ -495,7 +514,7 @@ function main() {
       bytes += Buffer.byteLength(text);
     }
   };
-  const { counts, left } = assemble(input, input.dailyOf, shape, write);
+  const { counts, left } = assemble(input, input.dailyOf, shape, write, process.argv.includes('--fetched'));
   // What the source holds, to count against (V3).
   const fetched = { dailyFiles: input.dailyFiles, peaks: input.peaks.length, field: input.field.length, locations: input.locations.length };
   const newest = fs.readdirSync(RAW).map(f => fs.statSync(path.join(RAW, f)).mtimeMs).reduce((a, b) => Math.max(a, b), 0);

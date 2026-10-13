@@ -61,8 +61,9 @@ select count("Discharge approval") || ' ' || count("Gage height approval") from 
 
 -- name: Days of the main series and of the others are every row read from USGS's daily series
 -- want: {dailyRead}
-select (select count("Discharge approval") + count("Gage height approval") from Water_Year_Days)
-  + (select count(*) from Water_Year_Other_series);
+-- (the other series' rows as the importer counted them: their table is
+-- there only when a site has one)
+select count("Discharge approval") + count("Gage height approval") + {other} from Water_Year_Days;
 
 -- name: Peaks, by parameter, every peak of a site in the book
 -- want: {peaksQ} {peaksGH}
@@ -70,15 +71,15 @@ select count(Discharge) || ' ' || count("Gage height") from Site_Peaks;
 
 -- name: Peaks and the peaks with no site, every peak fetched
 -- want: {fetched.peaks}
-select count(Discharge) + count("Gage height") + {left.peaksNoSite} from Site_Peaks;
+select count(Discharge) + count("Gage height") + {left.peaksNoSite} + {waiting.peaks} from Site_Peaks;
 
 -- name: Field measurements, and those of sites not in the book, every one fetched
 -- want: {fetched.field}
-select count(*) + {left.fieldNotInBook} from Site_Field_measurements;
+select count(*) + {left.fieldNotInBook} + {waiting.field} from Site_Field_measurements;
 
--- name: Every daily series fetched is a site's main or other series
--- want: {series}
-select count(nullif("Discharge series", '')) + count(nullif("Gage height series", '')) + {otherSeries} from Site;
+-- name: Every daily series of New York's sites is a site's main or other series, or waits
+-- want: {seriesAll}
+select count(nullif("Discharge series", '')) + count(nullif("Gage height series", '')) + {otherSeries} + {waiting.series} from Site;
 
 -- name: A day's approval is Approved or Provisional, never blank beside a value
 -- want: 0

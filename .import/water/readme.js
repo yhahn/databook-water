@@ -24,7 +24,12 @@ ${n(c.field)} field measurements (the visits that check a gauge). Today's
 readings come from the same API as a live source (below), so a river's
 flow now can be laid beside every day it has flowed before.
 
-Written by its importer (\`.import/\`, \`sh .import/build.sh\`) from USGS's
+${c.waiting.sites ? `**Not yet whole.** ${n(c.waiting.sites)} more sites (${n(c.waiting.series)} daily series)
+wait on USGS's limit of 1,000 asks an hour for a program with no key;
+their pages come with the next run of the importer, once fetched. The
+counts here are of what is written.
+
+` : ''}Written by its importer (\`.import/\`, \`sh .import/build.sh\`) from USGS's
 Water Data API as it stood on ${c.fetchedOn}; nothing here is edited by hand.
 A databook (~/Projects/databooks): printable as a book, queryable as tables.
 
@@ -67,7 +72,7 @@ The sites of a county, the largest first:
 
 ${sql(`
 select name, "Site ID", "Drainage area", "Daily from", "Daily to"
-from Site where County = 'Ulster County'
+from Site where County = '${c.example.county}'
 order by "Drainage area" desc nulls last
 `)}
 
@@ -80,12 +85,12 @@ where p.Discharge is not null
 order by p.Discharge desc limit 10
 `)}
 
-Esopus Creek at Coldbrook on this day, every year it was gauged:
+${c.example.name} (the longest record still reporting, since ${c.example.first}) on this day, every year it was gauged:
 
 ${sql(`
 select d.Day, d.Discharge, d."Discharge approval", d."Discharge codes"
 from Water_Year_Days d join "Water Year" w using (_file)
-where w."Site ID" = 'USGS-01362500'
+where w."Site ID" = '${c.example.id}'
   and month(d.Day) = month(today()) and day(d.Day) = day(today())
 order by d.Day desc
 `)}

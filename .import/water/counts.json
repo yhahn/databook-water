@@ -1,0 +1,48 @@
+{
+ "dailyRead": 1061459,
+ "peaksQ": 6020,
+ "peaksGH": 6450,
+ "sites": 310,
+ "days": 1061459,
+ "discharge": 1061459,
+ "gageHeight": 0,
+ "other": 0,
+ "otherSeries": 0,
+ "peaks": 12470,
+ "peakRows": 6827,
+ "field": 66929,
+ "years": 3011,
+ "series": 106,
+ "counties": 57,
+ "changes": 19,
+ "datumSites": 24,
+ "withDaily": 104,
+ "waiting": {
+  "sites": 602,
+  "series": 616,
+  "peaks": 41463,
+  "field": 389206
+ },
+ "example": {
+  "id": "USGS-01426500",
+  "name": "WEST BRANCH DELAWARE RIVER AT HALE EDDY NY",
+  "days": 41589,
+  "first": "1912-11-15",
+  "county": "Delaware County"
+ },
+ "seriesAll": 722,
+ "firstDay": "1887-10-01",
+ "pages": 3380,
+ "bytes": 63643601,
+ "left": {
+  "peaksNoSite": 27,
+  "fieldNotInBook": 27640
+ },
+ "fetched": {
+  "dailyFiles": 109,
+  "peaks": 53960,
+  "field": 483775,
+  "locations": 14369
+ },
+ "fetchedOn": "2026-10-13"
+}
