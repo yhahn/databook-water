@@ -1,0 +1,4 @@
+.import/node_modules/
+.proper/
+.claude/worktrees/
+__pycache__/
