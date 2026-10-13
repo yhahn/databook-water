@@ -1,0 +1,124 @@
+{
+ "about": "V1: the source as last read (10-13). Keys are every property seen; rows within a range around the counts then (locations 14369, peaks 53960, field measurements 483775). A new key, a key gone, a code or reading not seen, or rows outside the range stop the import: the stop is the release's review.",
+ "keys": {
+  "locations": [
+   "id",
+   "agency_code",
+   "agency_name",
+   "monitoring_location_number",
+   "monitoring_location_name",
+   "district_code",
+   "country_code",
+   "country_name",
+   "state_code",
+   "state_name",
+   "county_code",
+   "county_name",
+   "minor_civil_division_code",
+   "site_type_code",
+   "site_type",
+   "hydrologic_unit_code",
+   "basin_code",
+   "altitude",
+   "altitude_accuracy",
+   "altitude_method_code",
+   "altitude_method_name",
+   "vertical_datum",
+   "vertical_datum_name",
+   "horizontal_positional_accuracy_code",
+   "horizontal_positional_accuracy",
+   "horizontal_position_method_code",
+   "horizontal_position_method_name",
+   "original_horizontal_datum",
+   "original_horizontal_datum_name",
+   "drainage_area",
+   "contributing_drainage_area",
+   "time_zone_abbreviation",
+   "uses_daylight_savings",
+   "construction_date",
+   "aquifer_code",
+   "national_aquifer_code",
+   "aquifer_type_code",
+   "well_constructed_depth",
+   "hole_constructed_depth",
+   "depth_source_code",
+   "revision_note",
+   "revision_created",
+   "revision_modified",
+   "lat",
+   "lon"
+  ],
+  "peaks": [
+   "time_series_id",
+   "monitoring_location_id",
+   "parameter_code",
+   "unit_of_measure",
+   "value",
+   "last_modified",
+   "time",
+   "water_year",
+   "year",
+   "month",
+   "day",
+   "time_of_day",
+   "peak_since",
+   "qualifier"
+  ],
+  "field": [
+   "field_measurements_series_id",
+   "reading_type",
+   "field_visit_id",
+   "parameter_code",
+   "monitoring_location_id",
+   "observing_procedure_code",
+   "observing_procedure",
+   "value",
+   "unit_of_measure",
+   "time",
+   "qualifier",
+   "vertical_datum",
+   "approval_status",
+   "measuring_agency",
+   "last_modified",
+   "control_condition",
+   "measurement_rated",
+   "year",
+   "month",
+   "day",
+   "time_of_day",
+   "sublocation_identifier"
+  ],
+  "daily": [
+   "time",
+   "value",
+   "approval_status",
+   "qualifier",
+   "last_modified",
+   "time_series_id",
+   "statistic_id"
+  ]
+ },
+ "readings": [
+  "Discharge",
+  "MeanGageHeight",
+  "ReferencePrimary"
+ ],
+ "fieldCodes": [
+  "NoMeasurement",
+  "Obstructed"
+ ],
+ "rows": {
+  "locations": [
+   14000,
+   15500
+  ],
+  "peaks": [
+   53000,
+   58000
+  ],
+  "field measurements": [
+   480000,
+   520000
+  ]
+ }
+}

@@ -1,0 +1,1063 @@
+{
+ "rule": "B3 B7 K2 K5 D5 D8",
+ "about": "Three of USGS's sites as its API gave them 10-13, each cut to a few rows: Platte Kill at Dunraven (USGS-01414000) with ice, equipment, estimated, revised and provisional days, values withheld (null), the turn of a water year, peaks coded (a datum change among them; a discharge and a gage-height peak at one moment made one row) and a field measurement of each reading; West Branch Croton River at Richardsville (USGS-01374559) with equipment days; and a site of peaks only (USGS-04256040). The pages: the state's, each county's, each site's and its years', and the changes. Written by the importer, checked by eye against USGS's rows, then frozen.",
+ "input": {
+  "locations": [
+   {
+    "id": "USGS-01374559",
+    "agency_code": "USGS",
+    "agency_name": "U.S. Geological Survey",
+    "monitoring_location_number": "01374559",
+    "monitoring_location_name": "WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY",
+    "district_code": "36",
+    "country_code": "US",
+    "country_name": "United States of America",
+    "state_code": "36",
+    "state_name": "New York",
+    "county_code": "079",
+    "county_name": "Putnam County",
+    "minor_civil_division_code": "39331",
+    "site_type_code": "ST",
+    "site_type": "Stream",
+    "hydrologic_unit_code": "020301010206",
+    "basin_code": null,
+    "altitude": 586.6,
+    "altitude_accuracy": 0.01,
+    "altitude_method_code": "Y",
+    "altitude_method_name": "GNSS3 - Level 3 Quality Survey Grade Global Navigation Satellite System",
+    "vertical_datum": "NAVD88",
+    "vertical_datum_name": "North American Vertical Datum of 1988",
+    "horizontal_positional_accuracy_code": "1",
+    "horizontal_positional_accuracy": "Accurate to + or - .1 sec (Differentially-Corrected GPS).",
+    "horizontal_position_method_code": "N",
+    "horizontal_position_method_name": "Interpolated from digital map",
+    "original_horizontal_datum": "NAD83",
+    "original_horizontal_datum_name": "North American Datum of 1983",
+    "drainage_area": 11,
+    "contributing_drainage_area": null,
+    "time_zone_abbreviation": "EST",
+    "uses_daylight_savings": "N",
+    "construction_date": null,
+    "aquifer_code": null,
+    "national_aquifer_code": null,
+    "aquifer_type_code": null,
+    "well_constructed_depth": null,
+    "hole_constructed_depth": null,
+    "depth_source_code": null,
+    "revision_note": "WDR NY-00-1: 1996-99 (P).",
+    "revision_created": "2017-11-13T06:00:00+00:00",
+    "revision_modified": null,
+    "lat": 41.4704722222222,
+    "lon": -73.7595833333333
+   },
+   {
+    "id": "USGS-01414000",
+    "agency_code": "USGS",
+    "agency_name": "U.S. Geological Survey",
+    "monitoring_location_number": "01414000",
+    "monitoring_location_name": "PLATTE KILL AT DUNRAVEN NY",
+    "district_code": "36",
+    "country_code": "US",
+    "country_name": "United States of America",
+    "state_code": "36",
+    "state_name": "New York",
+    "county_code": "025",
+    "county_name": "Delaware County",
+    "minor_civil_division_code": "47031",
+    "site_type_code": "ST",
+    "site_type": "Stream",
+    "hydrologic_unit_code": "020401020305",
+    "basin_code": null,
+    "altitude": 1293.75,
+    "altitude_accuracy": 0.1,
+    "altitude_method_code": "X",
+    "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+    "vertical_datum": "NAVD88",
+    "vertical_datum_name": "North American Vertical Datum of 1988",
+    "horizontal_positional_accuracy_code": "1",
+    "horizontal_positional_accuracy": "Accurate to + or - .1 sec (Differentially-Corrected GPS).",
+    "horizontal_position_method_code": "N",
+    "horizontal_position_method_name": "Interpolated from digital map",
+    "original_horizontal_datum": "NAD83",
+    "original_horizontal_datum_name": "North American Datum of 1983",
+    "drainage_area": 34.9,
+    "contributing_drainage_area": null,
+    "time_zone_abbreviation": "EST",
+    "uses_daylight_savings": "N",
+    "construction_date": null,
+    "aquifer_code": null,
+    "national_aquifer_code": null,
+    "aquifer_type_code": null,
+    "well_constructed_depth": null,
+    "hole_constructed_depth": null,
+    "depth_source_code": null,
+    "revision_note": "WDR NY-97-1: Drainage area. Discharge for the period Jan. 4, 2022, to Feb. 16, 2022, was revised on Sept. 19, 2022, based on changes to estimated discharge.",
+    "revision_created": "2017-11-13T06:00:00+00:00",
+    "revision_modified": "2022-10-03T17:49:10.020000+00:00",
+    "lat": 42.132528,
+    "lon": -74.695361
+   },
+   {
+    "id": "USGS-04256040",
+    "agency_code": "USGS",
+    "agency_name": "U.S. Geological Survey",
+    "monitoring_location_number": "04256040",
+    "monitoring_location_name": "TRIBUTARY TO MILL CR TRIBUTARY NR LOWVILLE NY",
+    "district_code": "36",
+    "country_code": "US",
+    "country_name": "United States of America",
+    "state_code": "36",
+    "state_name": "New York",
+    "county_code": "049",
+    "county_name": "Lewis County",
+    "minor_civil_division_code": "45854",
+    "site_type_code": "ST",
+    "site_type": "Stream",
+    "hydrologic_unit_code": "041501010901",
+    "basin_code": null,
+    "altitude": null,
+    "altitude_accuracy": null,
+    "altitude_method_code": null,
+    "altitude_method_name": null,
+    "vertical_datum": null,
+    "vertical_datum_name": null,
+    "horizontal_positional_accuracy_code": "S",
+    "horizontal_positional_accuracy": "Accurate to + or - 1 sec.",
+    "horizontal_position_method_code": "M",
+    "horizontal_position_method_name": "Interpolated from map",
+    "original_horizontal_datum": "NAD83",
+    "original_horizontal_datum_name": "North American Datum of 1983",
+    "drainage_area": 1.66,
+    "contributing_drainage_area": null,
+    "time_zone_abbreviation": "EST",
+    "uses_daylight_savings": "N",
+    "construction_date": null,
+    "aquifer_code": null,
+    "national_aquifer_code": null,
+    "aquifer_type_code": null,
+    "well_constructed_depth": null,
+    "hole_constructed_depth": null,
+    "depth_source_code": null,
+    "revision_note": "WDR NY-82-1: Drainage area.",
+    "revision_created": "2017-11-13T06:00:00+00:00",
+    "revision_modified": null,
+    "lat": 43.7619444444444,
+    "lon": -75.52
+   }
+  ],
+  "series": [
+   {
+    "id": "0cef3ff6c8de411482ad8e304e436989",
+    "unit_of_measure": "ft^3/s",
+    "parameter_name": "Discharge",
+    "parameter_code": "00060",
+    "statistic_id": "00003",
+    "last_modified": "2026-10-13T06:01:44.281026",
+    "begin": "1941-10-01T05:00:00+00:00",
+    "end": "2026-10-11T04:00:00+00:00",
+    "computation_period_identifier": "Daily",
+    "computation_identifier": "Mean",
+    "sublocation_identifier": null,
+    "primary": "Primary",
+    "monitoring_location_id": "USGS-01414000",
+    "web_description": null,
+    "parameter_description": "Discharge, cubic feet per second",
+    "parent_time_series_id": "c0d4885c7df046ad8197a32dddbae8cd",
+    "data_gap_interval": null,
+    "statistics_begin": null
+   },
+   {
+    "id": "2470c451444c4d1cb95417acfe1a069b",
+    "unit_of_measure": "ft^3/s",
+    "parameter_name": "Discharge",
+    "parameter_code": "00060",
+    "statistic_id": "00003",
+    "last_modified": "2026-10-13T05:25:43.664587",
+    "begin": "1995-10-01T04:00:00+00:00",
+    "end": "2026-10-11T04:00:00+00:00",
+    "computation_period_identifier": "Daily",
+    "computation_identifier": "Mean",
+    "sublocation_identifier": null,
+    "primary": "Primary",
+    "monitoring_location_id": "USGS-01374559",
+    "web_description": null,
+    "parameter_description": "Discharge, cubic feet per second",
+    "parent_time_series_id": "534e687cfd604eb183bc417c4b910086",
+    "data_gap_interval": null,
+    "statistics_begin": null
+   }
+  ],
+  "daily": {
+   "0cef3ff6c8de411482ad8e304e436989": [
+    {
+     "time": "1942-09-29",
+     "value": "148",
+     "approval_status": "Approved",
+     "qualifier": null,
+     "last_modified": "2025-03-10T15:05:20.960330+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "1942-09-30",
+     "value": "101",
+     "approval_status": "Approved",
+     "qualifier": null,
+     "last_modified": "2025-03-10T15:05:20.960330+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "1942-10-01",
+     "value": "76.0",
+     "approval_status": "Approved",
+     "qualifier": null,
+     "last_modified": "2025-03-10T15:05:20.960330+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "1942-10-02",
+     "value": "59.0",
+     "approval_status": "Approved",
+     "qualifier": null,
+     "last_modified": "2025-03-10T15:05:20.960330+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "1996-12-21",
+     "value": "125",
+     "approval_status": "Approved",
+     "qualifier": [
+      "ESTIMATED"
+     ],
+     "last_modified": "2025-03-10T15:05:20.960330+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2015-01-06",
+     "value": "77.9",
+     "approval_status": "Approved",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-03-10T15:05:20.960330+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2022-01-04",
+     "value": "69.5",
+     "approval_status": "Approved",
+     "qualifier": [
+      "ESTIMATED",
+      "REVISED"
+     ],
+     "last_modified": "2025-03-10T15:05:20.960330+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2022-03-10",
+     "value": "149",
+     "approval_status": "Approved",
+     "qualifier": [
+      "EQUIP",
+      "ESTIMATED"
+     ],
+     "last_modified": "2025-03-10T15:05:20.960330+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-11-25",
+     "value": "61.2",
+     "approval_status": "Provisional",
+     "qualifier": null,
+     "last_modified": "2025-12-03T13:00:15.650326+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-11-26",
+     "value": "75.8",
+     "approval_status": "Provisional",
+     "qualifier": null,
+     "last_modified": "2026-08-28T12:59:08.372398+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-05",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-07T09:19:37.637026+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-06",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-07T09:19:37.637026+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-07",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-08T09:26:42.793501+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-08",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-09T09:19:44.981457+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-09",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-10T09:18:46.192394+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-10",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-11T09:26:10.137364+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-11",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-12T09:15:35.526600+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-12",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-13T09:14:22.558084+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-13",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-14T09:04:26.462035+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-14",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-15T09:13:59.537030+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-15",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-16T08:31:07.982649+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-16",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-17T09:08:40.578010+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-17",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-18T09:16:07.271139+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-18",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-19T09:22:20.072290+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-19",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-20T09:18:03.951300+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-20",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-21T09:18:28.374280+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-21",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-22T09:13:59.990945+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-22",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-23T09:16:32.069435+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-23",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-24T09:26:36.750954+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-24",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-25T09:17:08.707485+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-25",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-26T08:58:51.547498+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-26",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-27T09:12:11.721235+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-27",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-28T09:14:07.376720+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-28",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-29T09:12:48.029908+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-29",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-30T08:59:44.521677+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-30",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-12-31T09:08:21.389381+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2025-12-31",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2026-01-01T09:08:54.636500+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2026-01-01",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2026-01-02T09:00:38.377960+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2026-01-02",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2026-01-03T09:12:20.691217+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2026-01-03",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2026-01-04T08:58:14.433941+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2026-01-04",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2026-01-05T08:59:42.561683+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2026-01-05",
+     "value": null,
+     "approval_status": "Provisional",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2026-01-06T09:02:52.833589+00:00",
+     "time_series_id": "0cef3ff6c8de411482ad8e304e436989",
+     "statistic_id": "00003"
+    }
+   ],
+   "2470c451444c4d1cb95417acfe1a069b": [
+    {
+     "time": "1995-12-09",
+     "value": "17.0",
+     "approval_status": "Approved",
+     "qualifier": [
+      "ESTIMATED"
+     ],
+     "last_modified": "2025-10-15T17:25:09.131274+00:00",
+     "time_series_id": "2470c451444c4d1cb95417acfe1a069b",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "1996-09-29",
+     "value": "26.0",
+     "approval_status": "Approved",
+     "qualifier": null,
+     "last_modified": "2025-10-15T17:25:09.131274+00:00",
+     "time_series_id": "2470c451444c4d1cb95417acfe1a069b",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "1996-09-30",
+     "value": "29.0",
+     "approval_status": "Approved",
+     "qualifier": null,
+     "last_modified": "2025-10-15T17:25:09.131274+00:00",
+     "time_series_id": "2470c451444c4d1cb95417acfe1a069b",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "1996-10-01",
+     "value": "21.0",
+     "approval_status": "Approved",
+     "qualifier": null,
+     "last_modified": "2025-02-26T16:02:09.773751+00:00",
+     "time_series_id": "2470c451444c4d1cb95417acfe1a069b",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "1996-10-02",
+     "value": "16.0",
+     "approval_status": "Approved",
+     "qualifier": null,
+     "last_modified": "2025-02-26T16:02:09.773751+00:00",
+     "time_series_id": "2470c451444c4d1cb95417acfe1a069b",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2016-01-18",
+     "value": "29.1",
+     "approval_status": "Approved",
+     "qualifier": [
+      "ICE"
+     ],
+     "last_modified": "2025-02-26T16:02:09.773751+00:00",
+     "time_series_id": "2470c451444c4d1cb95417acfe1a069b",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2021-07-08",
+     "value": "8.75",
+     "approval_status": "Approved",
+     "qualifier": [
+      "EQUIP",
+      "ESTIMATED"
+     ],
+     "last_modified": "2026-01-15T19:18:34.622359+00:00",
+     "time_series_id": "2470c451444c4d1cb95417acfe1a069b",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2026-08-14",
+     "value": "67.3",
+     "approval_status": "Provisional",
+     "qualifier": null,
+     "last_modified": "2026-08-15T07:06:52.579358+00:00",
+     "time_series_id": "2470c451444c4d1cb95417acfe1a069b",
+     "statistic_id": "00003"
+    },
+    {
+     "time": "2026-08-15",
+     "value": "40.5",
+     "approval_status": "Provisional",
+     "qualifier": null,
+     "last_modified": "2026-08-16T07:06:53.705770+00:00",
+     "time_series_id": "2470c451444c4d1cb95417acfe1a069b",
+     "statistic_id": "00003"
+    }
+   ]
+  },
+  "peaks": [
+   {
+    "time_series_id": "609153778e204d43856ddcade19a14db",
+    "monitoring_location_id": "USGS-01414000",
+    "parameter_code": "00060",
+    "unit_of_measure": "ft^3/s",
+    "value": "3010",
+    "last_modified": "2026-04-30T18:15:32.964679+00:00",
+    "time": "1955-08-18",
+    "water_year": 1955,
+    "year": 1955,
+    "month": 8,
+    "day": 18,
+    "time_of_day": null,
+    "peak_since": null,
+    "qualifier": [
+     "EVENT"
+    ]
+   },
+   {
+    "time_series_id": "9267d3e6867a4592a28327250a5b2c56",
+    "monitoring_location_id": "USGS-04256040",
+    "parameter_code": "00060",
+    "unit_of_measure": "ft^3/s",
+    "value": "68.0",
+    "last_modified": "2026-05-06T14:50:43.480839+00:00",
+    "time": "1982-10-15",
+    "water_year": 1983,
+    "year": 1982,
+    "month": 10,
+    "day": 15,
+    "time_of_day": null,
+    "peak_since": null,
+    "qualifier": [
+     "LESSTHAN"
+    ]
+   },
+   {
+    "time_series_id": "9267d3e6867a4592a28327250a5b2c56",
+    "monitoring_location_id": "USGS-04256040",
+    "parameter_code": "00060",
+    "unit_of_measure": "ft^3/s",
+    "value": "110",
+    "last_modified": "2026-05-06T14:50:43.480839+00:00",
+    "time": "1999-01-24",
+    "water_year": 1999,
+    "year": 1999,
+    "month": 1,
+    "day": 24,
+    "time_of_day": null,
+    "peak_since": null,
+    "qualifier": [
+     "ESTIMATED"
+    ]
+   },
+   {
+    "time_series_id": "0a7de5e9b0be47c6b830b71e88971d7d",
+    "monitoring_location_id": "USGS-01374559",
+    "parameter_code": "00060",
+    "unit_of_measure": "ft^3/s",
+    "value": "209",
+    "last_modified": "2026-05-06T14:39:49.156432+00:00",
+    "time": "2025-05-06",
+    "water_year": 2025,
+    "year": 2025,
+    "month": 5,
+    "day": 6,
+    "time_of_day": "16:15:00+00:00",
+    "peak_since": null,
+    "qualifier": null
+   },
+   {
+    "time_series_id": "d5e86456724b416cb5157a264c5b6423",
+    "monitoring_location_id": "USGS-01414000",
+    "parameter_code": "00065",
+    "unit_of_measure": "ft",
+    "value": "7.05",
+    "last_modified": "2026-04-30T18:15:37.070915+00:00",
+    "time": "1942-03-09",
+    "water_year": 1942,
+    "year": 1942,
+    "month": 3,
+    "day": 9,
+    "time_of_day": null,
+    "peak_since": null,
+    "qualifier": [
+     "DIFFDATUM"
+    ]
+   },
+   {
+    "time_series_id": "d5e86456724b416cb5157a264c5b6423",
+    "monitoring_location_id": "USGS-01414000",
+    "parameter_code": "00065",
+    "unit_of_measure": "ft",
+    "value": "5.96",
+    "last_modified": "2026-04-30T18:15:37.070915+00:00",
+    "time": "1942-12-30",
+    "water_year": 1943,
+    "year": 1942,
+    "month": 12,
+    "day": 30,
+    "time_of_day": null,
+    "peak_since": null,
+    "qualifier": [
+     "DIFFDATUM"
+    ]
+   },
+   {
+    "time_series_id": "d5e86456724b416cb5157a264c5b6423",
+    "monitoring_location_id": "USGS-01414000",
+    "parameter_code": "00065",
+    "unit_of_measure": "ft",
+    "value": "5.25",
+    "last_modified": "2026-04-30T18:15:37.070915+00:00",
+    "time": "1943-11-09",
+    "water_year": 1944,
+    "year": 1943,
+    "month": 11,
+    "day": 9,
+    "time_of_day": null,
+    "peak_since": null,
+    "qualifier": [
+     "DIFFDATUM",
+     "NOTMAXGH"
+    ]
+   },
+   {
+    "time_series_id": "d5e86456724b416cb5157a264c5b6423",
+    "monitoring_location_id": "USGS-01414000",
+    "parameter_code": "00065",
+    "unit_of_measure": "ft",
+    "value": "9.60",
+    "last_modified": "2026-04-30T18:15:37.070915+00:00",
+    "time": "1996-01-19",
+    "water_year": 1996,
+    "year": 1996,
+    "month": 1,
+    "day": 19,
+    "time_of_day": null,
+    "peak_since": null,
+    "qualifier": [
+     "DATUMCHANGE"
+    ]
+   },
+   {
+    "time_series_id": "93c41d0b78c34f0f9bf182c6b966fc8d",
+    "monitoring_location_id": "USGS-01374559",
+    "parameter_code": "00065",
+    "unit_of_measure": "ft",
+    "value": "2.90",
+    "last_modified": "2026-05-06T14:39:38.109136+00:00",
+    "time": "2025-05-06",
+    "water_year": 2025,
+    "year": 2025,
+    "month": 5,
+    "day": 6,
+    "time_of_day": "16:15:00+00:00",
+    "peak_since": null,
+    "qualifier": null
+   },
+   {
+    "time_series_id": "7ce97a12b0c44008ae596ce165b54cab",
+    "monitoring_location_id": "USGS-04256040",
+    "parameter_code": "00065",
+    "unit_of_measure": "ft",
+    "value": "9.91",
+    "last_modified": "2026-05-06T14:50:44.334655+00:00",
+    "time": "1982-10-15",
+    "water_year": 1983,
+    "year": 1982,
+    "month": 10,
+    "day": 15,
+    "time_of_day": null,
+    "peak_since": null,
+    "qualifier": [
+     "BLWMIN"
+    ]
+   },
+   {
+    "time_series_id": "93c41d0b78c34f0f9bf182c6b966fc8d",
+    "monitoring_location_id": "USGS-01374559",
+    "parameter_code": "00065",
+    "unit_of_measure": "ft",
+    "value": "2.90",
+    "last_modified": "2026-05-06T14:39:38.109136+00:00",
+    "time": "2025-05-06",
+    "water_year": 2025,
+    "year": 2025,
+    "month": 5,
+    "day": 6,
+    "time_of_day": "16:15:00+00:00",
+    "peak_since": null,
+    "qualifier": null
+   },
+   {
+    "time_series_id": "d5e86456724b416cb5157a264c5b6423",
+    "monitoring_location_id": "USGS-01414000",
+    "parameter_code": "00065",
+    "unit_of_measure": "ft",
+    "value": "7.26",
+    "last_modified": "2026-04-30T18:15:37.070915+00:00",
+    "time": "1955-08-18",
+    "water_year": 1955,
+    "year": 1955,
+    "month": 8,
+    "day": 18,
+    "time_of_day": null,
+    "peak_since": null,
+    "qualifier": [
+     "DIFFDATUM"
+    ]
+   },
+   {
+    "time_series_id": "7ce97a12b0c44008ae596ce165b54cab",
+    "monitoring_location_id": "USGS-04256040",
+    "parameter_code": "00065",
+    "unit_of_measure": "ft",
+    "value": "13.58",
+    "last_modified": "2026-05-06T14:50:44.334655+00:00",
+    "time": "1999-01-24",
+    "water_year": 1999,
+    "year": 1999,
+    "month": 1,
+    "day": 24,
+    "time_of_day": null,
+    "peak_since": null,
+    "qualifier": [
+     "BACKWATER"
+    ]
+   }
+  ],
+  "field": [
+   {
+    "field_measurements_series_id": "1a6e7671-d9f1-4734-8ae2-7ca9787ca459",
+    "reading_type": "Discharge",
+    "field_visit_id": "4641cc90-13a5-5d8d-e053-0100007f6e06",
+    "parameter_code": "00060",
+    "monitoring_location_id": "USGS-01414000",
+    "observing_procedure_code": "Z",
+    "observing_procedure": "Mid-section",
+    "value": "124",
+    "unit_of_measure": "ft^3/s",
+    "time": "1937-04-20",
+    "qualifier": null,
+    "vertical_datum": "None",
+    "approval_status": "Approved",
+    "measuring_agency": "USGS",
+    "last_modified": "2026-08-27T15:46:02.476206+00:00",
+    "control_condition": null,
+    "measurement_rated": "Unspecified",
+    "year": 1937,
+    "month": 4,
+    "day": 20,
+    "time_of_day": "05:00:00+00:00",
+    "sublocation_identifier": null
+   },
+   {
+    "field_measurements_series_id": "830b8a68-a2f9-44cb-a5cb-5ba385b11568",
+    "reading_type": "MeanGageHeight",
+    "field_visit_id": "4641cc90-13a5-5d8d-e053-0100007f6e06",
+    "parameter_code": "00065",
+    "monitoring_location_id": "USGS-01414000",
+    "observing_procedure_code": "Z",
+    "observing_procedure": "None",
+    "value": "3.49",
+    "unit_of_measure": "ft",
+    "time": "1937-04-20",
+    "qualifier": null,
+    "vertical_datum": "None",
+    "approval_status": "Approved",
+    "measuring_agency": "USGS",
+    "last_modified": "2026-08-27T15:46:02.476206+00:00",
+    "control_condition": null,
+    "measurement_rated": "Unspecified",
+    "year": 1937,
+    "month": 4,
+    "day": 20,
+    "time_of_day": "05:00:00+00:00",
+    "sublocation_identifier": null
+   },
+   {
+    "field_measurements_series_id": "c8c52c66-e134-4e3f-8b54-5507bc1f8de5",
+    "reading_type": "ReferencePrimary",
+    "field_visit_id": "464185be-9eac-43af-e053-0100007f70a2",
+    "parameter_code": "00065",
+    "monitoring_location_id": "USGS-01374559",
+    "observing_procedure_code": "Z",
+    "observing_procedure": "Inside Legacy",
+    "value": "1.57",
+    "unit_of_measure": "ft",
+    "time": "1995-12-06",
+    "qualifier": null,
+    "vertical_datum": "None",
+    "approval_status": "Approved",
+    "measuring_agency": "USGS",
+    "last_modified": "2026-08-25T12:50:29.978898+00:00",
+    "control_condition": "Clear",
+    "measurement_rated": null,
+    "year": 1995,
+    "month": 12,
+    "day": 6,
+    "time_of_day": "18:14:00+00:00",
+    "sublocation_identifier": null
+   }
+  ]
+ },
+ "output": {
+  "New York/Putnam County/WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY/1996.md": "# Water Year: WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY, 1996\n\n- Site ID: USGS-01374559\n- Site: [WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY](../WEST%20BRANCH%20CROTON%20RIVER%20AT%20RICHARDSVILLE%20NY.md)\n- Water year: 1996\n- From: 1995-12-09\n- To: 1996-09-30\n- Days: 3\n- Discharge days: 3\n- Gage height days: 0\n- Provisional: 0\n\nWEST BRANCH CROTON RIVER AT RICHARDSVILLE NY (USGS-01374559), water year 1996 (1995-10-01 to 1996-09-30): a row a day, the day's mean discharge in cubic feet a second and mean gage height in feet, each Approved or Provisional, and its codes, as USGS gives them. A provisional value may be revised. The card is the months, the line their mean of the daily means, the band their lowest and highest day.\n\n## Discharge by month\n\n> [!CARD:line] WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY, discharge, water year 1996, ft³/s\n> |  | stat | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep |\n> | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n> | Discharge | line |  |  | 17 |  |  |  |  |  |  |  |  | 27.5 |\n> | Discharge | low |  |  | 17 |  |  |  |  |  |  |  |  | 26 |\n> | Discharge | high |  |  | 17 |  |  |  |  |  |  |  |  | 29 |\n\n## Days\n\n| Day | Discharge | Discharge approval | Discharge codes | Gage height | Gage height approval | Gage height codes |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1995-12-09 | 17.0 | Approved | ESTIMATED |  |  |  |\n| 1996-09-29 | 26.0 | Approved |  |  |  |  |\n| 1996-09-30 | 29.0 | Approved |  |  |  |  |\n",
+  "New York/Putnam County/WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY/1997.md": "# Water Year: WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY, 1997\n\n- Site ID: USGS-01374559\n- Site: [WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY](../WEST%20BRANCH%20CROTON%20RIVER%20AT%20RICHARDSVILLE%20NY.md)\n- Water year: 1997\n- From: 1996-10-01\n- To: 1996-10-02\n- Days: 2\n- Discharge days: 2\n- Gage height days: 0\n- Provisional: 0\n\nWEST BRANCH CROTON RIVER AT RICHARDSVILLE NY (USGS-01374559), water year 1997 (1996-10-01 to 1997-09-30): a row a day, the day's mean discharge in cubic feet a second and mean gage height in feet, each Approved or Provisional, and its codes, as USGS gives them. A provisional value may be revised. The card is the months, the line their mean of the daily means, the band their lowest and highest day.\n\n## Discharge by month\n\n> [!CARD:line] WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY, discharge, water year 1997, ft³/s\n> |  | stat | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep |\n> | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n> | Discharge | line | 18.5 |  |  |  |  |  |  |  |  |  |  |  |\n> | Discharge | low | 16 |  |  |  |  |  |  |  |  |  |  |  |\n> | Discharge | high | 21 |  |  |  |  |  |  |  |  |  |  |  |\n\n## Days\n\n| Day | Discharge | Discharge approval | Discharge codes | Gage height | Gage height approval | Gage height codes |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1996-10-01 | 21.0 | Approved |  |  |  |  |\n| 1996-10-02 | 16.0 | Approved |  |  |  |  |\n",
+  "New York/Putnam County/WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY/2016.md": "# Water Year: WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY, 2016\n\n- Site ID: USGS-01374559\n- Site: [WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY](../WEST%20BRANCH%20CROTON%20RIVER%20AT%20RICHARDSVILLE%20NY.md)\n- Water year: 2016\n- From: 2016-01-18\n- To: 2016-01-18\n- Days: 1\n- Discharge days: 1\n- Gage height days: 0\n- Provisional: 0\n\nWEST BRANCH CROTON RIVER AT RICHARDSVILLE NY (USGS-01374559), water year 2016 (2015-10-01 to 2016-09-30): a row a day, the day's mean discharge in cubic feet a second and mean gage height in feet, each Approved or Provisional, and its codes, as USGS gives them. A provisional value may be revised. The card is the months, the line their mean of the daily means, the band their lowest and highest day.\n\n## Discharge by month\n\n> [!CARD:line] WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY, discharge, water year 2016, ft³/s\n> |  | stat | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep |\n> | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n> | Discharge | line |  |  |  | 29.1 |  |  |  |  |  |  |  |  |\n> | Discharge | low |  |  |  | 29.1 |  |  |  |  |  |  |  |  |\n> | Discharge | high |  |  |  | 29.1 |  |  |  |  |  |  |  |  |\n\n## Days\n\n| Day | Discharge | Discharge approval | Discharge codes | Gage height | Gage height approval | Gage height codes |\n| --- | --- | --- | --- | --- | --- | --- |\n| 2016-01-18 | 29.1 | Approved | ICE |  |  |  |\n",
+  "New York/Putnam County/WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY/2021.md": "# Water Year: WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY, 2021\n\n- Site ID: USGS-01374559\n- Site: [WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY](../WEST%20BRANCH%20CROTON%20RIVER%20AT%20RICHARDSVILLE%20NY.md)\n- Water year: 2021\n- From: 2021-07-08\n- To: 2021-07-08\n- Days: 1\n- Discharge days: 1\n- Gage height days: 0\n- Provisional: 0\n\nWEST BRANCH CROTON RIVER AT RICHARDSVILLE NY (USGS-01374559), water year 2021 (2020-10-01 to 2021-09-30): a row a day, the day's mean discharge in cubic feet a second and mean gage height in feet, each Approved or Provisional, and its codes, as USGS gives them. A provisional value may be revised. The card is the months, the line their mean of the daily means, the band their lowest and highest day.\n\n## Discharge by month\n\n> [!CARD:line] WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY, discharge, water year 2021, ft³/s\n> |  | stat | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep |\n> | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n> | Discharge | line |  |  |  |  |  |  |  |  |  | 8.75 |  |  |\n> | Discharge | low |  |  |  |  |  |  |  |  |  | 8.75 |  |  |\n> | Discharge | high |  |  |  |  |  |  |  |  |  | 8.75 |  |  |\n\n## Days\n\n| Day | Discharge | Discharge approval | Discharge codes | Gage height | Gage height approval | Gage height codes |\n| --- | --- | --- | --- | --- | --- | --- |\n| 2021-07-08 | 8.75 | Approved | EQUIP, ESTIMATED |  |  |  |\n",
+  "New York/Putnam County/WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY/2026.md": "# Water Year: WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY, 2026\n\n- Site ID: USGS-01374559\n- Site: [WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY](../WEST%20BRANCH%20CROTON%20RIVER%20AT%20RICHARDSVILLE%20NY.md)\n- Water year: 2026\n- From: 2026-08-14\n- To: 2026-08-15\n- Days: 2\n- Discharge days: 2\n- Gage height days: 0\n- Provisional: 2\n\nWEST BRANCH CROTON RIVER AT RICHARDSVILLE NY (USGS-01374559), water year 2026 (2025-10-01 to 2026-09-30): a row a day, the day's mean discharge in cubic feet a second and mean gage height in feet, each Approved or Provisional, and its codes, as USGS gives them. A provisional value may be revised. The card is the months, the line their mean of the daily means, the band their lowest and highest day.\n\n## Discharge by month\n\n> [!CARD:line] WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY, discharge, water year 2026, ft³/s\n> |  | stat | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep |\n> | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n> | Discharge | line |  |  |  |  |  |  |  |  |  |  | 53.9 |  |\n> | Discharge | low |  |  |  |  |  |  |  |  |  |  | 40.5 |  |\n> | Discharge | high |  |  |  |  |  |  |  |  |  |  | 67.3 |  |\n\n## Days\n\n| Day | Discharge | Discharge approval | Discharge codes | Gage height | Gage height approval | Gage height codes |\n| --- | --- | --- | --- | --- | --- | --- |\n| 2026-08-14 | 67.3 | Provisional |  |  |  |  |\n| 2026-08-15 | 40.5 | Provisional |  |  |  |  |\n",
+  "New York/Putnam County/WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY.md": "# Site: WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY\n\n- Site ID: USGS-01374559\n- Number: 01374559\n- Agency: USGS\n- Type: Stream\n- County: Putnam County\n- County code: 079\n- State: New York\n- HUC: 020301010206\n- Latitude: 41.4704722222222\n- Longitude: -73.7595833333333\n- Drainage area: 11\n- Contributing area: \n- Altitude: 586.6\n- Altitude datum: NAVD88\n- Time zone: EST\n- Daily from: 1995-12-09\n- Daily to: 2026-08-15\n- Discharge days: 9\n- Gage height days: 0\n- Discharge series: 2470c451444c4d1cb95417acfe1a069b\n- Gage height series: \n- Peaks: 2\n- Peaks from: 2025\n- Peaks to: 2025\n- Field measurements: 1\n- Revisions: WDR NY-00-1: 1996-99 (P).\n\nWEST BRANCH CROTON RIVER AT RICHARDSVILLE NY, USGS site 01374559 (USGS-01374559), stream in Putnam County, New York, draining 11 square miles. Daily means from 1995-12-09 to 2026-08-15, a page a water year (October to September), linked below. Discharge in cubic feet a second, gage height in feet above the gauge's datum. Its annual peaks are its floods; its field measurements are the visits that check the gauge. Revisions are USGS's own notes of the site's published history, as written.\n\n## Discharge by month\n\n> [!CARD:line] WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY, discharge by month, every year, ft³/s\n> |  | stat | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep |\n> | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n> | Discharge | line | 18.5 |  | 17 | 29.1 |  |  |  |  |  | 8.75 | 53.9 | 27.5 |\n> | Discharge | low | 18.5 |  | 17 | 29.1 |  |  |  |  |  | 8.75 | 53.9 | 27.5 |\n> | Discharge | high | 18.5 |  | 17 | 29.1 |  |  |  |  |  | 8.75 | 53.9 | 27.5 |\n\nEach month's mean of its daily means, taken over every year: the line their mean, the band the driest and wettest of those months.\n\n## Years\n\n| Water year | Days | Discharge mean | Discharge min | Discharge max | Gage height mean | Gage height min | Gage height max | Provisional | Codes |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| [1996](./WEST%20BRANCH%20CROTON%20RIVER%20AT%20RICHARDSVILLE%20NY/1996.md) | 3 | 24 | 17 | 29 |  |  |  | 0 | ESTIMATED 1 |\n| [1997](./WEST%20BRANCH%20CROTON%20RIVER%20AT%20RICHARDSVILLE%20NY/1997.md) | 2 | 18.5 | 16 | 21 |  |  |  | 0 |  |\n| [2016](./WEST%20BRANCH%20CROTON%20RIVER%20AT%20RICHARDSVILLE%20NY/2016.md) | 1 | 29.1 | 29.1 | 29.1 |  |  |  | 0 | ICE 1 |\n| [2021](./WEST%20BRANCH%20CROTON%20RIVER%20AT%20RICHARDSVILLE%20NY/2021.md) | 1 | 8.75 | 8.75 | 8.75 |  |  |  | 0 | EQUIP 1, ESTIMATED 1 |\n| [2026](./WEST%20BRANCH%20CROTON%20RIVER%20AT%20RICHARDSVILLE%20NY/2026.md) | 2 | 53.9 | 40.5 | 67.3 |  |  |  | 2 |  |\n\n## Peaks\n\n| Water year | Date | Time | Discharge | Discharge codes | Peak since | Gage height | Gage height codes |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 2025 | 2025-05-06 | 16:15:00+00:00 | 209 |  |  | 2.90 |  |\n| 2025 | 2025-05-06 | 16:15:00+00:00 |  |  |  | 2.90 |  |\n\n## Field measurements\n\n| Date | Time | Reading | Value | Unit | Method | Control | Rated | Approval | Codes | Agency | Visit |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1995-12-06 | 18:14:00+00:00 | ReferencePrimary | 1.57 | ft | Inside Legacy | Clear |  | Approved |  | USGS | 464185be-9eac-43af-e053-0100007f70a2 |\n",
+  "New York/Delaware County/PLATTE KILL AT DUNRAVEN NY/1942.md": "# Water Year: PLATTE KILL AT DUNRAVEN NY, 1942\n\n- Site ID: USGS-01414000\n- Site: [PLATTE KILL AT DUNRAVEN NY](../PLATTE%20KILL%20AT%20DUNRAVEN%20NY.md)\n- Water year: 1942\n- From: 1942-09-29\n- To: 1942-09-30\n- Days: 2\n- Discharge days: 2\n- Gage height days: 0\n- Provisional: 0\n\nPLATTE KILL AT DUNRAVEN NY (USGS-01414000), water year 1942 (1941-10-01 to 1942-09-30): a row a day, the day's mean discharge in cubic feet a second and mean gage height in feet, each Approved or Provisional, and its codes, as USGS gives them. A provisional value may be revised. The card is the months, the line their mean of the daily means, the band their lowest and highest day.\n\n## Discharge by month\n\n> [!CARD:line] PLATTE KILL AT DUNRAVEN NY, discharge, water year 1942, ft³/s\n> |  | stat | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep |\n> | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n> | Discharge | line |  |  |  |  |  |  |  |  |  |  |  | 125 |\n> | Discharge | low |  |  |  |  |  |  |  |  |  |  |  | 101 |\n> | Discharge | high |  |  |  |  |  |  |  |  |  |  |  | 148 |\n\n## Days\n\n| Day | Discharge | Discharge approval | Discharge codes | Gage height | Gage height approval | Gage height codes |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1942-09-29 | 148 | Approved |  |  |  |  |\n| 1942-09-30 | 101 | Approved |  |  |  |  |\n",
+  "New York/Delaware County/PLATTE KILL AT DUNRAVEN NY/1943.md": "# Water Year: PLATTE KILL AT DUNRAVEN NY, 1943\n\n- Site ID: USGS-01414000\n- Site: [PLATTE KILL AT DUNRAVEN NY](../PLATTE%20KILL%20AT%20DUNRAVEN%20NY.md)\n- Water year: 1943\n- From: 1942-10-01\n- To: 1942-10-02\n- Days: 2\n- Discharge days: 2\n- Gage height days: 0\n- Provisional: 0\n\nPLATTE KILL AT DUNRAVEN NY (USGS-01414000), water year 1943 (1942-10-01 to 1943-09-30): a row a day, the day's mean discharge in cubic feet a second and mean gage height in feet, each Approved or Provisional, and its codes, as USGS gives them. A provisional value may be revised. The card is the months, the line their mean of the daily means, the band their lowest and highest day.\n\n## Discharge by month\n\n> [!CARD:line] PLATTE KILL AT DUNRAVEN NY, discharge, water year 1943, ft³/s\n> |  | stat | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep |\n> | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n> | Discharge | line | 67.5 |  |  |  |  |  |  |  |  |  |  |  |\n> | Discharge | low | 59 |  |  |  |  |  |  |  |  |  |  |  |\n> | Discharge | high | 76 |  |  |  |  |  |  |  |  |  |  |  |\n\n## Days\n\n| Day | Discharge | Discharge approval | Discharge codes | Gage height | Gage height approval | Gage height codes |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1942-10-01 | 76.0 | Approved |  |  |  |  |\n| 1942-10-02 | 59.0 | Approved |  |  |  |  |\n",
+  "New York/Delaware County/PLATTE KILL AT DUNRAVEN NY/1997.md": "# Water Year: PLATTE KILL AT DUNRAVEN NY, 1997\n\n- Site ID: USGS-01414000\n- Site: [PLATTE KILL AT DUNRAVEN NY](../PLATTE%20KILL%20AT%20DUNRAVEN%20NY.md)\n- Water year: 1997\n- From: 1996-12-21\n- To: 1996-12-21\n- Days: 1\n- Discharge days: 1\n- Gage height days: 0\n- Provisional: 0\n\nPLATTE KILL AT DUNRAVEN NY (USGS-01414000), water year 1997 (1996-10-01 to 1997-09-30): a row a day, the day's mean discharge in cubic feet a second and mean gage height in feet, each Approved or Provisional, and its codes, as USGS gives them. A provisional value may be revised. The card is the months, the line their mean of the daily means, the band their lowest and highest day.\n\n## Discharge by month\n\n> [!CARD:line] PLATTE KILL AT DUNRAVEN NY, discharge, water year 1997, ft³/s\n> |  | stat | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep |\n> | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n> | Discharge | line |  |  | 125 |  |  |  |  |  |  |  |  |  |\n> | Discharge | low |  |  | 125 |  |  |  |  |  |  |  |  |  |\n> | Discharge | high |  |  | 125 |  |  |  |  |  |  |  |  |  |\n\n## Days\n\n| Day | Discharge | Discharge approval | Discharge codes | Gage height | Gage height approval | Gage height codes |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1996-12-21 | 125 | Approved | ESTIMATED |  |  |  |\n",
+  "New York/Delaware County/PLATTE KILL AT DUNRAVEN NY/2015.md": "# Water Year: PLATTE KILL AT DUNRAVEN NY, 2015\n\n- Site ID: USGS-01414000\n- Site: [PLATTE KILL AT DUNRAVEN NY](../PLATTE%20KILL%20AT%20DUNRAVEN%20NY.md)\n- Water year: 2015\n- From: 2015-01-06\n- To: 2015-01-06\n- Days: 1\n- Discharge days: 1\n- Gage height days: 0\n- Provisional: 0\n\nPLATTE KILL AT DUNRAVEN NY (USGS-01414000), water year 2015 (2014-10-01 to 2015-09-30): a row a day, the day's mean discharge in cubic feet a second and mean gage height in feet, each Approved or Provisional, and its codes, as USGS gives them. A provisional value may be revised. The card is the months, the line their mean of the daily means, the band their lowest and highest day.\n\n## Discharge by month\n\n> [!CARD:line] PLATTE KILL AT DUNRAVEN NY, discharge, water year 2015, ft³/s\n> |  | stat | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep |\n> | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n> | Discharge | line |  |  |  | 77.9 |  |  |  |  |  |  |  |  |\n> | Discharge | low |  |  |  | 77.9 |  |  |  |  |  |  |  |  |\n> | Discharge | high |  |  |  | 77.9 |  |  |  |  |  |  |  |  |\n\n## Days\n\n| Day | Discharge | Discharge approval | Discharge codes | Gage height | Gage height approval | Gage height codes |\n| --- | --- | --- | --- | --- | --- | --- |\n| 2015-01-06 | 77.9 | Approved | ICE |  |  |  |\n",
+  "New York/Delaware County/PLATTE KILL AT DUNRAVEN NY/2022.md": "# Water Year: PLATTE KILL AT DUNRAVEN NY, 2022\n\n- Site ID: USGS-01414000\n- Site: [PLATTE KILL AT DUNRAVEN NY](../PLATTE%20KILL%20AT%20DUNRAVEN%20NY.md)\n- Water year: 2022\n- From: 2022-01-04\n- To: 2022-03-10\n- Days: 2\n- Discharge days: 2\n- Gage height days: 0\n- Provisional: 0\n\nPLATTE KILL AT DUNRAVEN NY (USGS-01414000), water year 2022 (2021-10-01 to 2022-09-30): a row a day, the day's mean discharge in cubic feet a second and mean gage height in feet, each Approved or Provisional, and its codes, as USGS gives them. A provisional value may be revised. The card is the months, the line their mean of the daily means, the band their lowest and highest day.\n\n## Discharge by month\n\n> [!CARD:line] PLATTE KILL AT DUNRAVEN NY, discharge, water year 2022, ft³/s\n> |  | stat | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep |\n> | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n> | Discharge | line |  |  |  | 69.5 |  | 149 |  |  |  |  |  |  |\n> | Discharge | low |  |  |  | 69.5 |  | 149 |  |  |  |  |  |  |\n> | Discharge | high |  |  |  | 69.5 |  | 149 |  |  |  |  |  |  |\n\n## Days\n\n| Day | Discharge | Discharge approval | Discharge codes | Gage height | Gage height approval | Gage height codes |\n| --- | --- | --- | --- | --- | --- | --- |\n| 2022-01-04 | 69.5 | Approved | ESTIMATED, REVISED |  |  |  |\n| 2022-03-10 | 149 | Approved | EQUIP, ESTIMATED |  |  |  |\n",
+  "New York/Delaware County/PLATTE KILL AT DUNRAVEN NY/2026.md": "# Water Year: PLATTE KILL AT DUNRAVEN NY, 2026\n\n- Site ID: USGS-01414000\n- Site: [PLATTE KILL AT DUNRAVEN NY](../PLATTE%20KILL%20AT%20DUNRAVEN%20NY.md)\n- Water year: 2026\n- From: 2025-11-25\n- To: 2026-01-05\n- Days: 34\n- Discharge days: 34\n- Gage height days: 0\n- Provisional: 34\n\nPLATTE KILL AT DUNRAVEN NY (USGS-01414000), water year 2026 (2025-10-01 to 2026-09-30): a row a day, the day's mean discharge in cubic feet a second and mean gage height in feet, each Approved or Provisional, and its codes, as USGS gives them. A provisional value may be revised. The card is the months, the line their mean of the daily means, the band their lowest and highest day.\n\n## Discharge by month\n\n> [!CARD:line] PLATTE KILL AT DUNRAVEN NY, discharge, water year 2026, ft³/s\n> |  | stat | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep |\n> | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n> | Discharge | line |  | 68.5 |  |  |  |  |  |  |  |  |  |  |\n> | Discharge | low |  | 61.2 |  |  |  |  |  |  |  |  |  |  |\n> | Discharge | high |  | 75.8 |  |  |  |  |  |  |  |  |  |  |\n\n## Days\n\n| Day | Discharge | Discharge approval | Discharge codes | Gage height | Gage height approval | Gage height codes |\n| --- | --- | --- | --- | --- | --- | --- |\n| 2025-11-25 | 61.2 | Provisional |  |  |  |  |\n| 2025-11-26 | 75.8 | Provisional |  |  |  |  |\n| 2025-12-05 |  | Provisional | ICE |  |  |  |\n| 2025-12-06 |  | Provisional | ICE |  |  |  |\n| 2025-12-07 |  | Provisional | ICE |  |  |  |\n| 2025-12-08 |  | Provisional | ICE |  |  |  |\n| 2025-12-09 |  | Provisional | ICE |  |  |  |\n| 2025-12-10 |  | Provisional | ICE |  |  |  |\n| 2025-12-11 |  | Provisional | ICE |  |  |  |\n| 2025-12-12 |  | Provisional | ICE |  |  |  |\n| 2025-12-13 |  | Provisional | ICE |  |  |  |\n| 2025-12-14 |  | Provisional | ICE |  |  |  |\n| 2025-12-15 |  | Provisional | ICE |  |  |  |\n| 2025-12-16 |  | Provisional | ICE |  |  |  |\n| 2025-12-17 |  | Provisional | ICE |  |  |  |\n| 2025-12-18 |  | Provisional | ICE |  |  |  |\n| 2025-12-19 |  | Provisional | ICE |  |  |  |\n| 2025-12-20 |  | Provisional | ICE |  |  |  |\n| 2025-12-21 |  | Provisional | ICE |  |  |  |\n| 2025-12-22 |  | Provisional | ICE |  |  |  |\n| 2025-12-23 |  | Provisional | ICE |  |  |  |\n| 2025-12-24 |  | Provisional | ICE |  |  |  |\n| 2025-12-25 |  | Provisional | ICE |  |  |  |\n| 2025-12-26 |  | Provisional | ICE |  |  |  |\n| 2025-12-27 |  | Provisional | ICE |  |  |  |\n| 2025-12-28 |  | Provisional | ICE |  |  |  |\n| 2025-12-29 |  | Provisional | ICE |  |  |  |\n| 2025-12-30 |  | Provisional | ICE |  |  |  |\n| 2025-12-31 |  | Provisional | ICE |  |  |  |\n| 2026-01-01 |  | Provisional | ICE |  |  |  |\n| 2026-01-02 |  | Provisional | ICE |  |  |  |\n| 2026-01-03 |  | Provisional | ICE |  |  |  |\n| 2026-01-04 |  | Provisional | ICE |  |  |  |\n| 2026-01-05 |  | Provisional | ICE |  |  |  |\n",
+  "New York/Delaware County/PLATTE KILL AT DUNRAVEN NY.md": "# Site: PLATTE KILL AT DUNRAVEN NY\n\n- Site ID: USGS-01414000\n- Number: 01414000\n- Agency: USGS\n- Type: Stream\n- County: Delaware County\n- County code: 025\n- State: New York\n- HUC: 020401020305\n- Latitude: 42.132528\n- Longitude: -74.695361\n- Drainage area: 34.9\n- Contributing area: \n- Altitude: 1293.75\n- Altitude datum: NAVD88\n- Time zone: EST\n- Daily from: 1942-09-29\n- Daily to: 2026-01-05\n- Discharge days: 42\n- Gage height days: 0\n- Discharge series: 0cef3ff6c8de411482ad8e304e436989\n- Gage height series: \n- Peaks: 5\n- Peaks from: 1942\n- Peaks to: 1996\n- Field measurements: 2\n- Revisions: WDR NY-97-1: Drainage area. Discharge for the period Jan. 4, 2022, to Feb. 16, 2022, was revised on Sept. 19, 2022, based on changes to estimated discharge.\n\nPLATTE KILL AT DUNRAVEN NY, USGS site 01414000 (USGS-01414000), stream in Delaware County, New York, draining 34.9 square miles. Daily means from 1942-09-29 to 2026-01-05, a page a water year (October to September), linked below. Discharge in cubic feet a second, gage height in feet above the gauge's datum. Its annual peaks are its floods; its field measurements are the visits that check the gauge. Revisions are USGS's own notes of the site's published history, as written.\n\n## Discharge by month\n\n> [!CARD:line] PLATTE KILL AT DUNRAVEN NY, discharge by month, every year, ft³/s\n> |  | stat | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep |\n> | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n> | Discharge | line | 67.5 | 68.5 | 125 | 73.7 |  | 149 |  |  |  |  |  | 125 |\n> | Discharge | low | 67.5 | 68.5 | 125 | 69.5 |  | 149 |  |  |  |  |  | 125 |\n> | Discharge | high | 67.5 | 68.5 | 125 | 77.9 |  | 149 |  |  |  |  |  | 125 |\n\nEach month's mean of its daily means, taken over every year: the line their mean, the band the driest and wettest of those months.\n\n## Years\n\n| Water year | Days | Discharge mean | Discharge min | Discharge max | Gage height mean | Gage height min | Gage height max | Provisional | Codes |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| [1942](./PLATTE%20KILL%20AT%20DUNRAVEN%20NY/1942.md) | 2 | 125 | 101 | 148 |  |  |  | 0 |  |\n| [1943](./PLATTE%20KILL%20AT%20DUNRAVEN%20NY/1943.md) | 2 | 67.5 | 59 | 76 |  |  |  | 0 |  |\n| [1997](./PLATTE%20KILL%20AT%20DUNRAVEN%20NY/1997.md) | 1 | 125 | 125 | 125 |  |  |  | 0 | ESTIMATED 1 |\n| [2015](./PLATTE%20KILL%20AT%20DUNRAVEN%20NY/2015.md) | 1 | 77.9 | 77.9 | 77.9 |  |  |  | 0 | ICE 1 |\n| [2022](./PLATTE%20KILL%20AT%20DUNRAVEN%20NY/2022.md) | 2 | 109 | 69.5 | 149 |  |  |  | 0 | ESTIMATED 2, EQUIP 1, REVISED 1 |\n| [2026](./PLATTE%20KILL%20AT%20DUNRAVEN%20NY/2026.md) | 34 | 68.5 | 61.2 | 75.8 |  |  |  | 34 | ICE 32 |\n\n## Peaks\n\n| Water year | Date | Time | Discharge | Discharge codes | Peak since | Gage height | Gage height codes |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 1942 | 1942-03-09 |  |  |  |  | 7.05 | DIFFDATUM |\n| 1943 | 1942-12-30 |  |  |  |  | 5.96 | DIFFDATUM |\n| 1944 | 1943-11-09 |  |  |  |  | 5.25 | DIFFDATUM, NOTMAXGH |\n| 1955 | 1955-08-18 |  | 3010 | EVENT |  | 7.26 | DIFFDATUM |\n| 1996 | 1996-01-19 |  |  |  |  | 9.60 | DATUMCHANGE |\n\n## Field measurements\n\n| Date | Time | Reading | Value | Unit | Method | Control | Rated | Approval | Codes | Agency | Visit |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1937-04-20 | 05:00:00+00:00 | Discharge | 124 | ft^3/s | Mid-section |  | Unspecified | Approved |  | USGS | 4641cc90-13a5-5d8d-e053-0100007f6e06 |\n| 1937-04-20 | 05:00:00+00:00 | MeanGageHeight | 3.49 | ft | None |  | Unspecified | Approved |  | USGS | 4641cc90-13a5-5d8d-e053-0100007f6e06 |\n",
+  "New York/Lewis County/TRIBUTARY TO MILL CR TRIBUTARY NR LOWVILLE NY.md": "# Site: TRIBUTARY TO MILL CR TRIBUTARY NR LOWVILLE NY\n\n- Site ID: USGS-04256040\n- Number: 04256040\n- Agency: USGS\n- Type: Stream\n- County: Lewis County\n- County code: 049\n- State: New York\n- HUC: 041501010901\n- Latitude: 43.7619444444444\n- Longitude: -75.52\n- Drainage area: 1.66\n- Contributing area: \n- Altitude: \n- Altitude datum: \n- Time zone: EST\n- Daily from: \n- Daily to: \n- Discharge days: 0\n- Gage height days: 0\n- Discharge series: \n- Gage height series: \n- Peaks: 2\n- Peaks from: 1983\n- Peaks to: 1999\n- Field measurements: 0\n- Revisions: WDR NY-82-1: Drainage area.\n\nTRIBUTARY TO MILL CR TRIBUTARY NR LOWVILLE NY, USGS site 04256040 (USGS-04256040), stream in Lewis County, New York, draining 1.66 square miles. No daily means: its peaks and measurements only. Discharge in cubic feet a second, gage height in feet above the gauge's datum. Its annual peaks are its floods; its field measurements are the visits that check the gauge. Revisions are USGS's own notes of the site's published history, as written.\n\n## Years\n\nNone.\n\n## Peaks\n\n| Water year | Date | Time | Discharge | Discharge codes | Peak since | Gage height | Gage height codes |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 1983 | 1982-10-15 |  | 68.0 | LESSTHAN |  | 9.91 | BLWMIN |\n| 1999 | 1999-01-24 |  | 110 | ESTIMATED |  | 13.58 | BACKWATER |\n\n## Field measurements\n\nNone.\n",
+  "New York.md": "# State: New York\n\n- State code: 36\n- Counties: 3\n- Sites: 3\n\nNew York's streams as USGS gauges them: every site in New York with daily means of discharge or gage height, or annual peaks, by county, a page each.\n\n## Counties\n\n| County | County code | Sites | With daily | Daily to |\n| --- | --- | --- | --- | --- |\n| [Delaware County](./New%20York/Delaware%20County.md) | 025 | 1 | 1 | 2026-01-05 |\n| [Lewis County](./New%20York/Lewis%20County.md) | 049 | 1 | 0 |  |\n| [Putnam County](./New%20York/Putnam%20County.md) | 079 | 1 | 1 | 2026-08-15 |\n",
+  "New York/Delaware County.md": "# County: Delaware County\n\n- County code: 025\n- State: New York\n- Sites: 1\n\nThe USGS sites of Delaware County, New York, with daily means or annual peaks, a page each.\n\n## Sites\n\n| Site | Site ID | Number | Type | Drainage area | Daily from | Daily to | Days | Peaks | Field measurements |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| [PLATTE KILL AT DUNRAVEN NY](./Delaware%20County/PLATTE%20KILL%20AT%20DUNRAVEN%20NY.md) | USGS-01414000 | 01414000 | Stream | 34.9 | 1942-09-29 | 2026-01-05 | 42 | 5 | 2 |\n",
+  "New York/Lewis County.md": "# County: Lewis County\n\n- County code: 049\n- State: New York\n- Sites: 1\n\nThe USGS sites of Lewis County, New York, with daily means or annual peaks, a page each.\n\n## Sites\n\n| Site | Site ID | Number | Type | Drainage area | Daily from | Daily to | Days | Peaks | Field measurements |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| [TRIBUTARY TO MILL CR TRIBUTARY NR LOWVILLE NY](./Lewis%20County/TRIBUTARY%20TO%20MILL%20CR%20TRIBUTARY%20NR%20LOWVILLE%20NY.md) | USGS-04256040 | 04256040 | Stream | 1.66 |  |  | 0 | 2 | 0 |\n",
+  "New York/Putnam County.md": "# County: Putnam County\n\n- County code: 079\n- State: New York\n- Sites: 1\n\nThe USGS sites of Putnam County, New York, with daily means or annual peaks, a page each.\n\n## Sites\n\n| Site | Site ID | Number | Type | Drainage area | Daily from | Daily to | Days | Peaks | Field measurements |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| [WEST BRANCH CROTON RIVER AT RICHARDSVILLE NY](./Putnam%20County/WEST%20BRANCH%20CROTON%20RIVER%20AT%20RICHARDSVILLE%20NY.md) | USGS-01374559 | 01374559 | Stream | 11 | 1995-12-09 | 2026-08-15 | 9 | 2 | 1 |\n",
+  "Changes.md": "# Changes\n\nWhat USGS marks as changed in what its numbers mean, a record a year (SPEC D5). Its codes on each value mark the rest: approval (Provisional, later Approved and perhaps revised), ice, equipment, estimates, backwater, regulation; they are written beside the value, never split (D8).\n\n### Change: gage datum, 1996\n\n- What: gage datum\n- Year: 1996\n- Boundary: water year 1996\n- Was: gage height above the datum before\n- Now: gage height above the new datum\n- Crosswalk: none\n- Places: 1\n- Source: USGS annual peaks, gage height coded DATUMCHANGE\n\nThe gauge's zero moved during water year 1996 at this site: gage heights before and after are measured from different datums, and USGS gives no offset between them here (its site notes, under Revisions on a site's page, sometimes do). Discharge is not affected. Nothing is split or adjusted (D4, D6): the peak is marked, as USGS marks it.\n\n#### Places\n\n| Site | Site ID | Peak date |\n| --- | --- | --- |\n| PLATTE KILL AT DUNRAVEN NY | USGS-01414000 | 1996-01-19 |\n"
+ }
+}

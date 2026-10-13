@@ -1,0 +1,220 @@
+{
+  "about": "The first catch-up: USGS's real answer of 2026-10-13T20:03:00Z, cut to six of its 810 readings (a discharge, provisional, now; a gage height, provisional, now; a series discontinued, its last reading years old; an estimate, approved; a value withheld (null), the rating deviating; a reading at 00:00 UTC, the day before in New York). The device in New York (offset -240, daylight time), so a reading at 00:00 UTC is the day before. A value USGS withholds is null; its codes are a list of words as USGS writes them. Recorded, cut by .import/live-cases.mjs, checked by eye, frozen.",
+  "given": {
+    "now": "2026-10-13T20:03:00Z",
+    "offset": -240,
+    "cursor": null,
+    "http": [
+      {
+        "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/latest-continuous/items?f=json&state_name=New%20York&parameter_code=00060%2C00065&skipGeometry=true&properties=monitoring_location_id%2Cparameter_code%2Ctime%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier&limit=50000",
+        "body": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {
+                "monitoring_location_id": "USGS-01349810",
+                "parameter_code": "00060",
+                "time": "2026-10-13T19:30:00+00:00",
+                "value": "34.6",
+                "unit_of_measure": "ft^3/s",
+                "approval_status": "Provisional",
+                "qualifier": null
+              },
+              "id": "01acbebe-dba6-402a-ad2d-a32873db3466",
+              "geometry": null
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "monitoring_location_id": "USGS-01502632",
+                "parameter_code": "00065",
+                "time": "2026-10-13T19:30:00+00:00",
+                "value": "2.45",
+                "unit_of_measure": "ft",
+                "approval_status": "Provisional",
+                "qualifier": null
+              },
+              "id": "00b77dc2-9df6-4ecb-a2f9-267b14aa81e7",
+              "geometry": null
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "monitoring_location_id": "USGS-424129077495501",
+                "parameter_code": "00065",
+                "time": "2022-05-01T05:00:00+00:00",
+                "value": "0.00",
+                "unit_of_measure": "ft",
+                "approval_status": "Approved",
+                "qualifier": [
+                  "DISCONTINUED"
+                ]
+              },
+              "id": "1a008dc2-ed8c-411c-8552-75ebc029f233",
+              "geometry": null
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "monitoring_location_id": "USGS-01421000",
+                "parameter_code": "00060",
+                "time": "2025-12-08T14:30:00+00:00",
+                "value": "418",
+                "unit_of_measure": "ft^3/s",
+                "approval_status": "Approved",
+                "qualifier": [
+                  "ESTIMATED"
+                ]
+              },
+              "id": "12dd02a7-585d-4ef2-9f77-51ed8fca8f0e",
+              "geometry": null
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "monitoring_location_id": "USGS-01349705",
+                "parameter_code": "00060",
+                "time": "2026-10-13T20:00:00+00:00",
+                "value": null,
+                "unit_of_measure": "ft^3/s",
+                "approval_status": "Provisional",
+                "qualifier": [
+                  "RATINGDEV"
+                ]
+              },
+              "id": "c39d222c-011e-4b4d-a4c3-780767d83e95",
+              "geometry": null
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "monitoring_location_id": "USGS-01376558",
+                "parameter_code": "00060",
+                "time": "2025-07-15T00:00:00+00:00",
+                "value": "346",
+                "unit_of_measure": "ft^3/s",
+                "approval_status": "Provisional",
+                "qualifier": [
+                  "ESTIMATED"
+                ]
+              },
+              "id": "872268ca-9746-409e-b31e-1ec36cf50831",
+              "geometry": null
+            }
+          ],
+          "numberReturned": 6,
+          "links": [
+            {
+              "type": "application/geo+json",
+              "rel": "self",
+              "title": "This document as GeoJSON",
+              "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/latest-continuous/items?f=json&state_name=New%20York&parameter_code=00060,00065&skipGeometry=true&properties=monitoring_location_id,parameter_code,time,value,unit_of_measure,approval_status,qualifier&limit=50000"
+            },
+            {
+              "rel": "alternate",
+              "type": "application/ld+json",
+              "title": "This document as RDF (JSON-LD)",
+              "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/latest-continuous/items?f=jsonld&state_name=New%20York&parameter_code=00060,00065&skipGeometry=true&properties=monitoring_location_id,parameter_code,time,value,unit_of_measure,approval_status,qualifier&limit=50000"
+            },
+            {
+              "type": "text/html",
+              "rel": "alternate",
+              "title": "This document as HTML",
+              "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/latest-continuous/items?f=html&state_name=New%20York&parameter_code=00060,00065&skipGeometry=true&properties=monitoring_location_id,parameter_code,time,value,unit_of_measure,approval_status,qualifier&limit=50000"
+            },
+            {
+              "type": "text/csv; charset=utf-8",
+              "rel": "alternate",
+              "title": "This document as CSV",
+              "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/latest-continuous/items?f=csv&state_name=New%20York&parameter_code=00060,00065&skipGeometry=true&properties=monitoring_location_id,parameter_code,time,value,unit_of_measure,approval_status,qualifier&limit=50000"
+            },
+            {
+              "type": "application/json",
+              "title": "Latest continuous",
+              "rel": "collection",
+              "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/latest-continuous"
+            }
+          ],
+          "timeStamp": "2026-10-13T20:03:41.700683Z"
+        }
+      }
+    ]
+  },
+  "catch": {
+    "rows": [
+      {
+        "site": "USGS-01349810",
+        "parameter": "00060",
+        "day": "2026-10-13",
+        "start": "2026-10-13T15:30:00-04:00",
+        "value": "34.6",
+        "unit": "ft^3/s",
+        "approval": "Provisional",
+        "codes": null
+      },
+      {
+        "site": "USGS-01502632",
+        "parameter": "00065",
+        "day": "2026-10-13",
+        "start": "2026-10-13T15:30:00-04:00",
+        "value": "2.45",
+        "unit": "ft",
+        "approval": "Provisional",
+        "codes": null
+      },
+      {
+        "site": "USGS-424129077495501",
+        "parameter": "00065",
+        "day": "2022-05-01",
+        "start": "2022-05-01T01:00:00-04:00",
+        "value": "0.00",
+        "unit": "ft",
+        "approval": "Approved",
+        "codes": [
+          "DISCONTINUED"
+        ]
+      },
+      {
+        "site": "USGS-01421000",
+        "parameter": "00060",
+        "day": "2025-12-08",
+        "start": "2025-12-08T10:30:00-04:00",
+        "value": "418",
+        "unit": "ft^3/s",
+        "approval": "Approved",
+        "codes": [
+          "ESTIMATED"
+        ]
+      },
+      {
+        "site": "USGS-01349705",
+        "parameter": "00060",
+        "day": "2026-10-13",
+        "start": "2026-10-13T16:00:00-04:00",
+        "value": null,
+        "unit": "ft^3/s",
+        "approval": "Provisional",
+        "codes": [
+          "RATINGDEV"
+        ]
+      },
+      {
+        "site": "USGS-01376558",
+        "parameter": "00060",
+        "day": "2025-07-14",
+        "start": "2025-07-14T20:00:00-04:00",
+        "value": "346",
+        "unit": "ft^3/s",
+        "approval": "Provisional",
+        "codes": [
+          "ESTIMATED"
+        ]
+      }
+    ],
+    "cursor": "2026-10-13T20:03:00Z",
+    "whole": false,
+    "replacing": null,
+    "more": false
+  }
+}

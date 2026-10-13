@@ -1,0 +1,34 @@
+{
+  "v": 1,
+  "stream": "usgs_water.latest",
+  "about": "USGS's Water Data API (api.waterdata.usgs.gov/ogcapi/v1, OGC API, GeoJSON, no key): latest-continuous gives each time series' newest reading, every 5 to 60 minutes as the gauge reports; here New York's discharge (00060) and gage height (00065), about 800 series in one page (the API gives up to 50,000). Times are in UTC (+00:00); the day is the device's, which is New York's for the person. A discontinued series keeps its last reading, years old, marked DISCONTINUED.",
+  "base": "https://api.waterdata.usgs.gov/ogcapi/v1",
+  "pace": { "perSecond": 1 },
+  "list": {
+    "path": "/collections/latest-continuous/items",
+    "query": [
+      ["f", "json"],
+      ["state_name", "New York"],
+      ["parameter_code", "00060,00065"],
+      ["skipGeometry", "true"],
+      ["properties", "monitoring_location_id,parameter_code,time,value,unit_of_measure,approval_status,qualifier"],
+      ["limit", "50000"]
+    ],
+    "items": "features"
+  },
+  "row": {
+    "site": "properties.monitoring_location_id",
+    "parameter": "properties.parameter_code",
+    "day": { "local": "date", "of": [{ "value": "properties.time", "offset": "device" }] },
+    "start": { "local": "moment", "of": [{ "value": "properties.time", "offset": "device" }] },
+    "value": "properties.value",
+    "unit": "properties.unit_of_measure",
+    "approval": "properties.approval_status",
+    "codes": "properties.qualifier"
+  },
+  "required": ["site", "parameter", "start"],
+  "refused": [],
+  "said": {
+    "failed": "USGS's water data API answered HTTP {status} for {path}; a 429 is its hourly limit, and passes"
+  }
+}

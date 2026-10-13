@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "source": "usgs_water",
+  "title": "USGS water, New York",
+  "about": "The newest reading of every New York stream gauge USGS keeps: discharge and gage height, as the gauge last reported, from USGS's Water Data API (public, no key). The live edge of databook-water, whose pages hold each site's daily history.",
+  "grant": null,
+  "hosts": ["api.waterdata.usgs.gov"],
+  "streams": [
+    {
+      "name": "usgs_water.latest",
+      "key": ["site", "parameter", "start"],
+      "about": "A gauge's reading as caught: a site (USGS's own key, USGS-<number>, leading zeros kept), a parameter (00060 discharge in ft^3/s, 00065 gage height in ft), when it was read, its value, Provisional or Approved, and its codes (ICE, EQUIP, ESTIMATED, DISCONTINUED and the like, as USGS writes them). Each catch-up adds the readings newer than the last; a reading is provisional until USGS approves it, months later, in the book.",
+      "columns": [
+        ["site", "VARCHAR"],
+        ["parameter", "VARCHAR"],
+        ["day", "DATE"],
+        ["start", "TIMESTAMP"],
+        ["value", "DOUBLE"],
+        ["unit", "VARCHAR"],
+        ["approval", "VARCHAR"],
+        ["codes", "VARCHAR[]"]
+      ],
+      "driver": "here",
+      "runs": {
+        "catchUp": {
+          "kind": "background",
+          "every": "1h",
+          "needs": ["network"],
+          "cost": 2,
+          "resumable": false,
+          "ports": ["http", "clock"]
+        }
+      }
+    }
+  ],
+  "version": "1",
+  "changed": "first"
+}

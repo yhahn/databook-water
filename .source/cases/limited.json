@@ -1,0 +1,24 @@
+{
+  "about": "Past the hourly limit (1,000 an hour for no key, by X-RateLimit-Limit): USGS answers 429, with a Retry-After of minutes, which A5 does not read. Failed, not denied: there is no key to paste, and a later pass goes on. The body as USGS gave it, 10-13.",
+  "given": {
+    "now": "2026-10-13T20:03:00Z",
+    "offset": -240,
+    "cursor": "2026-10-13T20:03:00Z",
+    "http": [
+      {
+        "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/latest-continuous/items?f=json&state_name=New%20York&parameter_code=00060%2C00065&skipGeometry=true&properties=monitoring_location_id%2Cparameter_code%2Ctime%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier&limit=50000",
+        "status": 429,
+        "body": {
+          "error": {
+            "code": "OVER_RATE_LIMIT",
+            "message": "You have exceeded your rate limit. Make sure you provided your API key from https://api.waterdata.usgs.gov/signup/, then either try again later or contact us at https://waterdata.usgs.gov/questions-comments/?referrerUrl=https://api.waterdata.usgs.gov for assistance."
+          }
+        }
+      }
+    ]
+  },
+  "catch": {
+    "problem": "failed",
+    "words": "USGS's water data API answered HTTP 429 for /collections/latest-continuous/items; a 429 is its hourly limit, and passes"
+  }
+}
