@@ -10,6 +10,8 @@
 - HUC: 020200070304
 - Latitude: 41.6866666666667
 - Longitude: -74.1741666666667
+- Locality: Gardiner, NY
+- Locality ID: us/ny/gardiner
 - Drainage area: 147
 - Contributing area: 
 - Altitude: 

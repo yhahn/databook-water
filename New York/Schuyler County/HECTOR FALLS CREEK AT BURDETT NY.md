@@ -10,6 +10,8 @@
 - HUC: 041402010801
 - Latitude: 42.4225
 - Longitude: -76.8325
+- Locality: Burdett, NY
+- Locality ID: us/ny/burdett
 - Drainage area: 11.8
 - Contributing area: 
 - Altitude: 

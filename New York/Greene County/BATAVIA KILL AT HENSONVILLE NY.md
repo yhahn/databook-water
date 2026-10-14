@@ -10,6 +10,8 @@
 - HUC: 020200050201
 - Latitude: 42.2883333333333
 - Longitude: -74.215
+- Locality: Hensonville, NY
+- Locality ID: us/ny/hensonville
 - Drainage area: 13.5
 - Contributing area: 
 - Altitude: 

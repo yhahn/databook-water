@@ -10,6 +10,8 @@
 - HUC: 020200050104
 - Latitude: 42.23094444444445
 - Longitude: -74.39250000000001
+- Locality: West Kill, NY
+- Locality ID: us/ny/west-kill
 - Drainage area: 27
 - Contributing area: 
 - Altitude: 1370.67

@@ -10,6 +10,8 @@
 - HUC: 041300020906
 - Latitude: 42.5802777777778
 - Longitude: -77.7386111111111
+- Locality: Dansville, NY
+- Locality ID: us/ny/dansville
 - Drainage area: 9.68
 - Contributing area: 
 - Altitude: 

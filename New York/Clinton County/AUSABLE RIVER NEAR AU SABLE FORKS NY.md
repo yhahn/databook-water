@@ -10,6 +10,8 @@
 - HUC: 043001040301
 - Latitude: 44.451722
 - Longitude: -73.643389
+- Locality: Au Sable Forks, NY
+- Locality ID: us/ny/au-sable-forks
 - Drainage area: 446
 - Contributing area: 
 - Altitude: 505.37

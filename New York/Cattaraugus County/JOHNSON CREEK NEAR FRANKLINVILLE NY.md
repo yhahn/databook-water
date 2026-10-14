@@ -10,6 +10,8 @@
 - HUC: 050100010402
 - Latitude: 42.3769444444444
 - Longitude: -78.4436111111111
+- Locality: Franklinville, NY
+- Locality ID: us/ny/franklinville
 - Drainage area: 5.25
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020501011205
 - Latitude: 42.2272222222222
 - Longitude: -75.5238888888889
+- Locality: Afton, NY
+- Locality ID: us/ny/afton
 - Drainage area: 1716
 - Contributing area: 
 - Altitude: 

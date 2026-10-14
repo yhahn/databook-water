@@ -10,6 +10,8 @@
 - HUC: 020200060903
 - Latitude: 42.133611
 - Longitude: -74.231528
+- Locality: Lanesville, NY
+- Locality ID: us/ny/lanesville
 - Drainage area: 1.81
 - Contributing area: 
 - Altitude: 1519.35

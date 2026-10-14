@@ -10,6 +10,8 @@
 - HUC: 041300030404
 - Latitude: 42.9797222222222
 - Longitude: -77.9497222222222
+- Locality: Le Roy, NY
+- Locality ID: us/ny/le-roy
 - Drainage area: 10.2
 - Contributing area: 
 - Altitude: 

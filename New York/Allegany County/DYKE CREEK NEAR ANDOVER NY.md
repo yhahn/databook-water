@@ -10,6 +10,8 @@
 - HUC: 041300020202
 - Latitude: 42.1491666666667
 - Longitude: -77.82
+- Locality: Andover, NY
+- Locality ID: us/ny/andover
 - Drainage area: 38
 - Contributing area: 
 - Altitude: 

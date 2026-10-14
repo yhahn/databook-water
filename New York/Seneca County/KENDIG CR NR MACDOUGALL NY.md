@@ -10,6 +10,8 @@
 - HUC: 041402010905
 - Latitude: 42.8491666666667
 - Longitude: -76.8922222222222
+- Locality: Geneva, NY
+- Locality ID: us/ny/geneva
 - Drainage area: 13.8
 - Contributing area: 
 - Altitude: 495.18

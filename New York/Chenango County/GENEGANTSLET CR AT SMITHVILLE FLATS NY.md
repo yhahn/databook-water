@@ -10,6 +10,8 @@
 - HUC: 020501020704
 - Latitude: 42.3927777777778
 - Longitude: -75.8038888888889
+- Locality: Smithville Flats, NY
+- Locality ID: us/ny/smithville-flats
 - Drainage area: 82.3
 - Contributing area: 
 - Altitude: 995.67

@@ -10,6 +10,8 @@
 - HUC: 041503100103
 - Latitude: 44.8411111111111
 - Longitude: -75.1908333333333
+- Locality: Madrid, NY
+- Locality ID: us/ny/madrid
 - Drainage area: 19.9
 - Contributing area: 
 - Altitude: 252.37

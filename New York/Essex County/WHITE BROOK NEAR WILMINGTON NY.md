@@ -10,6 +10,8 @@
 - HUC: 043001040203
 - Latitude: 44.392
 - Longitude: -73.85738888888888
+- Locality: Wilmington, NY
+- Locality ID: us/ny/wilmington
 - Drainage area: 1.22
 - Contributing area: 
 - Altitude: 1867

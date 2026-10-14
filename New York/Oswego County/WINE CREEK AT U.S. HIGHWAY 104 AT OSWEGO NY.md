@@ -10,6 +10,8 @@
 - HUC: 041401021004
 - Latitude: 43.4619444444444
 - Longitude: -76.4783333333333
+- Locality: Oswego, NY
+- Locality ID: us/ny/oswego
 - Drainage area: 3.11
 - Contributing area: 
 - Altitude: 

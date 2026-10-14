@@ -10,6 +10,8 @@
 - HUC: 011000050506
 - Latitude: 41.7795555555556
 - Longitude: -73.5594722222222
+- Locality: Dover Plains, NY
+- Locality ID: us/ny/dover-plains
 - Drainage area: 120
 - Contributing area: 
 - Altitude: 

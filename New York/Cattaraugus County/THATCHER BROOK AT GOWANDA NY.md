@@ -10,6 +10,8 @@
 - HUC: 041201020209
 - Latitude: 42.4535277777778
 - Longitude: -78.9415555555556
+- Locality: Gowanda, NY
+- Locality ID: us/ny/gowanda
 - Drainage area: 6.69
 - Contributing area: 
 - Altitude: 785.39

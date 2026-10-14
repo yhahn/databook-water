@@ -10,6 +10,8 @@
 - HUC: 041201040302
 - Latitude: 43.0911111111111
 - Longitude: -78.4538888888889
+- Locality: Basom, NY
+- Locality ID: us/ny/basom
 - Drainage area: 231
 - Contributing area: 231
 - Altitude: 605.93

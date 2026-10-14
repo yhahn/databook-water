@@ -10,6 +10,8 @@
 - HUC: 020501020204
 - Latitude: 42.6089589834931
 - Longitude: -76.1804842428483
+- Locality: Cortland, NY
+- Locality ID: us/ny/cortland
 - Drainage area: 14.3
 - Contributing area: 
 - Altitude: 1100

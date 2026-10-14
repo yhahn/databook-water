@@ -10,6 +10,8 @@
 - HUC: 020200040301
 - Latitude: 43.265139
 - Longitude: -75.435806
+- Locality: Rome, NY
+- Locality ID: us/ny/rome
 - Drainage area: 152
 - Contributing area: 
 - Altitude: 472.34

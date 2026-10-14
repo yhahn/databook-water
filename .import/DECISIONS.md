@@ -51,6 +51,11 @@ undo it. The seat's catalog record is "USGS water: New York's streams".
   available").
 - **Why:** K2 and D8: marked beside the value, never split.
 - **Undo:** `CODES` in import.js.
+- **10-14:** the whole fetch brought four codes not seen before, each a
+  stop (V1) until written here: RATINGDEV (57 days, two series), TEST,
+  FLOOD, DEBRIS. RATINGDEV is the older tables' "Rat", a rating being
+  developed or revised; TEST, FLOOD and DEBRIS are read from their names
+  alone (FLOOD as the older "Fld", flood damage).
 
 ## Statistics computed, 10-13
 

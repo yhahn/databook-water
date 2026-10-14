@@ -10,6 +10,8 @@
 - HUC: 041503060406
 - Latitude: 44.6830555555556
 - Longitude: -74.6991666666667
+- Locality: Saint Regis Falls, NY
+- Locality ID: us/ny/saint-regis-falls
 - Drainage area: 20
 - Contributing area: 
 - Altitude: 

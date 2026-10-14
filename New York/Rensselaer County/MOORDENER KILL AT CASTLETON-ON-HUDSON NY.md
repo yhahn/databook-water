@@ -10,6 +10,8 @@
 - HUC: 020200060304
 - Latitude: 42.5338888888889
 - Longitude: -73.7369444444444
+- Locality: Castleton on Hudson, NY
+- Locality ID: us/ny/castleton-on-hudson
 - Drainage area: 31.6
 - Contributing area: 
 - Altitude: 98.72

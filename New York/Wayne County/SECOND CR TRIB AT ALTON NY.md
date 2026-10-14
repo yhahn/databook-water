@@ -10,6 +10,8 @@
 - HUC: 041401010402
 - Latitude: 43.21
 - Longitude: -76.9919444444444
+- Locality: Sodus, NY
+- Locality ID: us/ny/sodus
 - Drainage area: 1.03
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020501050203
 - Latitude: 42.3883333333333
 - Longitude: -77.3577777777778
+- Locality: Bath, NY
+- Locality ID: us/ny/bath
 - Drainage area: 66.8
 - Contributing area: 66.8
 - Altitude: 1170.3

@@ -10,6 +10,8 @@
 - HUC: 050100020103
 - Latitude: 42.336727055044
 - Longitude: -79.0408726891714
+- Locality: South Dayton, NY
+- Locality ID: us/ny/south-dayton
 - Drainage area: 63.3
 - Contributing area: 
 - Altitude: 

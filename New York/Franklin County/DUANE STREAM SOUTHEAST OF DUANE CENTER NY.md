@@ -10,6 +10,8 @@
 - HUC: 042900070103
 - Latitude: 44.6535
 - Longitude: -74.22800000000001
+- Locality: Malone, NY
+- Locality ID: us/ny/malone
 - Drainage area: 1.53
 - Contributing area: 
 - Altitude: 1529.04

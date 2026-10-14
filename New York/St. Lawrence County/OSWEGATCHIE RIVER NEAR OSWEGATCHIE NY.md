@@ -10,6 +10,8 @@
 - HUC: 041503020603
 - Latitude: 44.2225555555556
 - Longitude: -75.0743055555556
+- Locality: Oswegatchie, NY
+- Locality ID: us/ny/oswegatchie
 - Drainage area: 259
 - Contributing area: 
 - Altitude: 1016.14

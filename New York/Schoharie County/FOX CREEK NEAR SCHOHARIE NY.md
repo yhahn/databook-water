@@ -10,6 +10,8 @@
 - HUC: 020200050505
 - Latitude: 42.67363888888889
 - Longitude: -74.25411111111111
+- Locality: Schoharie, NY
+- Locality ID: us/ny/schoharie
 - Drainage area: 99
 - Contributing area: 
 - Altitude: 649.76

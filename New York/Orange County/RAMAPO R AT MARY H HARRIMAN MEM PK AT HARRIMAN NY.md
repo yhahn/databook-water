@@ -10,6 +10,8 @@
 - HUC: 020301030201
 - Latitude: 41.3115555555556
 - Longitude: -74.1469722222222
+- Locality: Harriman, NY
+- Locality ID: us/ny/harriman
 - Drainage area: 10.4
 - Contributing area: 
 - Altitude: 522.23

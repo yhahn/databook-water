@@ -10,6 +10,8 @@
 - HUC: 041501010302
 - Latitude: 43.5116111111111
 - Longitude: -75.3067777777778
+- Locality: Boonville, NY
+- Locality ID: us/ny/boonville
 - Drainage area: 284
 - Contributing area: 
 - Altitude: 934.46

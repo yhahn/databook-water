@@ -10,6 +10,8 @@
 - HUC: 041402011009
 - Latitude: 42.3813888888889
 - Longitude: -76.3944444444444
+- Locality: Brooktondale, NY
+- Locality ID: us/ny/brooktondale
 - Drainage area: 27
 - Contributing area: 
 - Altitude: 909.9

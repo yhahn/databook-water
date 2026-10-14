@@ -10,6 +10,8 @@
 - HUC: 041503040401
 - Latitude: 44.4844444444444
 - Longitude: -75.2575
+- Locality: De Kalb Junction, NY
+- Locality ID: us/ny/dekalb-junction
 - Drainage area: 33.4
 - Contributing area: 
 - Altitude: 

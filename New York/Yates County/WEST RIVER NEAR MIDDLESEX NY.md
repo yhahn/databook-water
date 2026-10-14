@@ -10,6 +10,8 @@
 - HUC: 041402010202
 - Latitude: 42.685
 - Longitude: -77.2883333333333
+- Locality: Middlesex, NY
+- Locality ID: us/ny/middlesex
 - Drainage area: 29.3
 - Contributing area: 
 - Altitude: 

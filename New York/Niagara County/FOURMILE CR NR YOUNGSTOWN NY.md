@@ -10,6 +10,8 @@
 - HUC: 041300010902
 - Latitude: 43.2303333333333
 - Longitude: -79.0164166666667
+- Locality: Youngstown, NY
+- Locality ID: us/ny/youngstown
 - Drainage area: 6.02
 - Contributing area: 
 - Altitude: 

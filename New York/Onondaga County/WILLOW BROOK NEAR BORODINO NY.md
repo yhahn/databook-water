@@ -10,6 +10,8 @@
 - HUC: 041402011501
 - Latitude: 42.8744166666667
 - Longitude: -76.3252222222222
+- Locality: Skaneateles, NY
+- Locality ID: us/ny/skaneateles
 - Drainage area: 1.95
 - Contributing area: 
 - Altitude: 

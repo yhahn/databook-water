@@ -10,6 +10,8 @@
 - HUC: 020200070201
 - Latitude: 41.2527777777778
 - Longitude: -74.3083333333333
+- Locality: Warwick, NY
+- Locality ID: us/ny/warwick
 - Drainage area: 11.8
 - Contributing area: 
 - Altitude: 

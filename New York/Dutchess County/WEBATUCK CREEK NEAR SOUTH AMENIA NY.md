@@ -10,6 +10,8 @@
 - HUC: 011000050503
 - Latitude: 41.7808333333333
 - Longitude: -73.5552777777778
+- Locality: Wassaic, NY
+- Locality ID: us/ny/wassaic
 - Drainage area: 83.6
 - Contributing area: 
 - Altitude: 

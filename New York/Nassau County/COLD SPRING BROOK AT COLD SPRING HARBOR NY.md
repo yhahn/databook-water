@@ -10,6 +10,8 @@
 - HUC: 020302010202
 - Latitude: 40.8571666666667
 - Longitude: -73.4635555555556
+- Locality: Syosset, NY
+- Locality ID: us/ny/syosset
 - Drainage area: 7.83
 - Contributing area: 
 - Altitude: 5.38

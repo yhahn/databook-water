@@ -10,6 +10,8 @@
 - HUC: 020200060908
 - Latitude: 42.038139
 - Longitude: -73.972167
+- Locality: Saugerties, NY
+- Locality ID: us/ny/saugerties
 - Drainage area: 419
 - Contributing area: 
 - Altitude: 39.36

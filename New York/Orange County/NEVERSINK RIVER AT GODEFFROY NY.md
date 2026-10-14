@@ -10,6 +10,8 @@
 - HUC: 020401040308
 - Latitude: 41.44127777777778
 - Longitude: -74.60183333333333
+- Locality: Cuddebackville, NY
+- Locality ID: us/ny/cuddebackville
 - Drainage area: 307
 - Contributing area: 
 - Altitude: 458.86

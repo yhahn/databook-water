@@ -10,6 +10,8 @@
 - HUC: 020200070404
 - Latitude: 41.5872222222222
 - Longitude: -74.2702777777778
+- Locality: Pine Bush, NY
+- Locality ID: us/ny/pine-bush
 - Drainage area: 12.8
 - Contributing area: 
 - Altitude: 

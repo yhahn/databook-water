@@ -10,6 +10,8 @@
 - HUC: 020401010304
 - Latitude: 42.0609168314962
 - Longitude: -75.419898878425
+- Locality: Deposit, NY
+- Locality ID: us/ny/deposit
 - Drainage area: 8.46
 - Contributing area: 
 - Altitude: 

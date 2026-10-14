@@ -10,6 +10,8 @@
 - HUC: 020200061006
 - Latitude: 42.1522222222222
 - Longitude: -73.8438888888889
+- Locality: Germantown, NY
+- Locality ID: us/ny/germantown
 - Drainage area: 212
 - Contributing area: 
 - Altitude: 49.44

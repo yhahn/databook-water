@@ -10,6 +10,8 @@
 - HUC: 020501020603
 - Latitude: 42.678527777777774
 - Longitude: -75.51066666666667
+- Locality: Sherburne, NY
+- Locality ID: us/ny/sherburne
 - Drainage area: 263
 - Contributing area: 263
 - Altitude: 1036.86

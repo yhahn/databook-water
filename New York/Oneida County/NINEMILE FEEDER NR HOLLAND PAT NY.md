@@ -10,6 +10,8 @@
 - HUC: 020200040305
 - Latitude: 43.2236806812634
 - Longitude: -75.2037759781442
+- Locality: Holland Patent, NY
+- Locality ID: us/ny/holland-patent
 - Drainage area: 
 - Contributing area: 
 - Altitude: 

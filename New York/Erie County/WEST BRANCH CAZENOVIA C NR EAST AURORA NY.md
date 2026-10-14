@@ -10,6 +10,8 @@
 - HUC: 041201030303
 - Latitude: 42.7544444444444
 - Longitude: -78.6513888888889
+- Locality: East Aurora, NY
+- Locality ID: us/ny/east-aurora
 - Drainage area: 58.7
 - Contributing area: 
 - Altitude: 

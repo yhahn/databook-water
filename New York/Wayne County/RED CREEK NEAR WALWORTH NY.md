@@ -10,6 +10,8 @@
 - HUC: 041402010501
 - Latitude: 43.1130555555556
 - Longitude: -77.2536111111111
+- Locality: Walworth, NY
+- Locality ID: us/ny/walworth
 - Drainage area: 23.8
 - Contributing area: 
 - Altitude: 442.01

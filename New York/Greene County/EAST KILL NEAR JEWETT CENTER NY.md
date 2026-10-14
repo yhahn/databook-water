@@ -10,6 +10,8 @@
 - HUC: 020200050103
 - Latitude: 42.24894444444445
 - Longitude: -74.30338888888889
+- Locality: Jewett, NY
+- Locality ID: us/ny/jewett
 - Drainage area: 35.6
 - Contributing area: 
 - Altitude: 1451.65

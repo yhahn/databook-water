@@ -1,17 +1,12 @@
 # New York's streams
 
 Every stream gauge USGS keeps in New York that has daily means of its
-discharge or gage height, or annual peaks: 511 sites in 58
-counties, 300 of them with daily means (3,368,285 days, the
-first 1887-10-01), 14,270 annual peaks (the floods), and
-195,201 field measurements (the visits that check a gauge). Today's
+discharge or gage height, or annual peaks: 912 sites in 60
+counties, 696 of them with daily means (8,058,679 days, the
+first 1887-10-01), 29,700 annual peaks (the floods), and
+456,135 field measurements (the visits that check a gauge). Today's
 readings come from the same API as a live source (below), so a river's
 flow now can be laid beside every day it has flowed before.
-
-**Not yet whole.** 401 more sites (415 daily series)
-wait on USGS's limit of 1,000 asks an hour for a program with no key;
-their pages come with the next run of the importer, once fetched. The
-counts here are of what is written.
 
 Written by its importer (`.import/`, `sh .import/build.sh`) from USGS's
 Water Data API as it stood on 2026-10-14; nothing here is edited by hand.
@@ -38,6 +33,15 @@ USGS gives it, Approved (final) or Provisional (may yet be revised), with
 its codes beside it. A page's day table is joined to its page by the file:
 `join "Water Year" w using (_file)`.
 
+A site's `Locality` is the place it stands in, a city, village or hamlet
+as people name it ('Margaretville, NY'), not New York's civil town; its
+`Locality ID` (`us/ny/margaretville`) is placescope's, from its maps
+(release edb7a35d80cb6499) at the site's point: 501 localities,
+blank for 2 sites on water the maps name none for.
+Join on the id, never the name: `locality_at(lat, lon, 'id')` answers the
+same id in proper, so a gauge joins a hotspot, a photo or a sighting by
+place.
+
 | Table | A row is |
 |---|---|
 | `Site` | a site |
@@ -56,7 +60,7 @@ The sites of a county, the largest first:
 
 ```sql
 select name, "Site ID", "Drainage area", "Daily from", "Daily to"
-from Site where County = 'Chemung County'
+from Site where County = 'Greene County'
 order by "Drainage area" desc nulls last
 ```
 
@@ -69,12 +73,12 @@ where p.Discharge is not null
 order by p.Discharge desc limit 10
 ```
 
-CHEMUNG RIVER AT CHEMUNG NY (the longest record still reporting, since 1903-09-07) on this day, every year it was gauged:
+SCHOHARIE CREEK AT PRATTSVILLE NY (the longest record still reporting, since 1902-11-09) on this day, every year it was gauged:
 
 ```sql
 select d.Day, d.Discharge, d."Discharge approval", d."Discharge codes"
 from Water_Year_Days d join "Water Year" w using (_file)
-where w."Site ID" = 'USGS-01531000'
+where w."Site ID" = 'USGS-01350000'
   and month(d.Day) = month(today()) and day(d.Day) = day(today())
 order by d.Day desc
 ```
@@ -141,11 +145,13 @@ their names and USGS's older code tables.
 | DAMFAILURE | a dam failed |
 | DATUMCHANGE | the gauge's datum changed this year |
 | DAYUNKNOWN | day not known |
+| DEBRIS | affected by debris |
 | DIFFDATUM | gage height at another site or datum than now |
 | DISCONTINUED | the series discontinued |
 | EQUIP | equipment malfunction |
 | ESTIMATED | estimated |
 | EVENT | a peak from an event: snowmelt, a hurricane, an ice jam or a debris dam breaking |
+| FLOOD | affected by flood damage to the gauge |
 | FORCEINTERPOLATION | interpolated across a gap |
 | GHNOTASSCPKQ | gage height not at the peak discharge |
 | GREATERTHAN | greater than the value given |
@@ -158,9 +164,11 @@ their names and USGS's older code tables.
 | NOTMAXGH | not the year's highest gage height |
 | OPPORTUNISTIC | measured by chance, not by the gauge's routine |
 | OTHERAGENCY | given by another agency |
+| RATINGDEV | the rating (stage to discharge) being developed or revised |
 | REGULATED | affected by regulation or diversion |
 | REVISED | revised after it was first published |
 | SEASONAL | a seasonal record: the gauge runs part of the year |
+| TEST | affected by a test at the gauge |
 | UNAVAIL | the value unavailable |
 | UNKNOWNREGULATION | affected to an unknown degree by regulation or diversion |
 | URBAN | affected by urbanization, mining, farming or channel changes |
@@ -170,10 +178,10 @@ their names and USGS's older code tables.
 ## Changes
 
 A change USGS marks in what a number means is a record in `Changes.md`
-(54 records, 78 datum changes in all): the gauge's
+(83 records, 180 datum changes in all): the gauge's
 datum moved in a year, so gage heights before and after are not alike.
 Nothing is split or adjusted; the peak is marked, as USGS marks it.
-The years: 1911 (1 site); 1921 (1 site); 1925 (1 site); 1933 (1 site); 1937 (1 site); 1938 (1 site); 1939 (3 sites); 1940 (3 sites); 1941 (1 site); 1942 (1 site); 1943 (1 site); 1944 (1 site); 1947 (1 site); 1953 (1 site); 1954 (1 site); 1955 (2 sites); 1956 (2 sites); 1958 (1 site); 1959 (1 site); 1963 (3 sites); 1964 (3 sites); 1965 (1 site); 1967 (1 site); 1970 (1 site); 1971 (1 site); 1972 (3 sites); 1973 (1 site); 1974 (5 sites); 1975 (2 sites); 1977 (2 sites); 1979 (1 site); 1980 (1 site); 1981 (1 site); 1986 (1 site); 1987 (1 site); 1991 (1 site); 1994 (1 site); 1996 (3 sites); 1997 (2 sites); 1999 (1 site); 2001 (1 site); 2002 (1 site); 2003 (1 site); 2004 (2 sites); 2005 (3 sites); 2007 (1 site); 2009 (1 site); 2011 (1 site); 2012 (1 site); 2013 (1 site); 2017 (1 site); 2018 (1 site); 2024 (1 site); 2025 (1 site).
+The years: 1911 (2 sites); 1913 (1 site); 1916 (2 sites); 1920 (1 site); 1921 (3 sites); 1923 (1 site); 1924 (1 site); 1925 (2 sites); 1927 (2 sites); 1931 (1 site); 1933 (1 site); 1934 (1 site); 1936 (1 site); 1937 (6 sites); 1938 (1 site); 1939 (5 sites); 1940 (4 sites); 1941 (4 sites); 1942 (1 site); 1943 (1 site); 1944 (2 sites); 1945 (1 site); 1947 (2 sites); 1949 (1 site); 1951 (2 sites); 1953 (3 sites); 1954 (4 sites); 1955 (3 sites); 1956 (3 sites); 1957 (2 sites); 1958 (4 sites); 1959 (3 sites); 1961 (1 site); 1963 (5 sites); 1964 (5 sites); 1965 (2 sites); 1966 (1 site); 1967 (2 sites); 1968 (2 sites); 1969 (3 sites); 1970 (3 sites); 1971 (2 sites); 1972 (4 sites); 1973 (1 site); 1974 (6 sites); 1975 (4 sites); 1977 (3 sites); 1978 (1 site); 1979 (1 site); 1980 (3 sites); 1981 (2 sites); 1983 (3 sites); 1985 (1 site); 1986 (2 sites); 1987 (2 sites); 1991 (1 site); 1992 (1 site); 1994 (1 site); 1996 (4 sites); 1997 (4 sites); 1998 (1 site); 1999 (2 sites); 2001 (2 sites); 2002 (1 site); 2003 (1 site); 2004 (2 sites); 2005 (3 sites); 2006 (1 site); 2007 (1 site); 2009 (3 sites); 2010 (2 sites); 2011 (2 sites); 2012 (2 sites); 2013 (1 site); 2014 (2 sites); 2015 (2 sites); 2017 (2 sites); 2018 (2 sites); 2019 (3 sites); 2020 (1 site); 2021 (1 site); 2024 (1 site); 2025 (1 site).
 
 USGS's notes on a site's published history (a datum revised, a record
 revised, a drainage area changed) are on each site's page as `Revisions`,

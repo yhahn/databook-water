@@ -54,6 +54,6 @@ await write('later.json', {
   given: { now: new Date(Date.parse(now) + 3600000).toISOString().replace(/\.\d+Z$/, 'Z'), offset: -240, cursor: now, http: [{ url, body: { ...body, features: kept.slice(0, 2), numberReturned: 2 } }] },
 });
 await write('limited.json', {
-  about: 'Past the hourly limit (1,000 an hour for no key, by X-RateLimit-Limit): USGS answers 429, with a Retry-After of minutes, which A5 does not read. Failed, not denied: there is no key to paste, and a later pass goes on. The body as USGS gave it, 10-13.',
+  about: 'Past the hourly limit (1,000 an hour for no key, by X-RateLimit-Limit): USGS answers 429. A5 now takes a 429 as a wait, not a failure: nothing caught, the cursor kept, the next pass goes on (proper-sources, as of 10-14). The body as USGS gave it, 10-13.',
   given: { now, offset: -240, cursor: now, http: [{ url, status: 429, body: { error: { code: 'OVER_RATE_LIMIT', message: 'You have exceeded your rate limit. Make sure you provided your API key from https://api.waterdata.usgs.gov/signup/, then either try again later or contact us at https://waterdata.usgs.gov/questions-comments/?referrerUrl=https://api.waterdata.usgs.gov for assistance.' } } }] },
 });

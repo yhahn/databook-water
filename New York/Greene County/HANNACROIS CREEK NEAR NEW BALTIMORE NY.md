@@ -10,6 +10,8 @@
 - HUC: 020200060403
 - Latitude: 42.4399166666667
 - Longitude: -73.8105833333333
+- Locality: West Coxsackie, NY
+- Locality ID: us/ny/west-coxsackie
 - Drainage area: 61.6
 - Contributing area: 
 - Altitude: 

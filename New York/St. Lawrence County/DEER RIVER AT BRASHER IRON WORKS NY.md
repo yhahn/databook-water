@@ -10,6 +10,8 @@
 - HUC: 041503060305
 - Latitude: 44.8927777777778
 - Longitude: -74.6916666666667
+- Locality: Brasher Falls, NY
+- Locality ID: us/ny/brasher-falls
 - Drainage area: 191
 - Contributing area: 
 - Altitude: 211.97

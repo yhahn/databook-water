@@ -10,6 +10,8 @@
 - HUC: 041402020605
 - Latitude: 43.0419722222222
 - Longitude: -76.1005833333333
+- Locality: Syracuse, NY
+- Locality ID: us/ny/syracuse
 - Drainage area: 2.94
 - Contributing area: 
 - Altitude: 511.5

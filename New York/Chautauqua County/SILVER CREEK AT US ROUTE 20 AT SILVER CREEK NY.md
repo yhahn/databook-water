@@ -10,6 +10,8 @@
 - HUC: 041201010101
 - Latitude: 42.5439166666667
 - Longitude: -79.1646666666667
+- Locality: Silver Creek, NY
+- Locality ID: us/ny/silver-creek
 - Drainage area: 25.2
 - Contributing area: 
 - Altitude: 576.85

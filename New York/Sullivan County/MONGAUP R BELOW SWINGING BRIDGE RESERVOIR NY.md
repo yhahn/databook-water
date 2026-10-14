@@ -10,6 +10,8 @@
 - HUC: 020401040107
 - Latitude: 41.5672777777778
 - Longitude: -74.7832777777778
+- Locality: Forestburgh, NY
+- Locality ID: us/ny/forestburgh
 - Drainage area: 116
 - Contributing area: 
 - Altitude: 936.26

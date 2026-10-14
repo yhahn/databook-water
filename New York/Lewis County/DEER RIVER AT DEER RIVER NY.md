@@ -10,6 +10,8 @@
 - HUC: 041501011204
 - Latitude: 43.93025
 - Longitude: -75.5912777777778
+- Locality: Carthage, NY
+- Locality ID: us/ny/carthage
 - Drainage area: 97.2
 - Contributing area: 
 - Altitude: 761.98

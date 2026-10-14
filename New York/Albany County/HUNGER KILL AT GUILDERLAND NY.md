@@ -10,6 +10,8 @@
 - HUC: 020200060205
 - Latitude: 42.6894444444444
 - Longitude: -73.9066666666667
+- Locality: Guilderland, NY
+- Locality ID: us/ny/guilderland
 - Drainage area: 8.16
 - Contributing area: 
 - Altitude: 130

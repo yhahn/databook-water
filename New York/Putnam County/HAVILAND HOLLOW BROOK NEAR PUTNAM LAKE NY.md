@@ -10,6 +10,8 @@
 - HUC: 020301010203
 - Latitude: 41.4841666666667
 - Longitude: -73.5705555555556
+- Locality: Patterson, NY
+- Locality ID: us/ny/patterson
 - Drainage area: 12.2
 - Contributing area: 
 - Altitude: 430

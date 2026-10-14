@@ -10,6 +10,8 @@
 - HUC: 020200040306
 - Latitude: 43.208222222222226
 - Longitude: -75.30541666666666
+- Locality: Stittville, NY
+- Locality ID: us/ny/stittville
 - Drainage area: 58.5
 - Contributing area: 
 - Altitude: 

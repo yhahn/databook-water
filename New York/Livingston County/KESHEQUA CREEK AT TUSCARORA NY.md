@@ -10,6 +10,8 @@
 - HUC: 041300020910
 - Latitude: 42.6380555555556
 - Longitude: -77.8666666666667
+- Locality: Mount Morris, NY
+- Locality ID: us/ny/mount-morris
 - Drainage area: 58.5
 - Contributing area: 
 - Altitude: 

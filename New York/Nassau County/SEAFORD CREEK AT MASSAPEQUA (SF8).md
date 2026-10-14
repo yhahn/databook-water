@@ -10,6 +10,8 @@
 - HUC: 020302020202
 - Latitude: 40.6688888888889
 - Longitude: -73.4819444444445
+- Locality: Massapequa, NY
+- Locality ID: us/ny/massapequa
 - Drainage area: 2.25
 - Contributing area: 
 - Altitude: 

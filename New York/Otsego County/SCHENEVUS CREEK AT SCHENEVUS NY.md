@@ -10,6 +10,8 @@
 - HUC: 020501010303
 - Latitude: 42.5463888888889
 - Longitude: -74.8313888888889
+- Locality: Schenevus, NY
+- Locality ID: us/ny/schenevus
 - Drainage area: 54.2
 - Contributing area: 
 - Altitude: 83.26

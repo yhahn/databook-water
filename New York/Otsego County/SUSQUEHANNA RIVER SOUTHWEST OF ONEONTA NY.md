@@ -10,6 +10,8 @@
 - HUC: 020501010606
 - Latitude: 42.44
 - Longitude: -75.1
+- Locality: Oneonta, NY
+- Locality ID: us/ny/oneonta
 - Drainage area: 678
 - Contributing area: 
 - Altitude: 1048

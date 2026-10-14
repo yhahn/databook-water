@@ -10,6 +10,8 @@
 - HUC: 020302020302
 - Latitude: 40.8301666666667
 - Longitude: -72.9061388888889
+- Locality: Shirley, NY
+- Locality ID: us/ny/shirley
 - Drainage area: 73.1
 - Contributing area: 
 - Altitude: 17.95

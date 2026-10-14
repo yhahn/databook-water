@@ -10,6 +10,8 @@
 - HUC: 041300020904
 - Latitude: 42.5202777777778
 - Longitude: -77.5847222222222
+- Locality: Wayland, NY
+- Locality ID: us/ny/wayland
 - Drainage area: 4.22
 - Contributing area: 
 - Altitude: 

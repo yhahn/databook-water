@@ -10,6 +10,8 @@
 - HUC: 020301010104
 - Latitude: 41.1922222222222
 - Longitude: -74.0419444444444
+- Locality: Pomona, NY
+- Locality ID: us/ny/pomona
 - Drainage area: 5.19
 - Contributing area: 
 - Altitude: 

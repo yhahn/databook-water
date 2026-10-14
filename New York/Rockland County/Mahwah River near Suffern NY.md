@@ -10,6 +10,8 @@
 - HUC: 020301030203
 - Latitude: 41.1411111111111
 - Longitude: -74.1161111111111
+- Locality: Suffern, NY
+- Locality ID: us/ny/suffern
 - Drainage area: 12.3
 - Contributing area: 
 - Altitude: 321.57

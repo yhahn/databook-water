@@ -10,6 +10,8 @@
 - HUC: 020302020207
 - Latitude: 40.6786111111111
 - Longitude: -73.5155555555556
+- Locality: Wantagh, NY
+- Locality ID: us/ny/wantagh
 - Drainage area: 14.24
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020200040506
 - Latitude: 43.2703888888889
 - Longitude: -75.18425
+- Locality: Barneveld, NY
+- Locality ID: us/ny/barneveld
 - Drainage area: 44.8
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 041402011501
 - Latitude: 42.8263888888889
 - Longitude: -76.2319444444445
+- Locality: Preble, NY
+- Locality ID: us/ny/preble
 - Drainage area: 0.11
 - Contributing area: 
 - Altitude: 

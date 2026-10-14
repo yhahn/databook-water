@@ -10,6 +10,8 @@
 - HUC: 041402011006
 - Latitude: 42.3930555555556
 - Longitude: -76.545
+- Locality: Ithaca, NY
+- Locality ID: us/ny/ithaca
 - Drainage area: 35.2
 - Contributing area: 35.2
 - Altitude: 437.16

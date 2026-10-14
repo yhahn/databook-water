@@ -10,6 +10,8 @@
 - HUC: 020200060902
 - Latitude: 42.11488888888889
 - Longitude: -74.36361111111111
+- Locality: Shandaken, NY
+- Locality ID: us/ny/shandaken
 - Drainage area: 
 - Contributing area: 
 - Altitude: 964.39

@@ -10,6 +10,8 @@
 - HUC: 041503040204
 - Latitude: 44.3758333333333
 - Longitude: -75.0608333333333
+- Locality: Russell, NY
+- Locality ID: us/ny/russell
 - Drainage area: 63
 - Contributing area: 
 - Altitude: 

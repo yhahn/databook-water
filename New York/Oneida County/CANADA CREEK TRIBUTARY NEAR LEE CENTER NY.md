@@ -10,6 +10,8 @@
 - HUC: 041402020301
 - Latitude: 43.3277777777778
 - Longitude: -75.5308333333333
+- Locality: Lee Center, NY
+- Locality ID: us/ny/lee-center
 - Drainage area: 1.34
 - Contributing area: 
 - Altitude: 

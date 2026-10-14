@@ -10,6 +10,8 @@
 - HUC: 020501011313
 - Latitude: 42.1022222222222
 - Longitude: -75.8975
+- Locality: Binghamton, NY
+- Locality ID: us/ny/binghamton
 - Drainage area: 2282
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020200080304
 - Latitude: 41.5972222222222
 - Longitude: -73.8444444444444
+- Locality: Wappingers Falls, NY
+- Locality ID: us/ny/wappingers-falls
 - Drainage area: 51.4
 - Contributing area: 
 - Altitude: 

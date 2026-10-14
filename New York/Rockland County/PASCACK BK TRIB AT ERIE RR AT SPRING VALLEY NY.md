@@ -10,6 +10,8 @@
 - HUC: 020301030902
 - Latitude: 41.1113888888889
 - Longitude: -74.0427777777778
+- Locality: Spring Valley, NY
+- Locality ID: us/ny/spring-valley
 - Drainage area: 3.89
 - Contributing area: 
 - Altitude: 

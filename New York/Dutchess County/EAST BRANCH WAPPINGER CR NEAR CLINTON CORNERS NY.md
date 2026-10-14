@@ -10,6 +10,8 @@
 - HUC: 020200080203
 - Latitude: 41.8125
 - Longitude: -73.7591666666667
+- Locality: Salt Point, NY
+- Locality ID: us/ny/salt-point
 - Drainage area: 33.6
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020200030508
 - Latitude: 43.1525
 - Longitude: -73.5897222222222
+- Locality: Schuylerville, NY
+- Locality ID: us/ny/schuylerville
 - Drainage area: 2.2
 - Contributing area: 
 - Altitude: 

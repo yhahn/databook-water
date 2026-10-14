@@ -10,6 +10,8 @@
 - HUC: 020200030508
 - Latitude: 43.1253888888889
 - Longitude: -73.5849166666667
+- Locality: Greenwich, NY
+- Locality ID: us/ny/greenwich
 - Drainage area: 3000
 - Contributing area: 
 - Altitude: 81.65

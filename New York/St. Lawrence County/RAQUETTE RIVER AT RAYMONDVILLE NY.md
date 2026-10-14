@@ -10,6 +10,8 @@
 - HUC: 041503050706
 - Latitude: 44.8388888888889
 - Longitude: -74.9788888888889
+- Locality: Raymondville, NY
+- Locality ID: us/ny/raymondville
 - Drainage area: 1125
 - Contributing area: 
 - Altitude: 182.94

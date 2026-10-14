@@ -10,6 +10,8 @@
 - HUC: 020200010706
 - Latitude: 43.3190555555556
 - Longitude: -73.8443055555556
+- Locality: Hadley, NY
+- Locality ID: us/ny/hadley
 - Drainage area: 1664
 - Contributing area: 
 - Altitude: 563.68

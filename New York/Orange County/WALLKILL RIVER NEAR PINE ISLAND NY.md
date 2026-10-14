@@ -10,6 +10,8 @@
 - HUC: 020200070207
 - Latitude: 41.315
 - Longitude: -74.4902777777778
+- Locality: Westtown, NY
+- Locality ID: us/ny/westtown
 - Drainage area: 162
 - Contributing area: 
 - Altitude: 365

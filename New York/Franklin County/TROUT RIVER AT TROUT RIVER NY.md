@@ -10,6 +10,8 @@
 - HUC: 043002010304
 - Latitude: 44.989555555555555
 - Longitude: -74.29825
+- Locality: Constable, NY
+- Locality ID: us/ny/constable
 - Drainage area: 107
 - Contributing area: 
 - Altitude: 219.86

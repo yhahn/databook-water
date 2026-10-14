@@ -10,6 +10,8 @@
 - HUC: 020401010501
 - Latitude: 41.7705555555556
 - Longitude: -75.0841666666667
+- Locality: Callicoon, NY
+- Locality ID: us/ny/callicoon
 - Drainage area: 1708
 - Contributing area: 
 - Altitude: 743

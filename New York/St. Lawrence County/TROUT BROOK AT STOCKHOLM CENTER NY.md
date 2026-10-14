@@ -10,6 +10,8 @@
 - HUC: 041503060206
 - Latitude: 44.7697222222222
 - Longitude: -74.8127777777778
+- Locality: Winthrop, NY
+- Locality ID: us/ny/winthrop
 - Drainage area: 42.4
 - Contributing area: 
 - Altitude: 

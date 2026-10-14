@@ -10,6 +10,8 @@
 - HUC: 041300010405
 - Latitude: 43.2072222222222
 - Longitude: -78.3861111111111
+- Locality: Medina, NY
+- Locality ID: us/ny/medina
 - Drainage area: 153
 - Contributing area: 
 - Altitude: 

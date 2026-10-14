@@ -10,6 +10,8 @@
 - HUC: 020501050403
 - Latitude: 42.1786111111111
 - Longitude: -76.9252777777778
+- Locality: Horseheads, NY
+- Locality ID: us/ny/horseheads
 - Drainage area: 5.39
 - Contributing area: 
 - Altitude: 1087.88

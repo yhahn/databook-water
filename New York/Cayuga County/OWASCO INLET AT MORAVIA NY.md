@@ -10,6 +10,8 @@
 - HUC: 041402011303
 - Latitude: 42.7180555555556
 - Longitude: -76.4380555555556
+- Locality: Moravia, NY
+- Locality ID: us/ny/moravia
 - Drainage area: 106
 - Contributing area: 
 - Altitude: 711.64

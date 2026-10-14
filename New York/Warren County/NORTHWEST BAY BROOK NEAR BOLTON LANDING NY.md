@@ -10,6 +10,8 @@
 - HUC: 041504080202
 - Latitude: 43.6633333333333
 - Longitude: -73.6033333333333
+- Locality: Bolton Landing, NY
+- Locality ID: us/ny/bolton-landing
 - Drainage area: 22
 - Contributing area: 22
 - Altitude: 423.6

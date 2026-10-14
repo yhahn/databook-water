@@ -10,6 +10,8 @@
 - HUC: 020501050106
 - Latitude: 42.4110555555556
 - Longitude: -77.4263611111111
+- Locality: Avoca, NY
+- Locality ID: us/ny/avoca
 - Drainage area: 152
 - Contributing area: 
 - Altitude: 1182.31

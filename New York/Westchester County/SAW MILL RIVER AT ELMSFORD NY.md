@@ -10,6 +10,8 @@
 - HUC: 020301010403
 - Latitude: 41.0552777777778
 - Longitude: -73.8205555555556
+- Locality: Elmsford, NY
+- Locality ID: us/ny/elmsford
 - Drainage area: 15.4
 - Contributing area: 
 - Altitude: 162.77

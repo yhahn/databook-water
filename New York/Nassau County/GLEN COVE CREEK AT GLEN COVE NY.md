@@ -10,6 +10,8 @@
 - HUC: 020302010103
 - Latitude: 40.86333333333334
 - Longitude: -73.63416666666667
+- Locality: Glen Cove, NY
+- Locality ID: us/ny/glen-cove
 - Drainage area: 14.4
 - Contributing area: 
 - Altitude: 15.68

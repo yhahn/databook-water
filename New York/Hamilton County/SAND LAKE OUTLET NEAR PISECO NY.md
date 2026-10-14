@@ -10,6 +10,8 @@
 - HUC: 020200020202
 - Latitude: 43.3708333333333
 - Longitude: -74.5461111111111
+- Locality: Piseco, NY
+- Locality ID: us/ny/piseco
 - Drainage area: 6.62
 - Contributing area: 
 - Altitude: 1687.35

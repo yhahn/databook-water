@@ -10,6 +10,8 @@
 - HUC: 041201010203
 - Latitude: 42.4506388888889
 - Longitude: -79.3504444444444
+- Locality: Fredonia, NY
+- Locality ID: us/ny/fredonia
 - Drainage area: 32.9
 - Contributing area: 
 - Altitude: 637.01

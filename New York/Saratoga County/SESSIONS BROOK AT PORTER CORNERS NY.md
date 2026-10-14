@@ -10,6 +10,8 @@
 - HUC: 020200030401
 - Latitude: 43.1558333333333
 - Longitude: -73.8786111111111
+- Locality: Porter Corners, NY
+- Locality ID: us/ny/porter-corners
 - Drainage area: 1.04
 - Contributing area: 
 - Altitude: 

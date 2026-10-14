@@ -10,6 +10,8 @@
 - HUC: 020301010101
 - Latitude: 41.388528
 - Longitude: -73.812667
+- Locality: Putnam Valley, NY
+- Locality ID: us/ny/putnam-valley
 - Drainage area: 14.9
 - Contributing area: 
 - Altitude: 301.44

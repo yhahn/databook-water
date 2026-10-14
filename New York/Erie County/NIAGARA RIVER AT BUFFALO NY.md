@@ -10,6 +10,8 @@
 - HUC: 041202000300
 - Latitude: 42.8777777777778
 - Longitude: -78.9163888888889
+- Locality: 
+- Locality ID: 
 - Drainage area: 263700
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020501050307
 - Latitude: 42.252583333333334
 - Longitude: -77.21652777777778
+- Locality: Campbell, NY
+- Locality ID: us/ny/campbell
 - Drainage area: 470
 - Contributing area: 
 - Altitude: 1013.89

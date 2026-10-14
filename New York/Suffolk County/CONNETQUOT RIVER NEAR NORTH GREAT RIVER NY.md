@@ -10,6 +10,8 @@
 - HUC: 020302020401
 - Latitude: 40.74749661014772
 - Longitude: -73.15037486497847
+- Locality: Oakdale, NY
+- Locality ID: us/ny/oakdale
 - Drainage area: 
 - Contributing area: 
 - Altitude: 

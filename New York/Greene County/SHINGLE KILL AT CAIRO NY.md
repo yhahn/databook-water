@@ -10,6 +10,8 @@
 - HUC: 020200060806
 - Latitude: 42.3061111111111
 - Longitude: -74.0030555555556
+- Locality: Cairo, NY
+- Locality ID: us/ny/cairo
 - Drainage area: 13.9
 - Contributing area: 
 - Altitude: 

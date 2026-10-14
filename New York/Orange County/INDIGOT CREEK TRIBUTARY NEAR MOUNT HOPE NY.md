@@ -10,6 +10,8 @@
 - HUC: 020200070205
 - Latitude: 41.4211111111111
 - Longitude: -74.5186111111111
+- Locality: Middletown, NY
+- Locality ID: us/ny/middletown
 - Drainage area: 5.78
 - Contributing area: 
 - Altitude: 

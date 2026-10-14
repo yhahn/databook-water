@@ -10,6 +10,8 @@
 - HUC: 041300030203
 - Latitude: 42.6436111111111
 - Longitude: -77.6025
+- Locality: Springwater, NY
+- Locality ID: us/ny/springwater
 - Drainage area: 10.1
 - Contributing area: 
 - Altitude: 

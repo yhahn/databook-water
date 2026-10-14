@@ -10,6 +10,8 @@
 - HUC: 041300010504
 - Latitude: 43.3358333333333
 - Longitude: -78.3247222222222
+- Locality: Lyndonville, NY
+- Locality ID: us/ny/lyndonville
 - Drainage area: 4.95
 - Contributing area: 
 - Altitude: 

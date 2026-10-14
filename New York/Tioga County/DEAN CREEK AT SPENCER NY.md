@@ -10,6 +10,8 @@
 - HUC: 020501030302
 - Latitude: 42.2027777777778
 - Longitude: -76.4969444444445
+- Locality: Spencer, NY
+- Locality ID: us/ny/spencer
 - Drainage area: 8.03
 - Contributing area: 
 - Altitude: 979.74

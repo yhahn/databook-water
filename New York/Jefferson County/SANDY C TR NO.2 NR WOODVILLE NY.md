@@ -10,6 +10,8 @@
 - HUC: 041401020305
 - Latitude: 43.7663888888889
 - Longitude: -76.2002777777778
+- Locality: Henderson, NY
+- Locality ID: us/ny/henderson
 - Drainage area: 4.26
 - Contributing area: 
 - Altitude: 

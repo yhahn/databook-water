@@ -10,6 +10,8 @@
 - HUC: 020401040107
 - Latitude: 41.4612222222222
 - Longitude: -74.7587777777778
+- Locality: Sparrow Bush, NY
+- Locality ID: us/ny/sparrow-bush
 - Drainage area: 200
 - Contributing area: 
 - Altitude: 623.49

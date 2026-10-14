@@ -10,6 +10,8 @@
 - HUC: 020501050607
 - Latitude: 42.00244444444444
 - Longitude: -76.6348888888889
+- Locality: Elmira, NY
+- Locality ID: us/ny/elmira
 - Drainage area: 2506
 - Contributing area: 2506
 - Altitude: 778.66

@@ -10,6 +10,8 @@
 - HUC: 041401010707
 - Latitude: 43.2576944444444
 - Longitude: -77.4468611111111
+- Locality: Webster, NY
+- Locality ID: us/ny/webster
 - Drainage area: 9.69
 - Contributing area: 
 - Altitude: 254.73

@@ -10,6 +10,8 @@
 - HUC: 020401020404
 - Latitude: 42.1305555555556
 - Longitude: -74.9002777777778
+- Locality: Delancey, NY
+- Locality ID: us/ny/delancey
 - Drainage area: 13.6
 - Contributing area: 
 - Altitude: 1329.38

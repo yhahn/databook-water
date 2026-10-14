@@ -10,6 +10,8 @@
 - HUC: 020401020304
 - Latitude: 42.14644444444444
 - Longitude: -74.62341666666666
+- Locality: Arkville, NY
+- Locality ID: us/ny/arkville
 - Drainage area: 82.2
 - Contributing area: 
 - Altitude: 1335.67

@@ -10,6 +10,8 @@
 - HUC: 041401020305
 - Latitude: 43.8136944444444
 - Longitude: -76.0744444444444
+- Locality: Adams, NY
+- Locality ID: us/ny/adams
 - Drainage area: 137
 - Contributing area: 
 - Altitude: 523.26

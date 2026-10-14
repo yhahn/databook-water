@@ -10,6 +10,8 @@
 - HUC: 020200060808
 - Latitude: 42.22325
 - Longitude: -73.8854166666667
+- Locality: Catskill, NY
+- Locality ID: us/ny/catskill
 - Drainage area: 405
 - Contributing area: 
 - Altitude: 3.96

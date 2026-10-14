@@ -10,6 +10,8 @@
 - HUC: 041201030505
 - Latitude: 42.7065555555556
 - Longitude: -78.84925
+- Locality: Hamburg, NY
+- Locality ID: us/ny/hamburg
 - Drainage area: 61.5
 - Contributing area: 
 - Altitude: 741.37

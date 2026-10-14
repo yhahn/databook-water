@@ -10,6 +10,8 @@
 - HUC: 020200070503
 - Latitude: 41.7222222222222
 - Longitude: -74.4016666666667
+- Locality: Ellenville, NY
+- Locality ID: us/ny/ellenville
 - Drainage area: 43.3
 - Contributing area: 
 - Altitude: 

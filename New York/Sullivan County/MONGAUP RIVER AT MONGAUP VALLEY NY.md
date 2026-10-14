@@ -10,6 +10,8 @@
 - HUC: 020401040104
 - Latitude: 41.668389
 - Longitude: -74.780472
+- Locality: Monticello, NY
+- Locality ID: us/ny/monticello
 - Drainage area: 76.6
 - Contributing area: 
 - Altitude: 1068.4

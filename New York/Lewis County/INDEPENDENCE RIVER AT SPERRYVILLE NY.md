@@ -10,6 +10,8 @@
 - HUC: 041501010703
 - Latitude: 43.7733333333333
 - Longitude: -75.3019444444444
+- Locality: Glenfield, NY
+- Locality ID: us/ny/glenfield
 - Drainage area: 81.8
 - Contributing area: 
 - Altitude: 

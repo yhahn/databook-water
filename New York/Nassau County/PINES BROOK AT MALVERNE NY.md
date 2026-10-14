@@ -10,6 +10,8 @@
 - HUC: 020302020204
 - Latitude: 40.6663888888889
 - Longitude: -73.6591666666667
+- Locality: Rockville Centre, NY
+- Locality ID: us/ny/rockville-centre
 - Drainage area: 10.1
 - Contributing area: 
 - Altitude: 7.11

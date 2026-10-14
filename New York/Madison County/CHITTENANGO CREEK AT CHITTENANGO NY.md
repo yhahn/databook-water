@@ -10,6 +10,8 @@
 - HUC: 041402020704
 - Latitude: 43.0494444444444
 - Longitude: -75.8697222222222
+- Locality: Chittenango, NY
+- Locality ID: us/ny/chittenango
 - Drainage area: 71.4
 - Contributing area: 
 - Altitude: 

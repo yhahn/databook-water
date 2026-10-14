@@ -10,6 +10,8 @@
 - HUC: 041402010504
 - Latitude: 43.0463888888889
 - Longitude: -77.0488888888889
+- Locality: Newark, NY
+- Locality ID: us/ny/newark
 - Drainage area: 0.58
 - Contributing area: 
 - Altitude: 

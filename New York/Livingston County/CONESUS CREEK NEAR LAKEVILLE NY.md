@@ -10,6 +10,8 @@
 - HUC: 041300030103
 - Latitude: 42.8541666666667
 - Longitude: -77.7152777777778
+- Locality: Lakeville, NY
+- Locality ID: us/ny/lakeville
 - Drainage area: 72
 - Contributing area: 
 - Altitude: 806.35

@@ -10,6 +10,8 @@
 - HUC: 041501011105
 - Latitude: 43.9005555555556
 - Longitude: -75.4411111111111
+- Locality: Castorland, NY
+- Locality ID: us/ny/castorland
 - Drainage area: 2.46
 - Contributing area: 
 - Altitude: 

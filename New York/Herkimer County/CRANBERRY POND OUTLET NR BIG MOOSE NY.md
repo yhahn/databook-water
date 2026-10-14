@@ -10,6 +10,8 @@
 - HUC: 041501011005
 - Latitude: 43.8644444444444
 - Longitude: -74.9786111111111
+- Locality: Eagle Bay, NY
+- Locality ID: us/ny/eagle-bay
 - Drainage area: 0.6
 - Contributing area: 
 - Altitude: 

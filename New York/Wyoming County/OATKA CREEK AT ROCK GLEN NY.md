@@ -10,6 +10,8 @@
 - HUC: 041300030401
 - Latitude: 42.6941666666667
 - Longitude: -78.1205555555556
+- Locality: Silver Springs, NY
+- Locality ID: us/ny/silver-springs
 - Drainage area: 14.5
 - Contributing area: 
 - Altitude: 

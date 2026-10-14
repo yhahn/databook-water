@@ -10,6 +10,8 @@
 - HUC: 041402020803
 - Latitude: 43.2598055555556
 - Longitude: -76.0027777777778
+- Locality: Constantia, NY
+- Locality ID: us/ny/constantia
 - Drainage area: 39.8
 - Contributing area: 
 - Altitude: 401.49

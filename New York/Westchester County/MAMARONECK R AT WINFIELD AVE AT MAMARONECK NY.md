@@ -10,6 +10,8 @@
 - HUC: 020301020202
 - Latitude: 40.9690555555556
 - Longitude: -73.73675
+- Locality: Mamaroneck, NY
+- Locality ID: us/ny/mamaroneck
 - Drainage area: 14.6
 - Contributing area: 
 - Altitude: 27.27

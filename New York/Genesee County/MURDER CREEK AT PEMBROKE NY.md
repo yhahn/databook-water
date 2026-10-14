@@ -10,6 +10,8 @@
 - HUC: 041201040202
 - Latitude: 42.9936111111111
 - Longitude: -78.4352777777778
+- Locality: Corfu, NY
+- Locality ID: us/ny/corfu
 - Drainage area: 42.5
 - Contributing area: 
 - Altitude: 

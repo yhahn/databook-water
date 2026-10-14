@@ -10,6 +10,8 @@
 - HUC: 020301010304
 - Latitude: 41.2494444444444
 - Longitude: -73.6702777777778
+- Locality: Katonah, NY
+- Locality ID: us/ny/katonah
 - Drainage area: 18.7
 - Contributing area: 
 - Altitude: 

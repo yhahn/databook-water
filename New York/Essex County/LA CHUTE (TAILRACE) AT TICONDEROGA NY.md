@@ -10,6 +10,8 @@
 - HUC: 041504080205
 - Latitude: 43.8440833333333
 - Longitude: -73.4317222222222
+- Locality: Ticonderoga, NY
+- Locality ID: us/ny/ticonderoga
 - Drainage area: 234
 - Contributing area: 
 - Altitude: 186.89

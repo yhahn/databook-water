@@ -10,6 +10,8 @@
 - HUC: 020200080405
 - Latitude: 41.3666666666667
 - Longitude: -74.1044444444444
+- Locality: Highland Mills, NY
+- Locality ID: us/ny/highland-mills
 - Drainage area: 11.2
 - Contributing area: 
 - Altitude: 376

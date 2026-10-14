@@ -10,6 +10,8 @@
 - HUC: 020401040203
 - Latitude: 41.5094444444444
 - Longitude: -74.5430555555556
+- Locality: Wurtsboro, NY
+- Locality ID: us/ny/wurtsboro
 - Drainage area: 1.07
 - Contributing area: 
 - Altitude: 

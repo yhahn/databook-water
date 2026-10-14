@@ -10,6 +10,8 @@
 - HUC: 020200040502
 - Latitude: 43.3955555555556
 - Longitude: -74.8594444444444
+- Locality: Cold Brook, NY
+- Locality ID: us/ny/cold-brook
 - Drainage area: 193
 - Contributing area: 
 - Altitude: 1389.16

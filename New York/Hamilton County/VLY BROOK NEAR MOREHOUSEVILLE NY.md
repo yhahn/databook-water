@@ -10,6 +10,8 @@
 - HUC: 020200040407
 - Latitude: 43.39275
 - Longitude: -74.83272222222222
+- Locality: Hoffmeister, NY
+- Locality ID: us/ny/hoffmeister
 - Drainage area: 3.28
 - Contributing area: 3.28
 - Altitude: 1566.28

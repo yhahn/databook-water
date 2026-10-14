@@ -10,6 +10,8 @@
 - HUC: 041300030604
 - Latitude: 43.06
 - Longitude: -77.8741666666667
+- Locality: Churchville, NY
+- Locality ID: us/ny/churchville
 - Drainage area: 4.29
 - Contributing area: 
 - Altitude: 

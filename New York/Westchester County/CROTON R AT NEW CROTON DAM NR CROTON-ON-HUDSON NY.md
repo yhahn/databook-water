@@ -10,6 +10,8 @@
 - HUC: 020301010307
 - Latitude: 41.2250277777778
 - Longitude: -73.8588888888889
+- Locality: Croton on Hudson, NY
+- Locality ID: us/ny/croton-on-hudson
 - Drainage area: 378
 - Contributing area: 
 - Altitude: 43.12

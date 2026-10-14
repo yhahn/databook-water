@@ -10,6 +10,8 @@
 - HUC: 020302020405
 - Latitude: 40.7369444444444
 - Longitude: -73.2016666666667
+- Locality: Islip, NY
+- Locality ID: us/ny/islip
 - Drainage area: 5.18
 - Contributing area: 
 - Altitude: 10.85

@@ -10,6 +10,8 @@
 - HUC: 020501010910
 - Latitude: 42.377972222222226
 - Longitude: -75.40611111111112
+- Locality: Mount Upton, NY
+- Locality ID: us/ny/mount-upton
 - Drainage area: 520
 - Contributing area: 520
 - Altitude: 991.95

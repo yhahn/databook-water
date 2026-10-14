@@ -10,6 +10,8 @@
 - HUC: 041503040301
 - Latitude: 44.5819444444444
 - Longitude: -75.0772222222222
+- Locality: Canton, NY
+- Locality ID: us/ny/canton
 - Drainage area: 20.9
 - Contributing area: 
 - Altitude: 

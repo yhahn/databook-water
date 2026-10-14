@@ -10,6 +10,8 @@
 - HUC: 041201020108
 - Latitude: 42.4725
 - Longitude: -78.6661111111111
+- Locality: West Valley, NY
+- Locality ID: us/ny/west-valley
 - Drainage area: 30
 - Contributing area: 
 - Altitude: 1140

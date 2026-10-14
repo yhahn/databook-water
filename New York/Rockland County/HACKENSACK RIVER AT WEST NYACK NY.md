@@ -10,6 +10,8 @@
 - HUC: 020301030901
 - Latitude: 41.095528
 - Longitude: -73.964028
+- Locality: West Nyack, NY
+- Locality ID: us/ny/west-nyack
 - Drainage area: 30.7
 - Contributing area: 
 - Altitude: 52.53

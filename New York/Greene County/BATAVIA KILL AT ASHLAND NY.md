@@ -10,6 +10,8 @@
 - HUC: 020200050202
 - Latitude: 42.2955555555556
 - Longitude: -74.3516666666667
+- Locality: Windham, NY
+- Locality ID: us/ny/windham
 - Drainage area: 62
 - Contributing area: 
 - Altitude: 1383.92

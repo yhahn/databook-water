@@ -10,6 +10,8 @@
 - HUC: 020200010205
 - Latitude: 43.7565
 - Longitude: -74.2670555555556
+- Locality: Indian Lake, NY
+- Locality ID: us/ny/indian-lake
 - Drainage area: 132
 - Contributing area: 
 - Altitude: 1603.94

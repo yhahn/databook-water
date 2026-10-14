@@ -10,6 +10,8 @@
 - HUC: 041402011106
 - Latitude: 42.54
 - Longitude: -76.5927777777778
+- Locality: Trumansburg, NY
+- Locality ID: us/ny/trumansburg
 - Drainage area: 1.41
 - Contributing area: 
 - Altitude: 

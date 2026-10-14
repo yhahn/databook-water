@@ -10,6 +10,8 @@
 - HUC: 041504080602
 - Latitude: 44.1875
 - Longitude: -73.4547222222222
+- Locality: Westport, NY
+- Locality ID: us/ny/westport
 - Drainage area: 6.47
 - Contributing area: 
 - Altitude: 246

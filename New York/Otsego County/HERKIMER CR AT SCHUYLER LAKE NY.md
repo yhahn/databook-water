@@ -10,6 +10,8 @@
 - HUC: 020501010102
 - Latitude: 42.7886111111111
 - Longitude: -75.0247222222222
+- Locality: Richfield Springs, NY
+- Locality ID: us/ny/richfield-springs
 - Drainage area: 12
 - Contributing area: 
 - Altitude: 

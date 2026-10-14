@@ -10,6 +10,8 @@
 - HUC: 020401020502
 - Latitude: 42.0447222222222
 - Longitude: -74.9766666666667
+- Locality: Downsville, NY
+- Locality ID: us/ny/downsville
 - Drainage area: 0.44
 - Contributing area: 
 - Altitude: 

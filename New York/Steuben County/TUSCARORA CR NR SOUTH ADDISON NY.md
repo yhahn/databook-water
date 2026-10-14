@@ -10,6 +10,8 @@
 - HUC: 020501040306
 - Latitude: 42.0666666666667
 - Longitude: -77.2836111111111
+- Locality: Addison, NY
+- Locality ID: us/ny/addison
 - Drainage area: 114
 - Contributing area: 
 - Altitude: 1059.18

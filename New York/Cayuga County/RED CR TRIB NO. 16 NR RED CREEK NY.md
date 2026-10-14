@@ -10,6 +10,8 @@
 - HUC: 041401010204
 - Latitude: 43.2266666666667
 - Longitude: -76.7061111111111
+- Locality: Red Creek, NY
+- Locality ID: us/ny/red-creek
 - Drainage area: 2.9
 - Contributing area: 
 - Altitude: 

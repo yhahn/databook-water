@@ -10,6 +10,8 @@
 - HUC: 020501011207
 - Latitude: 42.17
 - Longitude: -75.6788888888889
+- Locality: Harpursville, NY
+- Locality ID: us/ny/harpursville
 - Drainage area: 3.37
 - Contributing area: 
 - Altitude: 

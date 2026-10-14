@@ -10,6 +10,8 @@
 - HUC: 020200041003
 - Latitude: 42.9030555555556
 - Longitude: -74.4313888888889
+- Locality: Fultonville, NY
+- Locality ID: us/ny/fultonville
 - Drainage area: 1.02
 - Contributing area: 
 - Altitude: 

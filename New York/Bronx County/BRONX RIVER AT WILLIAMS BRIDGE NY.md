@@ -10,6 +10,8 @@
 - HUC: 020301020103
 - Latitude: 40.8715833333333
 - Longitude: -73.8725555555556
+- Locality: Bronx, NY
+- Locality ID: us/ny/bronx
 - Drainage area: 50.6
 - Contributing area: 34.9
 - Altitude: 

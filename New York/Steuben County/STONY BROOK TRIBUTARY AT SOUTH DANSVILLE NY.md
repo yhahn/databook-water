@@ -10,6 +10,8 @@
 - HUC: 041300020905
 - Latitude: 42.4712222222222
 - Longitude: -77.6719722222222
+- Locality: Arkport, NY
+- Locality ID: us/ny/arkport
 - Drainage area: 3.15
 - Contributing area: 
 - Altitude: 

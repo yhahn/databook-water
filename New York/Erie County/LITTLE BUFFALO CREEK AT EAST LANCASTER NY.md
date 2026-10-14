@@ -10,6 +10,8 @@
 - HUC: 041201030103
 - Latitude: 42.8794444444444
 - Longitude: -78.6072222222222
+- Locality: Lancaster, NY
+- Locality ID: us/ny/lancaster
 - Drainage area: 24
 - Contributing area: 
 - Altitude: 

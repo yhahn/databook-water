@@ -10,6 +10,8 @@
 - HUC: 020200040404
 - Latitude: 43.5143055555556
 - Longitude: -74.7988611111111
+- Locality: Forestport, NY
+- Locality ID: us/ny/forestport
 - Drainage area: 0.12
 - Contributing area: 
 - Altitude: 

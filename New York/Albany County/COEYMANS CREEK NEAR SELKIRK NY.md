@@ -10,6 +10,8 @@
 - HUC: 020200060402
 - Latitude: 42.5272222222222
 - Longitude: -73.82
+- Locality: Selkirk, NY
+- Locality ID: us/ny/selkirk
 - Drainage area: 37
 - Contributing area: 
 - Altitude: 80

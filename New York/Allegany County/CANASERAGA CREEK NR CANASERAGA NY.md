@@ -10,6 +10,8 @@
 - HUC: 041300020903
 - Latitude: 42.4716666666667
 - Longitude: -77.7563888888889
+- Locality: Canaseraga, NY
+- Locality ID: us/ny/canaseraga
 - Drainage area: 58.4
 - Contributing area: 
 - Altitude: 

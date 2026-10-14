@@ -10,6 +10,8 @@
 - HUC: 020200060801
 - Latitude: 42.5263888888889
 - Longitude: -74.3088888888889
+- Locality: Middleburgh, NY
+- Locality ID: us/ny/middleburgh
 - Drainage area: 3.61
 - Contributing area: 
 - Altitude: 

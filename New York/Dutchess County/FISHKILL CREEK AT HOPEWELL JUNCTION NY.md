@@ -10,6 +10,8 @@
 - HUC: 020200080303
 - Latitude: 41.5727777777778
 - Longitude: -73.8063888888889
+- Locality: Hopewell Junction, NY
+- Locality ID: us/ny/hopewell-junction
 - Drainage area: 57.3
 - Contributing area: 
 - Altitude: 229.53

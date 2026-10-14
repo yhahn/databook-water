@@ -10,6 +10,8 @@
 - HUC: 020301010104
 - Latitude: 41.2094444444445
 - Longitude: -74.0208333333333
+- Locality: Thiells, NY
+- Locality ID: us/ny/thiells
 - Drainage area: 15.1
 - Contributing area: 
 - Altitude: 

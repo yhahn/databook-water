@@ -10,6 +10,8 @@
 - HUC: 020401010101
 - Latitude: 42.3494444444444
 - Longitude: -74.6111111111111
+- Locality: Hobart, NY
+- Locality ID: us/ny/hobart
 - Drainage area: 0.76
 - Contributing area: 
 - Altitude: 

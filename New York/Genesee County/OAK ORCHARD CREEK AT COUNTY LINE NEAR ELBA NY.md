@@ -10,6 +10,8 @@
 - HUC: 041300010401
 - Latitude: 43.1322222222222
 - Longitude: -78.1644444444445
+- Locality: Elba, NY
+- Locality ID: us/ny/elba
 - Drainage area: 21.9
 - Contributing area: 
 - Altitude: 621.31

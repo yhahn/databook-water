@@ -10,6 +10,8 @@
 - HUC: 041300030103
 - Latitude: 42.8536743015303
 - Longitude: -77.7155563122864
+- Locality: Geneseo, NY
+- Locality ID: us/ny/geneseo
 - Drainage area: 72
 - Contributing area: 
 - Altitude: 

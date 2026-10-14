@@ -10,6 +10,8 @@
 - HUC: 020200060504
 - Latitude: 42.1566666666667
 - Longitude: -73.57
+- Locality: Hillsdale, NY
+- Locality ID: us/ny/hillsdale
 - Drainage area: 0.39
 - Contributing area: 
 - Altitude: 

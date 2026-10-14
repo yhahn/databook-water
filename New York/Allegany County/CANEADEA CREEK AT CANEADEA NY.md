@@ -10,6 +10,8 @@
 - HUC: 041300020604
 - Latitude: 42.3872222222222
 - Longitude: -78.1622222222222
+- Locality: Caneadea, NY
+- Locality ID: us/ny/caneadea
 - Drainage area: 62
 - Contributing area: 
 - Altitude: 1240.42

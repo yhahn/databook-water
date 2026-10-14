@@ -10,6 +10,8 @@
 - HUC: 041402011002
 - Latitude: 42.5141666666667
 - Longitude: -76.3469444444444
+- Locality: Freeville, NY
+- Locality ID: us/ny/freeville
 - Drainage area: 55.9
 - Contributing area: 
 - Altitude: 

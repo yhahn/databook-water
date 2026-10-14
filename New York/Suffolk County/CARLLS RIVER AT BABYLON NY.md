@@ -10,6 +10,8 @@
 - HUC: 020302020404
 - Latitude: 40.70897222222222
 - Longitude: -73.32880555555555
+- Locality: Babylon, NY
+- Locality ID: us/ny/babylon
 - Drainage area: 35.4
 - Contributing area: 
 - Altitude: 10.63

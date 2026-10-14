@@ -10,6 +10,8 @@
 - HUC: 041300030402
 - Latitude: 42.8486111111111
 - Longitude: -78.0430555555556
+- Locality: Pavilion, NY
+- Locality ID: us/ny/pavilion
 - Drainage area: 10.8
 - Contributing area: 
 - Altitude: 

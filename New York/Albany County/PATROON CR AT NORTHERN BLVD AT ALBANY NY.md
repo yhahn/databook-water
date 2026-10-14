@@ -10,6 +10,8 @@
 - HUC: 020200060302
 - Latitude: 42.6713888888889
 - Longitude: -73.7555555555556
+- Locality: Albany, NY
+- Locality ID: us/ny/albany
 - Drainage area: 13.1
 - Contributing area: 
 - Altitude: 124

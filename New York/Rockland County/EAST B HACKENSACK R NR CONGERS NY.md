@@ -10,6 +10,8 @@
 - HUC: 020301030901
 - Latitude: 41.1255555555556
 - Longitude: -73.9561111111111
+- Locality: Valley Cottage, NY
+- Locality ID: us/ny/valley-cottage
 - Drainage area: 6.9
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020200060904
 - Latitude: 42.046722
 - Longitude: -74.276806
+- Locality: Mount Tremper, NY
+- Locality ID: us/ny/mount-tremper
 - Drainage area: 25
 - Contributing area: 
 - Altitude: 684.13

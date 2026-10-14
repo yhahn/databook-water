@@ -10,6 +10,8 @@
 - HUC: 041401010704
 - Latitude: 43.1061111111111
 - Longitude: -77.4619444444444
+- Locality: Fairport, NY
+- Locality ID: us/ny/fairport
 - Drainage area: 29.5
 - Contributing area: 
 - Altitude: 403

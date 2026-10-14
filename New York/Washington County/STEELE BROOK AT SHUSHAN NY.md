@@ -10,6 +10,8 @@
 - HUC: 020200030206
 - Latitude: 43.0931666666667
 - Longitude: -73.3269166666667
+- Locality: Shushan, NY
+- Locality ID: us/ny/shushan
 - Drainage area: 2.85
 - Contributing area: 
 - Altitude: 495.84

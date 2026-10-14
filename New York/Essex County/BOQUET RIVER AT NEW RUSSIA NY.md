@@ -10,6 +10,8 @@
 - HUC: 041504080701
 - Latitude: 44.1638611111111
 - Longitude: -73.6078055555555
+- Locality: New Russia, NY
+- Locality ID: us/ny/new-russia
 - Drainage area: 37.6
 - Contributing area: 
 - Altitude: 

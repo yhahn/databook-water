@@ -10,6 +10,8 @@
 - HUC: 020501020504
 - Latitude: 42.850611
 - Longitude: -75.605444
+- Locality: Eaton, NY
+- Locality ID: us/ny/eaton
 - Drainage area: 24.3
 - Contributing area: 
 - Altitude: 1178

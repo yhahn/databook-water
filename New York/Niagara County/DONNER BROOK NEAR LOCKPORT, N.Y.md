@@ -10,6 +10,8 @@
 - HUC: 041201040505
 - Latitude: 43.1231127941466
 - Longitude: -78.7300327897515
+- Locality: Lockport, NY
+- Locality ID: us/ny/lockport
 - Drainage area: 4.25
 - Contributing area: 
 - Altitude: 

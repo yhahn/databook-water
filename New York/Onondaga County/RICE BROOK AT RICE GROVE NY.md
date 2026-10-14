@@ -10,6 +10,8 @@
 - HUC: 041402011501
 - Latitude: 42.8519444444444
 - Longitude: -76.2588888888889
+- Locality: Marietta, NY
+- Locality ID: us/ny/marietta
 - Drainage area: 2.44
 - Contributing area: 
 - Altitude: 800

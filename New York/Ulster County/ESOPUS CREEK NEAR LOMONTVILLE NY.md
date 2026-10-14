@@ -10,6 +10,8 @@
 - HUC: 020200060906
 - Latitude: 41.8793333333333
 - Longitude: -74.1453611111111
+- Locality: Stone Ridge, NY
+- Locality ID: us/ny/stone-ridge
 - Drainage area: 279
 - Contributing area: 
 - Altitude: 190.96

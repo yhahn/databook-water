@@ -10,6 +10,8 @@
 - HUC: 041402010103
 - Latitude: 43.0674722222222
 - Longitude: -77.2982222222222
+- Locality: Macedon, NY
+- Locality ID: us/ny/macedon
 - Drainage area: 115
 - Contributing area: 
 - Altitude: 446.37

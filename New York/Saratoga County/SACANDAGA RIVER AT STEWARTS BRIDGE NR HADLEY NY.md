@@ -10,6 +10,8 @@
 - HUC: 020200020706
 - Latitude: 43.31136111111111
 - Longitude: -73.86722222222221
+- Locality: Corinth, NY
+- Locality ID: us/ny/corinth
 - Drainage area: 1055
 - Contributing area: 
 - Altitude: 581.28

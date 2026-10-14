@@ -10,6 +10,8 @@
 - HUC: 041402011004
 - Latitude: 42.4883333333333
 - Longitude: -76.3019444444444
+- Locality: Dryden, NY
+- Locality ID: us/ny/dryden
 - Drainage area: 20.7
 - Contributing area: 
 - Altitude: 

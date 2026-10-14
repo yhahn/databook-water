@@ -10,6 +10,8 @@
 - HUC: 020401010305
 - Latitude: 42.0030277777778
 - Longitude: -75.3835277777778
+- Locality: Hancock, NY
+- Locality ID: us/ny/hancock
 - Drainage area: 595
 - Contributing area: 
 - Altitude: 945.98

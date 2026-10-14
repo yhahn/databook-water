@@ -10,6 +10,8 @@
 - HUC: 041401010704
 - Latitude: 43.0675
 - Longitude: -77.4897222222222
+- Locality: Pittsford, NY
+- Locality ID: us/ny/pittsford
 - Drainage area: 52.6
 - Contributing area: 
 - Altitude: 

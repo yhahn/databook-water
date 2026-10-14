@@ -10,6 +10,8 @@
 - HUC: 041402011102
 - Latitude: 42.5536111111111
 - Longitude: -76.5352777777778
+- Locality: Lansing, NY
+- Locality ID: us/ny/lansing
 - Drainage area: 81.7
 - Contributing area: 
 - Altitude: 

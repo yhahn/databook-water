@@ -10,6 +10,8 @@
 - HUC: 041503070202
 - Latitude: 44.7869444444444
 - Longitude: -74.3697222222222
+- Locality: North Bangor, NY
+- Locality ID: us/ny/north-bangor
 - Drainage area: 7.11
 - Contributing area: 
 - Altitude: 

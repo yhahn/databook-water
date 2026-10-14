@@ -10,6 +10,8 @@
 - HUC: 041402011306
 - Latitude: 42.9323888888889
 - Longitude: -76.5635555555556
+- Locality: Auburn, NY
+- Locality ID: us/ny/auburn
 - Drainage area: 204
 - Contributing area: 
 - Altitude: 659.92

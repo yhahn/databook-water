@@ -10,6 +10,8 @@
 - HUC: 020200060303
 - Latitude: 42.6125
 - Longitude: -73.6952777777778
+- Locality: East Greenbush, NY
+- Locality ID: us/ny/east-greenbush
 - Drainage area: 9.74
 - Contributing area: 
 - Altitude: 

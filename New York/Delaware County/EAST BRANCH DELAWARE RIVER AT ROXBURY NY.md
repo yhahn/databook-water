@@ -10,6 +10,8 @@
 - HUC: 020401020302
 - Latitude: 42.2938055555556
 - Longitude: -74.5591944444444
+- Locality: Roxbury, NY
+- Locality ID: us/ny/roxbury
 - Drainage area: 13.5
 - Contributing area: 
 - Altitude: 1478.33

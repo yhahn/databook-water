@@ -10,6 +10,8 @@
 - HUC: 020200050503
 - Latitude: 42.6488333333333
 - Longitude: -74.1320833333333
+- Locality: Berne, NY
+- Locality ID: us/ny/berne
 - Drainage area: 6.91
 - Contributing area: 
 - Altitude: 

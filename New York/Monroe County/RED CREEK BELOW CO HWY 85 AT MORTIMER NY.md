@@ -10,6 +10,8 @@
 - HUC: 041300030702
 - Latitude: 43.0935277777778
 - Longitude: -77.6507222222222
+- Locality: Rochester, NY
+- Locality ID: us/ny/rochester
 - Drainage area: 16.6
 - Contributing area: 
 - Altitude: 507.3

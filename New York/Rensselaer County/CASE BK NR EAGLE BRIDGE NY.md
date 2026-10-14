@@ -10,6 +10,8 @@
 - HUC: 020200031002
 - Latitude: 42.9305555555556
 - Longitude: -73.3869444444445
+- Locality: Hoosick Falls, NY
+- Locality ID: us/ny/hoosick-falls
 - Drainage area: 2.86
 - Contributing area: 
 - Altitude: 

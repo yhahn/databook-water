@@ -10,6 +10,8 @@
 - HUC: 041402010701
 - Latitude: 42.6230555555556
 - Longitude: -77.1580555555556
+- Locality: Branchport, NY
+- Locality ID: us/ny/branchport
 - Drainage area: 28.9
 - Contributing area: 
 - Altitude: 

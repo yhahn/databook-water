@@ -10,6 +10,8 @@
 - HUC: 020401010207
 - Latitude: 42.1219444444444
 - Longitude: -75.2469444444445
+- Locality: Walton, NY
+- Locality ID: us/ny/walton
 - Drainage area: 8.1
 - Contributing area: 
 - Altitude: 1187.95

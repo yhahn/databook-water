@@ -10,6 +10,8 @@
 - HUC: 041402011407
 - Latitude: 42.96292674383
 - Longitude: -76.7368961028541
+- Locality: Seneca Falls, NY
+- Locality ID: us/ny/seneca-falls
 - Drainage area: 1566
 - Contributing area: 
 - Altitude: 367

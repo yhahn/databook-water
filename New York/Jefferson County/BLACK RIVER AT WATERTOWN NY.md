@@ -10,6 +10,8 @@
 - HUC: 041501011404
 - Latitude: 43.9858333333333
 - Longitude: -75.9246111111111
+- Locality: Watertown, NY
+- Locality ID: us/ny/watertown
 - Drainage area: 1864
 - Contributing area: 
 - Altitude: 374.09

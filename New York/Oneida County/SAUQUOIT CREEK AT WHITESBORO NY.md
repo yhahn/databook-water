@@ -10,6 +10,8 @@
 - HUC: 020200040309
 - Latitude: 43.11205555555556
 - Longitude: -75.2936111111111
+- Locality: Yorkville, NY
+- Locality ID: us/ny/yorkville
 - Drainage area: 59.8
 - Contributing area: 
 - Altitude: 419.98

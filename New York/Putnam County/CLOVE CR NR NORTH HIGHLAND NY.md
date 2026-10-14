@@ -10,6 +10,8 @@
 - HUC: 020200080305
 - Latitude: 41.4805555555556
 - Longitude: -73.9091666666667
+- Locality: Cold Spring, NY
+- Locality ID: us/ny/cold-spring
 - Drainage area: 12.1
 - Contributing area: 
 - Altitude: 

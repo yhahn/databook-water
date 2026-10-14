@@ -10,6 +10,8 @@
 - HUC: 041402011205
 - Latitude: 42.9472222222222
 - Longitude: -76.735
+- Locality: Cayuga, NY
+- Locality ID: us/ny/cayuga
 - Drainage area: 1564
 - Contributing area: 
 - Altitude: 

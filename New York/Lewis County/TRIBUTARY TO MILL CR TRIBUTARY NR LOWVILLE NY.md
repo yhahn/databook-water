@@ -10,6 +10,8 @@
 - HUC: 041501010901
 - Latitude: 43.7619444444444
 - Longitude: -75.52
+- Locality: Lowville, NY
+- Locality ID: us/ny/lowville
 - Drainage area: 1.66
 - Contributing area: 
 - Altitude: 

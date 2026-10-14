@@ -10,6 +10,8 @@
 - HUC: 020501010908
 - Latitude: 42.6255555555556
 - Longitude: -75.3283333333333
+- Locality: New Berlin, NY
+- Locality ID: us/ny/new-berlin
 - Drainage area: 4.64
 - Contributing area: 
 - Altitude: 1088.89

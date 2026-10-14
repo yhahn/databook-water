@@ -10,6 +10,8 @@
 - HUC: 041503030503
 - Latitude: 44.4283333333333
 - Longitude: -75.5372222222222
+- Locality: Gouverneur, NY
+- Locality ID: us/ny/gouverneur
 - Drainage area: 1.67
 - Contributing area: 
 - Altitude: 

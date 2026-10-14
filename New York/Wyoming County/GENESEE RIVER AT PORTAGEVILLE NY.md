@@ -10,6 +10,8 @@
 - HUC: 041300021001
 - Latitude: 42.570194444444446
 - Longitude: -78.04197222222221
+- Locality: Portageville, NY
+- Locality ID: us/ny/portageville
 - Drainage area: 984
 - Contributing area: 
 - Altitude: 1079.72

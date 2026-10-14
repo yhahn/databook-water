@@ -10,6 +10,8 @@
 - HUC: 020501020504
 - Latitude: 42.8808333333333
 - Longitude: -75.6433333333333
+- Locality: Morrisville, NY
+- Locality ID: us/ny/morrisville
 - Drainage area: 7.63
 - Contributing area: 
 - Altitude: 

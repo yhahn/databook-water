@@ -10,6 +10,8 @@
 - HUC: 020200010403
 - Latitude: 43.9481944444444
 - Longitude: -73.9901111111111
+- Locality: Minerva, NY
+- Locality ID: us/ny/minerva
 - Drainage area: 0.35
 - Contributing area: 
 - Altitude: 1910

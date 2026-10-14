@@ -10,6 +10,8 @@
 - HUC: 041503100104
 - Latitude: 44.828
 - Longitude: -75.1588333333333
+- Locality: Waddington, NY
+- Locality ID: us/ny/waddington
 - Drainage area: 28.7
 - Contributing area: 
 - Altitude: 255.78

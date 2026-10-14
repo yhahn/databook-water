@@ -10,6 +10,8 @@
 - HUC: 020501020305
 - Latitude: 42.54116666666666
 - Longitude: -75.89919444444445
+- Locality: Cincinnatus, NY
+- Locality ID: us/ny/cincinnatus
 - Drainage area: 147
 - Contributing area: 147
 - Altitude: 1031.11

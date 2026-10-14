@@ -10,6 +10,8 @@
 - HUC: 020301030901
 - Latitude: 41.0969444444444
 - Longitude: -74.0108333333333
+- Locality: Nanuet, NY
+- Locality ID: us/ny/nanuet
 - Drainage area: 2.12
 - Contributing area: 
 - Altitude: 

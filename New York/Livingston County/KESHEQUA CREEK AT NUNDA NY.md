@@ -10,6 +10,8 @@
 - HUC: 041300020910
 - Latitude: 42.5886111111111
 - Longitude: -77.9202777777778
+- Locality: Nunda, NY
+- Locality ID: us/ny/nunda
 - Drainage area: 32.7
 - Contributing area: 
 - Altitude: 

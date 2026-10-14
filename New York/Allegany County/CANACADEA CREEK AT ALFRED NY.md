@@ -10,6 +10,8 @@
 - HUC: 020501040103
 - Latitude: 42.2535277777778
 - Longitude: -77.7899166666667
+- Locality: Alfred, NY
+- Locality ID: us/ny/alfred
 - Drainage area: 1.2
 - Contributing area: 
 - Altitude: 

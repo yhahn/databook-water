@@ -4,9 +4,13 @@
 -- query giving one value. Played by .import/target.js with `proper query`.
 
 -- name: B3 the keys of Site
--- want: Site ID, Number, Agency, Type, County, County code, State, HUC, Latitude, Longitude, Drainage area, Contributing area, Altitude, Altitude datum, Time zone, Daily from, Daily to, Discharge days, Gage height days, Discharge series, Gage height series, Peaks, Peaks from, Peaks to, Field measurements, Revisions
+-- want: Site ID, Number, Agency, Type, County, County code, State, HUC, Latitude, Longitude, Locality, Locality ID, Drainage area, Contributing area, Altitude, Altitude datum, Time zone, Daily from, Daily to, Discharge days, Gage height days, Discharge series, Gage height series, Peaks, Peaks from, Peaks to, Field measurements, Revisions
 select string_agg(column_name, ', ' order by ordinal_position) from information_schema.columns
 where table_name = 'Site' and column_name not in ('name', '_file', '_line', '_end_line');
+
+-- name: K2 sites' localities, by placescope's id, as the importer counted
+-- want: {localities}
+select count(distinct "Locality ID") from Site;
 
 -- name: B3 the keys of Water Year
 -- want: Site ID, Site, Water year, From, To, Days, Discharge days, Gage height days, Provisional

@@ -10,6 +10,8 @@
 - HUC: 041201020204
 - Latitude: 42.365
 - Longitude: -78.8008333333333
+- Locality: Cattaraugus, NY
+- Locality ID: us/ny/cattaraugus
 - Drainage area: 25.1
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020501030503
 - Latitude: 42.0891666666667
 - Longitude: -76.2663888888889
+- Locality: Owego, NY
+- Locality ID: us/ny/owego
 - Drainage area: 8.59
 - Contributing area: 
 - Altitude: 

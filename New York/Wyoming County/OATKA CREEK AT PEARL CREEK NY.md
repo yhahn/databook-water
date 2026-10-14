@@ -10,6 +10,8 @@
 - HUC: 041300030402
 - Latitude: 42.8483333333333
 - Longitude: -78.06
+- Locality: Wyoming, NY
+- Locality ID: us/ny/wyoming
 - Drainage area: 78.4
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020200010408
 - Latitude: 43.7008611111111
 - Longitude: -73.9831944444445
+- Locality: North Creek, NY
+- Locality ID: us/ny/north-creek
 - Drainage area: 792
 - Contributing area: 
 - Altitude: 987.26

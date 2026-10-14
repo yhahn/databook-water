@@ -10,6 +10,8 @@
 - HUC: 020200030503
 - Latitude: 43.3061111111111
 - Longitude: -73.5483333333333
+- Locality: Hudson Falls, NY
+- Locality ID: us/ny/hudson-falls
 - Drainage area: 14.1
 - Contributing area: 
 - Altitude: 140.3

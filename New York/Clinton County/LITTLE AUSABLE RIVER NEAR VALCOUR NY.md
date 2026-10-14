@@ -10,6 +10,8 @@
 - HUC: 041504081302
 - Latitude: 44.5942777777778
 - Longitude: -73.4963333333333
+- Locality: Peru, NY
+- Locality ID: us/ny/peru
 - Drainage area: 67.8
 - Contributing area: 
 - Altitude: 235.28

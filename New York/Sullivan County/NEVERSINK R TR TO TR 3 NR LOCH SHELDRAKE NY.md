@@ -10,6 +10,8 @@
 - HUC: 020401040305
 - Latitude: 41.8013888888889
 - Longitude: -74.6316666666667
+- Locality: Hurleyville, NY
+- Locality ID: us/ny/hurleyville
 - Drainage area: 1.32
 - Contributing area: 
 - Altitude: 

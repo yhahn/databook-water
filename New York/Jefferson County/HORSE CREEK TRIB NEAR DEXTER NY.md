@@ -10,6 +10,8 @@
 - HUC: 041501020202
 - Latitude: 44.0797222222222
 - Longitude: -76.0575
+- Locality: Chaumont, NY
+- Locality ID: us/ny/chaumont
 - Drainage area: 4.59
 - Contributing area: 
 - Altitude: 

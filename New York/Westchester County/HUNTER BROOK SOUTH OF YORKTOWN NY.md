@@ -10,6 +10,8 @@
 - HUC: 020301010307
 - Latitude: 41.2619444444444
 - Longitude: -73.8427777777778
+- Locality: Yorktown Heights, NY
+- Locality ID: us/ny/yorktown-heights
 - Drainage area: 7.42
 - Contributing area: 
 - Altitude: 

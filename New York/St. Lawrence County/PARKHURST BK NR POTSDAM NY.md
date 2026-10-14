@@ -10,6 +10,8 @@
 - HUC: 041503050603
 - Latitude: 44.6530555555556
 - Longitude: -74.9708333333333
+- Locality: Potsdam, NY
+- Locality ID: us/ny/potsdam
 - Drainage area: 17.2
 - Contributing area: 
 - Altitude: 412.19

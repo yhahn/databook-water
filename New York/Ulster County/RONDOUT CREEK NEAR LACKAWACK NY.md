@@ -10,6 +10,8 @@
 - HUC: 020200070505
 - Latitude: 41.7731666666667
 - Longitude: -74.4
+- Locality: Napanoch, NY
+- Locality ID: us/ny/napanoch
 - Drainage area: 100
 - Contributing area: 
 - Altitude: 601.07

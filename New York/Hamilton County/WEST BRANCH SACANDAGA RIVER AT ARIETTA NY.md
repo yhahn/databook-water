@@ -10,6 +10,8 @@
 - HUC: 020200020203
 - Latitude: 43.2508333333333
 - Longitude: -74.5180555555555
+- Locality: Caroga Lake, NY
+- Locality ID: us/ny/caroga-lake
 - Drainage area: 28
 - Contributing area: 
 - Altitude: 1648.95

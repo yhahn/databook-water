@@ -10,6 +10,8 @@
 - HUC: 020501050104
 - Latitude: 42.5
 - Longitude: -77.5002777777778
+- Locality: Cohocton, NY
+- Locality ID: us/ny/cohocton
 - Drainage area: 52.2
 - Contributing area: 
 - Altitude: 1275.49

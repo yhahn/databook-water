@@ -10,6 +10,8 @@
 - HUC: 020200060902
 - Latitude: 42.072861111111116
 - Longitude: -74.33572222222222
+- Locality: Phoenicia, NY
+- Locality ID: us/ny/phoenicia
 - Drainage area: 3.53
 - Contributing area: 
 - Altitude: 922

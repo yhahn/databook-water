@@ -84,7 +84,7 @@
         "parameter": "00060",
         "day": "2026-10-13",
         "start": "2026-10-13T15:30:00-04:00",
-        "value": "34.6",
+        "value": 34.6,
         "unit": "ft^3/s",
         "approval": "Provisional",
         "codes": null
@@ -94,7 +94,7 @@
         "parameter": "00065",
         "day": "2026-10-13",
         "start": "2026-10-13T15:30:00-04:00",
-        "value": "2.45",
+        "value": 2.45,
         "unit": "ft",
         "approval": "Provisional",
         "codes": null

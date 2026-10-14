@@ -10,6 +10,8 @@
 - HUC: 041504080103
 - Latitude: 43.7336111111111
 - Longitude: -73.3883333333333
+- Locality: Putnam Station, NY
+- Locality ID: us/ny/putnam-station
 - Drainage area: 10.3
 - Contributing area: 
 - Altitude: 120

@@ -10,6 +10,8 @@
 - HUC: 050100020104
 - Latitude: 42.3652777777778
 - Longitude: -79.1711111111111
+- Locality: Forestville, NY
+- Locality ID: us/ny/forestville
 - Drainage area: 6.84
 - Contributing area: 
 - Altitude: 

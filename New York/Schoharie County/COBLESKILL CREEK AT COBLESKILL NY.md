@@ -10,6 +10,8 @@
 - HUC: 020200050605
 - Latitude: 42.68
 - Longitude: -74.4675
+- Locality: Cobleskill, NY
+- Locality ID: us/ny/cobleskill
 - Drainage area: 106
 - Contributing area: 
 - Altitude: 

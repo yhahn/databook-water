@@ -10,6 +10,8 @@
 - HUC: 020200041006
 - Latitude: 42.9504444444445
 - Longitude: -74.371
+- Locality: Fonda, NY
+- Locality ID: us/ny/fonda
 - Drainage area: 2118
 - Contributing area: 
 - Altitude: 257.39

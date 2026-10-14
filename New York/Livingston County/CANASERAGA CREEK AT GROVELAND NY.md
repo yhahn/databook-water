@@ -10,6 +10,8 @@
 - HUC: 041300020908
 - Latitude: 42.6611111111111
 - Longitude: -77.7683333333333
+- Locality: Groveland, NY
+- Locality ID: us/ny/groveland
 - Drainage area: 185
 - Contributing area: 
 - Altitude: 565.42

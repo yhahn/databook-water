@@ -10,6 +10,8 @@
 - HUC: 020501040104
 - Latitude: 42.3305555555556
 - Longitude: -77.6608333333333
+- Locality: Hornell, NY
+- Locality ID: us/ny/hornell
 - Drainage area: 58.5
 - Contributing area: 
 - Altitude: 1150.03

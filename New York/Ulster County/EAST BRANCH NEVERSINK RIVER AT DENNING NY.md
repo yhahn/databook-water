@@ -10,6 +10,8 @@
 - HUC: 020401040302
 - Latitude: 41.9583333333333
 - Longitude: -74.4736111111111
+- Locality: Grahamsville, NY
+- Locality ID: us/ny/grahamsville
 - Drainage area: 13.3
 - Contributing area: 
 - Altitude: 

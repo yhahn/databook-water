@@ -10,6 +10,8 @@
 - HUC: 020200020306
 - Latitude: 43.3888888888889
 - Longitude: -74.2883333333333
+- Locality: Wells, NY
+- Locality ID: us/ny/wells
 - Drainage area: 260
 - Contributing area: 
 - Altitude: 970

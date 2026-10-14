@@ -10,6 +10,8 @@
 - HUC: 041300030402
 - Latitude: 42.7426666666667
 - Longitude: -78.1376111111111
+- Locality: Warsaw, NY
+- Locality ID: us/ny/warsaw
 - Drainage area: 39.5
 - Contributing area: 
 - Altitude: 986.66

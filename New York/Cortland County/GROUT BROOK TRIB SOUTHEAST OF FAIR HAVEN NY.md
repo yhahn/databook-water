@@ -10,6 +10,8 @@
 - HUC: 041402011604
 - Latitude: 42.7577777777778
 - Longitude: -76.2452777777778
+- Locality: Homer, NY
+- Locality ID: us/ny/homer
 - Drainage area: 0.27
 - Contributing area: 
 - Altitude: 1600

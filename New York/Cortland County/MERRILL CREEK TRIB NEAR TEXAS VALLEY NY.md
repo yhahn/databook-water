@@ -10,6 +10,8 @@
 - HUC: 020501020306
 - Latitude: 42.4675
 - Longitude: -75.9883333333333
+- Locality: Marathon, NY
+- Locality ID: us/ny/marathon
 - Drainage area: 5.32
 - Contributing area: 
 - Altitude: 1147.56

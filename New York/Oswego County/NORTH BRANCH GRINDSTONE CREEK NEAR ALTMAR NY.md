@@ -10,6 +10,8 @@
 - HUC: 041401020801
 - Latitude: 43.4919444444444
 - Longitude: -76.0944444444444
+- Locality: Pulaski, NY
+- Locality ID: us/ny/pulaski
 - Drainage area: 10.1
 - Contributing area: 
 - Altitude: 447.95

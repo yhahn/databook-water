@@ -10,6 +10,8 @@
 - HUC: 020200060905
 - Latitude: 41.9727777777778
 - Longitude: -74.2969444444444
+- Locality: West Shokan, NY
+- Locality ID: us/ny/west-shokan
 - Drainage area: 1.67
 - Contributing area: 
 - Altitude: 

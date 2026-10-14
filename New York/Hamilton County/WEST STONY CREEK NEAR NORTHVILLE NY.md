@@ -10,6 +10,8 @@
 - HUC: 020200020405
 - Latitude: 43.2527777777778
 - Longitude: -74.2244444444444
+- Locality: Northville, NY
+- Locality ID: us/ny/northville
 - Drainage area: 88
 - Contributing area: 
 - Altitude: 

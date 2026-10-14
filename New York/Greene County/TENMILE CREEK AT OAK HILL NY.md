@@ -10,6 +10,8 @@
 - HUC: 020200060803
 - Latitude: 42.4072222222222
 - Longitude: -74.1344444444445
+- Locality: East Durham, NY
+- Locality ID: us/ny/east-durham
 - Drainage area: 36.6
 - Contributing area: 
 - Altitude: 588.19

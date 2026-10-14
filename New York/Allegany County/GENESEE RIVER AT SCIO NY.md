@@ -10,6 +10,8 @@
 - HUC: 041300020503
 - Latitude: 42.1638888888889
 - Longitude: -77.9802777777778
+- Locality: Scio, NY
+- Locality ID: us/ny/scio
 - Drainage area: 308
 - Contributing area: 
 - Altitude: 1438.83

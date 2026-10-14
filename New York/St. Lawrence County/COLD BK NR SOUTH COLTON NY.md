@@ -10,6 +10,8 @@
 - HUC: 041503050601
 - Latitude: 44.4930555555556
 - Longitude: -74.8694444444444
+- Locality: South Colton, NY
+- Locality ID: us/ny/south-colton
 - Drainage area: 18.7
 - Contributing area: 
 - Altitude: 

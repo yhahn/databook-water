@@ -1,5 +1,5 @@
 {
-  "about": "Past the hourly limit (1,000 an hour for no key, by X-RateLimit-Limit): USGS answers 429, with a Retry-After of minutes, which A5 does not read. Failed, not denied: there is no key to paste, and a later pass goes on. The body as USGS gave it, 10-13.",
+  "about": "Past the hourly limit (1,000 an hour for no key, by X-RateLimit-Limit): USGS answers 429. A5 now takes a 429 as a wait, not a failure: nothing caught, the cursor kept, the next pass goes on (proper-sources, as of 10-14). The body as USGS gave it, 10-13.",
   "given": {
     "now": "2026-10-13T20:03:00Z",
     "offset": -240,
@@ -18,7 +18,11 @@
     ]
   },
   "catch": {
-    "problem": "failed",
-    "words": "USGS's water data API answered HTTP 429 for /collections/latest-continuous/items; a 429 is its hourly limit, and passes"
+    "rows": [],
+    "cursor": "{\"began\":\"2026-10-13T20:03:00Z\",\"after\":\"2026-10-13T20:03:00Z\",\"page\":null,\"listed\":false,\"todo\":[]}",
+    "whole": false,
+    "replacing": null,
+    "more": false,
+    "after": "2026-10-13T20:04:00Z"
   }
 }

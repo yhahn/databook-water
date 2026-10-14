@@ -10,6 +10,8 @@
 - HUC: 020200040905
 - Latitude: 43.0077777777778
 - Longitude: -74.5647222222222
+- Locality: Saint Johnsville, NY
+- Locality ID: us/ny/saint-johnsville
 - Drainage area: 6.52
 - Contributing area: 
 - Altitude: 638.97

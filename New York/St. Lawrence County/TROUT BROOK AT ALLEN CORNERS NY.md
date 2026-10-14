@@ -10,6 +10,8 @@
 - HUC: 041503050702
 - Latitude: 44.7927777777778
 - Longitude: -75.0333333333333
+- Locality: Norfolk, NY
+- Locality ID: us/ny/norfolk
 - Drainage area: 55.3
 - Contributing area: 
 - Altitude: 238.84

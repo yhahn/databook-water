@@ -10,6 +10,8 @@
 - HUC: 020200030402
 - Latitude: 43.0566666666667
 - Longitude: -74.0155555555556
+- Locality: Galway, NY
+- Locality ID: us/ny/galway
 - Drainage area: 1.33
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020200031002
 - Latitude: 42.9583333333333
 - Longitude: -73.4327777777778
+- Locality: Buskirk, NY
+- Locality ID: us/ny/buskirk
 - Drainage area: 577
 - Contributing area: 
 - Altitude: 587.4

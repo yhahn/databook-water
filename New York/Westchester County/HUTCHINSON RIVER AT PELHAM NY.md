@@ -10,6 +10,8 @@
 - HUC: 020301020201
 - Latitude: 40.9111111111111
 - Longitude: -73.8133333333333
+- Locality: Pelham, NY
+- Locality ID: us/ny/pelham
 - Drainage area: 5.78
 - Contributing area: 
 - Altitude: 12.92

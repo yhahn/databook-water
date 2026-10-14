@@ -10,6 +10,8 @@
 - HUC: 050100010401
 - Latitude: 42.4080277777778
 - Longitude: -78.5258888888889
+- Locality: Machias, NY
+- Locality ID: us/ny/machias
 - Drainage area: 5.12
 - Contributing area: 
 - Altitude: 1671.35

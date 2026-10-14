@@ -10,6 +10,8 @@
 - HUC: 020302010201
 - Latitude: 40.8874166666667
 - Longitude: -73.5631944444444
+- Locality: Mill Neck, NY
+- Locality ID: us/ny/mill-neck
 - Drainage area: 8.58
 - Contributing area: 
 - Altitude: 6.49

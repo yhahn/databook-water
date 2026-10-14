@@ -10,6 +10,8 @@
 - HUC: 020200010304
 - Latitude: 43.8565833333333
 - Longitude: -74.2390555555556
+- Locality: Newcomb, NY
+- Locality ID: us/ny/newcomb
 - Drainage area: 160
 - Contributing area: 
 - Altitude: 1540

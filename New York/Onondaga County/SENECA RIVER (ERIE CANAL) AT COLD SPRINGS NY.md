@@ -10,6 +10,8 @@
 - HUC: 041402011611
 - Latitude: 43.1278055555556
 - Longitude: -76.25675
+- Locality: Baldwinsville, NY
+- Locality ID: us/ny/baldwinsville
 - Drainage area: 3156
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 041201040503
 - Latitude: 43.0591666666667
 - Longitude: -78.6969444444445
+- Locality: East Amherst, NY
+- Locality ID: us/ny/east-amherst
 - Drainage area: 12.9
 - Contributing area: 
 - Altitude: 

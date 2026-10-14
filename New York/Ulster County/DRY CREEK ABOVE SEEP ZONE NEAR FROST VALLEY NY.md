@@ -10,6 +10,8 @@
 - HUC: 020401040301
 - Latitude: 41.9677777777778
 - Longitude: -74.5116666666667
+- Locality: Claryville, NY
+- Locality ID: us/ny/claryville
 - Drainage area: 0.1
 - Contributing area: 
 - Altitude: 

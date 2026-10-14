@@ -10,6 +10,8 @@
 - HUC: 020200060808
 - Latitude: 42.2777777777778
 - Longitude: -73.9577777777778
+- Locality: South Cairo, NY
+- Locality ID: us/ny/south-cairo
 - Drainage area: 270
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 041503070304
 - Latitude: 44.9469444444444
 - Longitude: -74.4805555555556
+- Locality: Fort Covington, NY
+- Locality ID: us/ny/fort-covington
 - Drainage area: 32.4
 - Contributing area: 
 - Altitude: 

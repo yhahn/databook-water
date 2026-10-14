@@ -10,6 +10,8 @@
 - HUC: 041504010205
 - Latitude: 43.4639444444445
 - Longitude: -73.2845
+- Locality: Granville, NY
+- Locality ID: us/ny/granville
 - Drainage area: 167
 - Contributing area: 
 - Altitude: 315.35

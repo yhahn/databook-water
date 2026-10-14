@@ -54,6 +54,15 @@ USGS gives it, Approved (final) or Provisional (may yet be revised), with
 its codes beside it. A page's day table is joined to its page by the file:
 \`join "Water Year" w using (_file)\`.
 
+A site's \`Locality\` is the place it stands in, a city, village or hamlet
+as people name it ('Margaretville, NY'), not New York's civil town; its
+\`Locality ID\` (\`us/ny/margaretville\`) is placescope's, from its maps
+(release ${c.placescope}) at the site's point: ${c.localities} localities,
+blank for ${c.sitesNoLocality} sites on water the maps name none for${c.sitesBeyond ? `, and for ${c.sitesBeyond} beyond the state's maps, not asked` : ''}.
+Join on the id, never the name: \`locality_at(lat, lon, 'id')\` answers the
+same id in proper, so a gauge joins a hotspot, a photo or a sighting by
+place.
+
 | Table | A row is |
 |---|---|
 | \`Site\` | a site |

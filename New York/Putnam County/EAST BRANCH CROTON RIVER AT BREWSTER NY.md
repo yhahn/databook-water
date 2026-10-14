@@ -10,6 +10,8 @@
 - HUC: 020301010204
 - Latitude: 41.3945833333333
 - Longitude: -73.6074722222222
+- Locality: Brewster, NY
+- Locality ID: us/ny/brewster
 - Drainage area: 81.2
 - Contributing area: 
 - Altitude: 315.74

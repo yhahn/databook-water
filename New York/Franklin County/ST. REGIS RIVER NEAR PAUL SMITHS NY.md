@@ -10,6 +10,8 @@
 - HUC: 041503060401
 - Latitude: 44.4336111111111
 - Longitude: -74.3038888888889
+- Locality: Paul Smiths, NY
+- Locality ID: us/ny/paul-smiths
 - Drainage area: 22
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020501011312
 - Latitude: 42.0355555555556
 - Longitude: -75.8022777777778
+- Locality: Conklin, NY
+- Locality ID: us/ny/conklin
 - Drainage area: 2232
 - Contributing area: 
 - Altitude: 840.36

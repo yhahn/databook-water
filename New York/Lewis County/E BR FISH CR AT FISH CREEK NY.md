@@ -10,6 +10,8 @@
 - HUC: 041402020104
 - Latitude: 43.5208333333333
 - Longitude: -75.5455555555556
+- Locality: Constableville, NY
+- Locality ID: us/ny/constableville
 - Drainage area: 74.3
 - Contributing area: 
 - Altitude: 

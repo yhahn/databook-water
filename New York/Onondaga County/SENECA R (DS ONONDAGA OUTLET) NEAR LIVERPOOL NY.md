@@ -10,6 +10,8 @@
 - HUC: 041402011611
 - Latitude: 43.1261111111111
 - Longitude: -76.2519444444444
+- Locality: Liverpool, NY
+- Locality ID: us/ny/liverpool
 - Drainage area: 3446
 - Contributing area: 
 - Altitude: 

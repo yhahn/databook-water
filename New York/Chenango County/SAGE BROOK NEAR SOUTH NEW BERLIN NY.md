@@ -10,6 +10,8 @@
 - HUC: 020501010907
 - Latitude: 42.5311111111111
 - Longitude: -75.4252777777778
+- Locality: South New Berlin, NY
+- Locality ID: us/ny/south-new-berlin
 - Drainage area: 0.61
 - Contributing area: 
 - Altitude: 1430.17

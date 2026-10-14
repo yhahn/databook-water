@@ -10,6 +10,8 @@
 - HUC: 041300010203
 - Latitude: 43.295
 - Longitude: -77.8919444444444
+- Locality: Hilton, NY
+- Locality ID: us/ny/hilton
 - Drainage area: 4.56
 - Contributing area: 
 - Altitude: 

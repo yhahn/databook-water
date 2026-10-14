@@ -10,6 +10,8 @@
 - HUC: 041300020702
 - Latitude: 42.5830555555556
 - Longitude: -78.2377777777778
+- Locality: Bliss, NY
+- Locality ID: us/ny/bliss
 - Drainage area: 21.5
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020301010205
 - Latitude: 41.4719444444444
 - Longitude: -73.6536111111111
+- Locality: Carmel, NY
+- Locality ID: us/ny/carmel
 - Drainage area: 10.3
 - Contributing area: 
 - Altitude: 

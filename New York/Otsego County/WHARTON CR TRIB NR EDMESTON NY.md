@@ -10,6 +10,8 @@
 - HUC: 020501010702
 - Latitude: 42.7097222222222
 - Longitude: -75.2216666666667
+- Locality: Edmeston, NY
+- Locality ID: us/ny/edmeston
 - Drainage area: 1.94
 - Contributing area: 
 - Altitude: 

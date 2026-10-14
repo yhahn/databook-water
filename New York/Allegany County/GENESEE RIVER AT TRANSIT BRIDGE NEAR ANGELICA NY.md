@@ -10,6 +10,8 @@
 - HUC: 041300020602
 - Latitude: 42.2961111111111
 - Longitude: -78.0755555555556
+- Locality: Belfast, NY
+- Locality ID: us/ny/belfast
 - Drainage area: 579
 - Contributing area: 
 - Altitude: 

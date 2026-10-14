@@ -10,6 +10,8 @@
 - HUC: 020200030506
 - Latitude: 43.2917388941163
 - Longitude: -73.6648397890379
+- Locality: Queensbury, NY
+- Locality ID: us/ny/queensbury
 - Drainage area: 
 - Contributing area: 
 - Altitude: 

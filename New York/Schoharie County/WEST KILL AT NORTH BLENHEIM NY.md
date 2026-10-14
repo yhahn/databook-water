@@ -10,6 +10,8 @@
 - HUC: 020200050304
 - Latitude: 42.4686111111111
 - Longitude: -74.4591666666667
+- Locality: North Blenheim, NY
+- Locality ID: us/ny/north-blenheim
 - Drainage area: 44.6
 - Contributing area: 
 - Altitude: 

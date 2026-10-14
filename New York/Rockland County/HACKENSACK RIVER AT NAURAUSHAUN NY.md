@@ -10,6 +10,8 @@
 - HUC: 020301030901
 - Latitude: 41.0544444444444
 - Longitude: -73.9816666666667
+- Locality: Orangeburg, NY
+- Locality ID: us/ny/orangeburg
 - Drainage area: 44.6
 - Contributing area: 
 - Altitude: 

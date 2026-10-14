@@ -10,6 +10,8 @@
 - HUC: 020301030901
 - Latitude: 41.1691666666667
 - Longitude: -73.9791666666667
+- Locality: New City, NY
+- Locality ID: us/ny/new-city
 - Drainage area: 5.46
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 050100010705
 - Latitude: 42.2005555555556
 - Longitude: -78.6891666666667
+- Locality: Great Valley, NY
+- Locality ID: us/ny/great-valley
 - Drainage area: 3.91
 - Contributing area: 
 - Altitude: 

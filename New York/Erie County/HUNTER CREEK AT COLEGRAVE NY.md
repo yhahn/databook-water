@@ -10,6 +10,8 @@
 - HUC: 041201030203
 - Latitude: 42.7363888888889
 - Longitude: -78.5483333333333
+- Locality: South Wales, NY
+- Locality ID: us/ny/south-wales
 - Drainage area: 14
 - Contributing area: 
 - Altitude: 

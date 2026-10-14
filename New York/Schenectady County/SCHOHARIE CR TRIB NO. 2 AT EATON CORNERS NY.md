@@ -10,6 +10,8 @@
 - HUC: 020200050704
 - Latitude: 42.8197222222222
 - Longitude: -74.2463888888889
+- Locality: Delanson, NY
+- Locality ID: us/ny/delanson
 - Drainage area: 1.24
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020200031104
 - Latitude: 42.9125768199445
 - Longitude: -73.6787292124517
+- Locality: Mechanicville, NY
+- Locality ID: us/ny/mechanicville
 - Drainage area: 4500
 - Contributing area: 
 - Altitude: 66.63

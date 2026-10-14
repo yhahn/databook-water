@@ -10,6 +10,8 @@
 - HUC: 041504040203
 - Latitude: 44.3109722222222
 - Longitude: -73.9156944444445
+- Locality: Lake Placid, NY
+- Locality ID: us/ny/lake-placid
 - Drainage area: 116
 - Contributing area: 
 - Altitude: 1620.68

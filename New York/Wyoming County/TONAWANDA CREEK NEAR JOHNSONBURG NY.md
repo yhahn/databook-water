@@ -10,6 +10,8 @@
 - HUC: 041201040102
 - Latitude: 42.7180555555556
 - Longitude: -78.3219444444444
+- Locality: Varysburg, NY
+- Locality ID: us/ny/varysburg
 - Drainage area: 23.7
 - Contributing area: 
 - Altitude: 

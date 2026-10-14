@@ -10,6 +10,8 @@
 - HUC: 041300020910
 - Latitude: 42.682167
 - Longitude: -77.828861
+- Locality: Sonyea, NY
+- Locality ID: us/ny/sonyea
 - Drainage area: 68.3
 - Contributing area: 
 - Altitude: 581.76

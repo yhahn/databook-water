@@ -10,6 +10,8 @@
 - HUC: 020501010302
 - Latitude: 42.6336111111111
 - Longitude: -74.7955555555556
+- Locality: Worcester, NY
+- Locality ID: us/ny/worcester
 - Drainage area: 3.73
 - Contributing area: 
 - Altitude: 

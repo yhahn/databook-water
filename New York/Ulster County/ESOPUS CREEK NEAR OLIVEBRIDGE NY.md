@@ -10,6 +10,8 @@
 - HUC: 020200060905
 - Latitude: 41.9347222222222
 - Longitude: -74.2069444444444
+- Locality: Olivebridge, NY
+- Locality ID: us/ny/olivebridge
 - Drainage area: 239
 - Contributing area: 
 - Altitude: 380

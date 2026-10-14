@@ -10,6 +10,8 @@
 - HUC: 041504081505
 - Latitude: 44.9996111111111
 - Longitude: -73.5020833333333
+- Locality: Champlain, NY
+- Locality ID: us/ny/champlain
 - Drainage area: 243
 - Contributing area: 
 - Altitude: 164.44

@@ -10,6 +10,8 @@
 - HUC: 041201030603
 - Latitude: 42.6571388888889
 - Longitude: -79.0355
+- Locality: Angola, NY
+- Locality ID: us/ny/angola
 - Drainage area: 48.4
 - Contributing area: 
 - Altitude: 591.72

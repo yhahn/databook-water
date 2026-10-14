@@ -10,6 +10,8 @@
 - HUC: 020501020605
 - Latitude: 42.6083333333333
 - Longitude: -75.5375
+- Locality: Norwich, NY
+- Locality ID: us/ny/norwich
 - Drainage area: 5.8
 - Contributing area: 
 - Altitude: 

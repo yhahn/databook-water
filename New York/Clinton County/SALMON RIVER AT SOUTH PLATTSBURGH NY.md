@@ -10,6 +10,8 @@
 - HUC: 041504081402
 - Latitude: 44.6401666666667
 - Longitude: -73.4948888888889
+- Locality: Plattsburgh, NY
+- Locality ID: us/ny/plattsburgh
 - Drainage area: 63.3
 - Contributing area: 
 - Altitude: 220.45

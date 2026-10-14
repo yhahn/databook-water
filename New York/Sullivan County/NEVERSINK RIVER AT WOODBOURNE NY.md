@@ -10,6 +10,8 @@
 - HUC: 020401040305
 - Latitude: 41.7566111111111
 - Longitude: -74.5976111111111
+- Locality: Woodbourne, NY
+- Locality ID: us/ny/woodbourne
 - Drainage area: 113
 - Contributing area: 
 - Altitude: 1180

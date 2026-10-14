@@ -10,6 +10,8 @@
 - HUC: 041201020106
 - Latitude: 42.5369444444444
 - Longitude: -78.4575
+- Locality: Arcade, NY
+- Locality ID: us/ny/arcade
 - Drainage area: 79
 - Contributing area: 
 - Altitude: 1393.2

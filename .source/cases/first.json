@@ -148,7 +148,7 @@
         "parameter": "00060",
         "day": "2026-10-13",
         "start": "2026-10-13T15:30:00-04:00",
-        "value": "34.6",
+        "value": 34.6,
         "unit": "ft^3/s",
         "approval": "Provisional",
         "codes": null
@@ -158,7 +158,7 @@
         "parameter": "00065",
         "day": "2026-10-13",
         "start": "2026-10-13T15:30:00-04:00",
-        "value": "2.45",
+        "value": 2.45,
         "unit": "ft",
         "approval": "Provisional",
         "codes": null
@@ -168,7 +168,7 @@
         "parameter": "00065",
         "day": "2022-05-01",
         "start": "2022-05-01T01:00:00-04:00",
-        "value": "0.00",
+        "value": 0,
         "unit": "ft",
         "approval": "Approved",
         "codes": [
@@ -180,7 +180,7 @@
         "parameter": "00060",
         "day": "2025-12-08",
         "start": "2025-12-08T10:30:00-04:00",
-        "value": "418",
+        "value": 418,
         "unit": "ft^3/s",
         "approval": "Approved",
         "codes": [
@@ -204,7 +204,7 @@
         "parameter": "00060",
         "day": "2025-07-14",
         "start": "2025-07-14T20:00:00-04:00",
-        "value": "346",
+        "value": 346,
         "unit": "ft^3/s",
         "approval": "Provisional",
         "codes": [

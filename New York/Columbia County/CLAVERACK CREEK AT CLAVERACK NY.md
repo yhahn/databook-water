@@ -10,6 +10,8 @@
 - HUC: 020200060503
 - Latitude: 42.21625
 - Longitude: -73.7302777777778
+- Locality: Claverack, NY
+- Locality ID: us/ny/claverack
 - Drainage area: 60.6
 - Contributing area: 
 - Altitude: 139.77

@@ -10,6 +10,8 @@
 - HUC: 041201010303
 - Latitude: 42.3308055555556
 - Longitude: -79.5899166666667
+- Locality: Westfield, NY
+- Locality ID: us/ny/westfield
 - Drainage area: 35
 - Contributing area: 
 - Altitude: 611.62

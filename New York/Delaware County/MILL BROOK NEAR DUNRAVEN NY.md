@@ -10,6 +10,8 @@
 - HUC: 020401020401
 - Latitude: 42.10616666666667
 - Longitude: -74.73052777777778
+- Locality: Margaretville, NY
+- Locality ID: us/ny/margaretville
 - Drainage area: 25.2
 - Contributing area: 25.2
 - Altitude: 1297.18

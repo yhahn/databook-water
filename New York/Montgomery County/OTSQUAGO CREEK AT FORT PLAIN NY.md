@@ -10,6 +10,8 @@
 - HUC: 020200040903
 - Latitude: 42.92925
 - Longitude: -74.6328888888889
+- Locality: Fort Plain, NY
+- Locality ID: us/ny/fort-plain
 - Drainage area: 61
 - Contributing area: 61
 - Altitude: 321.44

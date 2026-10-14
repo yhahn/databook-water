@@ -10,6 +10,8 @@
 - HUC: 020501020703
 - Latitude: 42.4052777777778
 - Longitude: -75.8111111111111
+- Locality: Mc Donough, NY
+- Locality ID: us/ny/mc-donough
 - Drainage area: 7.06
 - Contributing area: 
 - Altitude: 

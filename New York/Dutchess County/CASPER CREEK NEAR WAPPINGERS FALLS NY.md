@@ -10,6 +10,8 @@
 - HUC: 020200080106
 - Latitude: 41.6316666666667
 - Longitude: -73.9272222222222
+- Locality: Poughkeepsie, NY
+- Locality ID: us/ny/poughkeepsie
 - Drainage area: 10.1
 - Contributing area: 
 - Altitude: 

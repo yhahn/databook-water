@@ -22,6 +22,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const os = require('node:os');
+const { localities } = require('./places');
 
 const RAW = process.env.WATER_RAW || path.join(os.homedir(), '.cache/proper/water/raw');
 const REPO = path.join(__dirname, '..', '..');
@@ -44,12 +45,14 @@ const CODES = {
   BLWMIN: 'below the minimum the gauge records',
   DAMFAILURE: 'a dam failed',
   DATUMCHANGE: 'the gauge\'s datum changed this year',
+  DEBRIS: 'affected by debris',
   DAYUNKNOWN: 'day not known',
   DIFFDATUM: 'gage height at another site or datum than now',
   DISCONTINUED: 'the series discontinued',
   EQUIP: 'equipment malfunction',
   ESTIMATED: 'estimated',
   EVENT: 'a peak from an event: snowmelt, a hurricane, an ice jam or a debris dam breaking',
+  FLOOD: 'affected by flood damage to the gauge',
   FORCEINTERPOLATION: 'interpolated across a gap',
   GHNOTASSCPKQ: 'gage height not at the peak discharge',
   GREATERTHAN: 'greater than the value given',
@@ -62,9 +65,11 @@ const CODES = {
   NOTMAXGH: 'not the year\'s highest gage height',
   OPPORTUNISTIC: 'measured by chance, not by the gauge\'s routine',
   OTHERAGENCY: 'given by another agency',
+  RATINGDEV: 'the rating (stage to discharge) being developed or revised',
   REGULATED: 'affected by regulation or diversion',
   REVISED: 'revised after it was first published',
   SEASONAL: 'a seasonal record: the gauge runs part of the year',
+  TEST: 'affected by a test at the gauge',
   UNKNOWNREGULATION: 'affected to an unknown degree by regulation or diversion',
   UNAVAIL: 'the value unavailable',
   URBAN: 'affected by urbanization, mining, farming or channel changes',
@@ -314,6 +319,8 @@ function buildSite(site, series, daily, peaks, field, at) {
     `- HUC: ${site.hydrologic_unit_code || ''}`,
     `- Latitude: ${site.lat ?? ''}`,
     `- Longitude: ${site.lon ?? ''}`,
+    `- Locality: ${site.locality || ''}`,
+    `- Locality ID: ${site.localityId || ''}`,
     `- Drainage area: ${site.drainage_area ?? ''}`,
     `- Contributing area: ${site.contributing_drainage_area ?? ''}`,
     `- Altitude: ${site.altitude ?? ''}`,
@@ -441,6 +448,8 @@ function assemble(input, dailyOf, shape, onSite, partial = false) {
   const names = new Map();
   for (const id of ids) { const l = loc.get(id); const k = `${l.county_name}|${safe(l.monitoring_location_name).toLowerCase()}`; names.set(k, (names.get(k) || 0) + 1); }
   const waiting = { sites: 0, series: 0, peaks: 0, field: 0 };
+  const localitiesWritten = new Set();
+  let noLocality = 0;
   for (const id of ids) {
     const missing = (series.get(id) || []).filter(s => !dailyOf.has(s.id));
     if (missing.length && partial) {
@@ -450,7 +459,10 @@ function assemble(input, dailyOf, shape, onSite, partial = false) {
     }
     const l0 = loc.get(id);
     const k = `${l0.county_name}|${safe(l0.monitoring_location_name).toLowerCase()}`;
-    const l = names.get(k) > 1 ? { ...l0, monitoring_location_name: `${l0.monitoring_location_name} ${l0.monitoring_location_number}` } : l0;
+    const named = names.get(k) > 1 ? { ...l0, monitoring_location_name: `${l0.monitoring_location_name} ${l0.monitoring_location_number}` } : l0;
+    const place = (input.localities || {})[id];
+    const l = place ? { ...named, locality: place.name, localityId: place.id } : named;
+    if (place) localitiesWritten.add(place.id); else noLocality++;
     const ss = series.get(id) || [];
     const daily = {};
     for (const s of ss) {
@@ -484,6 +496,8 @@ function assemble(input, dailyOf, shape, onSite, partial = false) {
   counts.changes = new Set(datum.map(d => d.wy)).size;
   counts.datumSites = datum.length;
   counts.withDaily = sites.filter(s => s.days).length;
+  counts.localities = localitiesWritten.size;
+  counts.sitesNoLocality = noLocality;
   counts.waiting = waiting;
   // The README's example: the longest record among sites still reporting.
   const lastDay = sites.map(s => s.last).filter(Boolean).sort().pop() || '';
@@ -505,6 +519,10 @@ function main() {
   const shape = readJSON(path.join(__dirname, 'shape.json'));
   const input = load();
   checkShape(input, shape);
+  // Each site's locality, from placescope's maps of New York (places.js)
+  const placed = input.locations.filter(l => l.lat != null && l.lon != null);
+  const places = localities(placed.map(l => ({ key: l.id, lat: l.lat, lon: l.lon })), 'us/ny');
+  input.localities = Object.fromEntries([...places.at].filter(([, t]) => t.id));
   // The old pages go: a new release is the importer run again (B1).
   for (const p of [STATE, `${STATE}.md`, 'Changes.md']) fs.rmSync(path.join(REPO, p), { recursive: true, force: true });
   let written = 0, bytes = 0;
@@ -522,7 +540,7 @@ function main() {
   const fetched = { dailyFiles: input.dailyFiles, peaks: input.peaks.length, field: input.field.length, locations: input.locations.length };
   const newest = fs.readdirSync(RAW).map(f => fs.statSync(path.join(RAW, f)).mtimeMs).reduce((a, b) => Math.max(a, b), 0);
   const fetchedOn = new Date(newest).toISOString().slice(0, 10);
-  const out = { ...counts, pages: written, bytes, left, fetched, fetchedOn };
+  const out = { ...counts, pages: written, bytes, left, fetched, fetchedOn, placescope: places.release, sitesBeyond: places.beyond.length };
   fs.writeFileSync(path.join(__dirname, 'counts.json'), JSON.stringify(out, null, 1) + '\n');
   console.log(JSON.stringify(out), `${((Date.now() - t0) / 1000).toFixed(1)}s`);
 }

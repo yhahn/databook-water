@@ -10,6 +10,8 @@
 - HUC: 020401020201
 - Latitude: 42.0343333333333
 - Longitude: -74.7319444444445
+- Locality: Livingston Manor, NY
+- Locality ID: us/ny/livingston-manor
 - Drainage area: 40.8
 - Contributing area: 
 - Altitude: 1751.9

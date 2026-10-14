@@ -10,6 +10,8 @@
 - HUC: 050100010407
 - Latitude: 42.12
 - Longitude: -78.4197222222222
+- Locality: Olean, NY
+- Locality ID: us/ny/olean
 - Drainage area: 198
 - Contributing area: 
 - Altitude: 1418.7

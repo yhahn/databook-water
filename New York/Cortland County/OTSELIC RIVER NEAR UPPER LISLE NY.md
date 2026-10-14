@@ -10,6 +10,8 @@
 - HUC: 020501020307
 - Latitude: 42.4216666666667
 - Longitude: -75.9494444444445
+- Locality: Whitney Point, NY
+- Locality ID: us/ny/whitney-point
 - Drainage area: 217
 - Contributing area: 
 - Altitude: 985.75

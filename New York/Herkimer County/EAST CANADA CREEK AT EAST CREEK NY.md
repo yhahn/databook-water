@@ -10,6 +10,8 @@
 - HUC: 020200040808
 - Latitude: 43.01669444444445
 - Longitude: -74.74083333333333
+- Locality: Little Falls, NY
+- Locality ID: us/ny/little-falls
 - Drainage area: 289
 - Contributing area: 
 - Altitude: 335.16

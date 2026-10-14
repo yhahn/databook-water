@@ -21,7 +21,7 @@
     "parameter": "properties.parameter_code",
     "day": { "local": "date", "of": [{ "value": "properties.time", "offset": "device" }] },
     "start": { "local": "moment", "of": [{ "value": "properties.time", "offset": "device" }] },
-    "value": "properties.value",
+    "value": { "number": "properties.value" },
     "unit": "properties.unit_of_measure",
     "approval": "properties.approval_status",
     "codes": "properties.qualifier"

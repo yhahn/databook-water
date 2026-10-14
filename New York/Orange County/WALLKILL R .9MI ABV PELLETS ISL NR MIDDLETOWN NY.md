@@ -10,6 +10,8 @@
 - HUC: 020200070207
 - Latitude: 41.3695385154526
 - Longitude: -74.4190448537142
+- Locality: New Hampton, NY
+- Locality ID: us/ny/new-hampton
 - Drainage area: 373
 - Contributing area: 
 - Altitude: 358

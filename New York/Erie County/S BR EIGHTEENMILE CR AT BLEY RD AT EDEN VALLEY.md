@@ -10,6 +10,8 @@
 - HUC: 041201030504
 - Latitude: 42.6802777777778
 - Longitude: -78.8786944444444
+- Locality: Eden, NY
+- Locality ID: us/ny/eden
 - Drainage area: 36.6
 - Contributing area: 
 - Altitude: 734.14

@@ -10,6 +10,8 @@
 - HUC: 020501020807
 - Latitude: 42.2877777777778
 - Longitude: -75.7230555555556
+- Locality: Chenango Forks, NY
+- Locality ID: us/ny/chenango-forks
 - Drainage area: 2.07
 - Contributing area: 
 - Altitude: 

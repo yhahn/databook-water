@@ -10,6 +10,8 @@
 - HUC: 041402030102
 - Latitude: 43.2111666666667
 - Longitude: -76.2871111111111
+- Locality: Phoenix, NY
+- Locality ID: us/ny/phoenix
 - Drainage area: 4953
 - Contributing area: 
 - Altitude: 359.41

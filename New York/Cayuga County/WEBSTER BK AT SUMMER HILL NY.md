@@ -10,6 +10,8 @@
 - HUC: 041402011001
 - Latitude: 42.6425
 - Longitude: -76.3419444444444
+- Locality: Locke, NY
+- Locality ID: us/ny/locke
 - Drainage area: 2.59
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020301010404
 - Latitude: 41.0152777777778
 - Longitude: -73.9377777777778
+- Locality: Palisades, NY
+- Locality ID: us/ny/palisades
 - Drainage area: 9.42
 - Contributing area: 
 - Altitude: 

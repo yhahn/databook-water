@@ -10,6 +10,8 @@
 - HUC: 020200060904
 - Latitude: 42.0144722222222
 - Longitude: -74.2701944444444
+- Locality: Boiceville, NY
+- Locality ID: us/ny/boiceville
 - Drainage area: 192
 - Contributing area: 
 - Altitude: 621.17

@@ -10,6 +10,8 @@
 - HUC: 041504081601
 - Latitude: 44.4247222222222
 - Longitude: -73.4258333333333
+- Locality: Keeseville, NY
+- Locality ID: us/ny/keeseville
 - Drainage area: 10.9
 - Contributing area: 
 - Altitude: 280

@@ -10,6 +10,8 @@
 - HUC: 020501030101
 - Latitude: 42.2777777777778
 - Longitude: -76.0472222222222
+- Locality: Maine, NY
+- Locality ID: us/ny/maine
 - Drainage area: 1.7
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020401010105
 - Latitude: 42.2523888888889
 - Longitude: -74.9010555555556
+- Locality: Delhi, NY
+- Locality ID: us/ny/delhi
 - Drainage area: 49.8
 - Contributing area: 
 - Altitude: 1384.77

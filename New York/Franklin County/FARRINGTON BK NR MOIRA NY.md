@@ -10,6 +10,8 @@
 - HUC: 041503070204
 - Latitude: 44.8355555555556
 - Longitude: -74.5533333333333
+- Locality: Moira, NY
+- Locality ID: us/ny/moira
 - Drainage area: 17.7
 - Contributing area: 
 - Altitude: 

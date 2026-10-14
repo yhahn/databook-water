@@ -10,6 +10,8 @@
 - HUC: 020301030901
 - Latitude: 41.0588888888889
 - Longitude: -73.9925
+- Locality: Pearl River, NY
+- Locality ID: us/ny/pearl-river
 - Drainage area: 5.97
 - Contributing area: 
 - Altitude: 

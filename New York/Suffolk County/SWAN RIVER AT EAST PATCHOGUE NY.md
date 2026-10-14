@@ -10,6 +10,8 @@
 - HUC: 020302020304
 - Latitude: 40.76725
 - Longitude: -72.9938333333333
+- Locality: Patchogue, NY
+- Locality ID: us/ny/patchogue
 - Drainage area: 8.07
 - Contributing area: 
 - Altitude: 2.84

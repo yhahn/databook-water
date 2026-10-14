@@ -10,6 +10,8 @@
 - HUC: 020200040908
 - Latitude: 42.8762777777778
 - Longitude: -74.6028611111111
+- Locality: Canajoharie, NY
+- Locality ID: us/ny/canajoharie
 - Drainage area: 59.7
 - Contributing area: 
 - Altitude: 635.23

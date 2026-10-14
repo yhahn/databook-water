@@ -10,6 +10,8 @@
 - HUC: 041201040405
 - Latitude: 42.9779444444444
 - Longitude: -78.7636944444444
+- Locality: Buffalo, NY
+- Locality ID: us/ny/buffalo
 - Drainage area: 79.7
 - Contributing area: 
 - Altitude: 585.95

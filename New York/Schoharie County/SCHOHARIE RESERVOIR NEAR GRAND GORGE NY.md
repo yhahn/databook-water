@@ -10,6 +10,8 @@
 - HUC: 020200050205
 - Latitude: 42.3557222222222
 - Longitude: -74.4442777777778
+- Locality: Gilboa, NY
+- Locality ID: us/ny/gilboa
 - Drainage area: 315
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020200060205
 - Latitude: 42.6786111111111
 - Longitude: -73.9063888888889
+- Locality: Slingerlands, NY
+- Locality ID: us/ny/slingerlands
 - Drainage area: 136
 - Contributing area: 
 - Altitude: 130

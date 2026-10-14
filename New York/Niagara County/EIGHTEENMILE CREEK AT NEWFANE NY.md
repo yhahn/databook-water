@@ -10,6 +10,8 @@
 - HUC: 041300010704
 - Latitude: 43.2525555555556
 - Longitude: -78.6978611111111
+- Locality: Newfane, NY
+- Locality ID: us/ny/newfane
 - Drainage area: 71
 - Contributing area: 
 - Altitude: 332.33

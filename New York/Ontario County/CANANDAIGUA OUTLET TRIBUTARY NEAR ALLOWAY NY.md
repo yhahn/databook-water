@@ -10,6 +10,8 @@
 - HUC: 041402010404
 - Latitude: 43.0058333333333
 - Longitude: -77.0147222222222
+- Locality: Phelps, NY
+- Locality ID: us/ny/phelps
 - Drainage area: 2.94
 - Contributing area: 
 - Altitude: 492.88

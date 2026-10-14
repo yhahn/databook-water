@@ -10,6 +10,8 @@
 - HUC: 020200030406
 - Latitude: 43.0383333333333
 - Longitude: -73.9091666666667
+- Locality: Ballston Spa, NY
+- Locality ID: us/ny/ballston-spa
 - Drainage area: 84.2
 - Contributing area: 
 - Altitude: 376.06

@@ -10,6 +10,8 @@
 - HUC: 020301020103
 - Latitude: 40.9358333333333
 - Longitude: -73.8355555555555
+- Locality: Bronxville, NY
+- Locality ID: us/ny/bronxville
 - Drainage area: 43.9
 - Contributing area: 28.2
 - Altitude: 73.74

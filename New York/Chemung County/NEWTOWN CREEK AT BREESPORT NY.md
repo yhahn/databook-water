@@ -10,6 +10,8 @@
 - HUC: 020501050502
 - Latitude: 42.1722222222222
 - Longitude: -76.7333333333333
+- Locality: Breesport, NY
+- Locality ID: us/ny/breesport
 - Drainage area: 20.6
 - Contributing area: 
 - Altitude: 1090.95

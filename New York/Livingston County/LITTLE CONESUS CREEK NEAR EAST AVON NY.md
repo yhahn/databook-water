@@ -10,6 +10,8 @@
 - HUC: 041300030103
 - Latitude: 42.8927777777778
 - Longitude: -77.6844444444445
+- Locality: Avon, NY
+- Locality ID: us/ny/avon
 - Drainage area: 8.02
 - Contributing area: 
 - Altitude: 

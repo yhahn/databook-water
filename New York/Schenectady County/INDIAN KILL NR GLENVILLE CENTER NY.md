@@ -10,6 +10,8 @@
 - HUC: 020200041107
 - Latitude: 42.8944444444444
 - Longitude: -73.9569444444444
+- Locality: Schenectady, NY
+- Locality ID: us/ny/schenectady
 - Drainage area: 2.5
 - Contributing area: 
 - Altitude: 

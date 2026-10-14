@@ -10,6 +10,8 @@
 - HUC: 041201040105
 - Latitude: 42.9425
 - Longitude: -78.1625
+- Locality: Batavia, NY
+- Locality ID: us/ny/batavia
 - Drainage area: 0.96
 - Contributing area: 
 - Altitude: 

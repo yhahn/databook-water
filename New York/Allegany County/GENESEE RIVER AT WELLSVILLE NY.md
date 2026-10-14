@@ -10,6 +10,8 @@
 - HUC: 041300020503
 - Latitude: 42.122277777777775
 - Longitude: -77.95727777777778
+- Locality: Wellsville, NY
+- Locality ID: us/ny/wellsville
 - Drainage area: 288
 - Contributing area: 288
 - Altitude: 1469.51

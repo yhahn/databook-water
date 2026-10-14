@@ -10,6 +10,8 @@
 - HUC: 043001080707
 - Latitude: 44.358472222222225
 - Longitude: -73.39455555555556
+- Locality: Willsboro, NY
+- Locality ID: us/ny/willsboro
 - Drainage area: 270
 - Contributing area: 
 - Altitude: 149.93

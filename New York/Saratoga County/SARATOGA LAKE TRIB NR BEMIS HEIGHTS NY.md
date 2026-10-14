@@ -10,6 +10,8 @@
 - HUC: 020200030407
 - Latitude: 42.9952777777778
 - Longitude: -73.7177777777778
+- Locality: Stillwater, NY
+- Locality ID: us/ny/stillwater
 - Drainage area: 2.79
 - Contributing area: 
 - Altitude: 

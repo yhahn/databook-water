@@ -10,6 +10,8 @@
 - HUC: 041300020601
 - Latitude: 42.2675
 - Longitude: -78.2269444444444
+- Locality: Black Creek, NY
+- Locality ID: us/ny/black-creek
 - Drainage area: 10.7
 - Contributing area: 
 - Altitude: 

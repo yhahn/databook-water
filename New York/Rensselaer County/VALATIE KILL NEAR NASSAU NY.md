@@ -10,6 +10,8 @@
 - HUC: 020200060608
 - Latitude: 42.5523611111111
 - Longitude: -73.5905833333333
+- Locality: Nassau, NY
+- Locality ID: us/ny/nassau
 - Drainage area: 9.48
 - Contributing area: 
 - Altitude: 429.88

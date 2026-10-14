@@ -10,6 +10,8 @@
 - HUC: 020501010604
 - Latitude: 42.6186111111111
 - Longitude: -74.9925
+- Locality: Milford, NY
+- Locality ID: us/ny/milford
 - Drainage area: 3.52
 - Contributing area: 
 - Altitude: 

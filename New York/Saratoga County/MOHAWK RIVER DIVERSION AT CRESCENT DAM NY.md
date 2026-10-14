@@ -10,6 +10,8 @@
 - HUC: 020200041110
 - Latitude: 42.8028554360026
 - Longitude: -73.7026186486254
+- Locality: Waterford, NY
+- Locality ID: us/ny/waterford
 - Drainage area: 
 - Contributing area: 
 - Altitude: 

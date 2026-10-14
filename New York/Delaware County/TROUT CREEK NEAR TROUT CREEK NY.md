@@ -10,6 +10,8 @@
 - HUC: 020401010206
 - Latitude: 42.1735833333333
 - Longitude: -75.2794444444444
+- Locality: Sidney Center, NY
+- Locality ID: us/ny/sidney-center
 - Drainage area: 20.2
 - Contributing area: 
 - Altitude: 1158.87

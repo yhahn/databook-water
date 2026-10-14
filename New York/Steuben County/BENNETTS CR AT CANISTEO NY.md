@@ -10,6 +10,8 @@
 - HUC: 020501040205
 - Latitude: 42.2655555555556
 - Longitude: -77.5938888888889
+- Locality: Canisteo, NY
+- Locality ID: us/ny/canisteo
 - Drainage area: 95.3
 - Contributing area: 
 - Altitude: 1121.61

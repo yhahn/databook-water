@@ -10,6 +10,8 @@
 - HUC: 041402020404
 - Latitude: 43.0975555555556
 - Longitude: -75.6394166666667
+- Locality: Oneida, NY
+- Locality ID: us/ny/oneida
 - Drainage area: 113
 - Contributing area: 113
 - Altitude: 408.71

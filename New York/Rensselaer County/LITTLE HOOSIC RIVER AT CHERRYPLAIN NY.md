@@ -10,6 +10,8 @@
 - HUC: 020200030801
 - Latitude: 42.6325
 - Longitude: -73.3558333333333
+- Locality: Berlin, NY
+- Locality ID: us/ny/berlin
 - Drainage area: 2.22
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020501040910
 - Latitude: 42.1166666666667
 - Longitude: -77.1222222222222
+- Locality: Painted Post, NY
+- Locality ID: us/ny/painted-post
 - Drainage area: 5.06
 - Contributing area: 
 - Altitude: 

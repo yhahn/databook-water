@@ -10,6 +10,8 @@
 - HUC: 020200040311
 - Latitude: 43.09413888888889
 - Longitude: -75.15780555555556
+- Locality: Utica, NY
+- Locality ID: us/ny/utica
 - Drainage area: 553
 - Contributing area: 
 - Altitude: 386.02

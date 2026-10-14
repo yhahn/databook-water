@@ -10,6 +10,8 @@
 - HUC: 041504080201
 - Latitude: 43.4316666666667
 - Longitude: -73.7066666666667
+- Locality: Lake George, NY
+- Locality ID: us/ny/lake-george
 - Drainage area: 7.84
 - Contributing area: 
 - Altitude: 

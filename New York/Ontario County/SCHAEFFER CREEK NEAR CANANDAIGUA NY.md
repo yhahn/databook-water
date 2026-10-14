@@ -10,6 +10,8 @@
 - HUC: 041402010101
 - Latitude: 42.9069444444444
 - Longitude: -77.3702777777778
+- Locality: Canandaigua, NY
+- Locality ID: us/ny/canandaigua
 - Drainage area: 7.84
 - Contributing area: 
 - Altitude: 793.74

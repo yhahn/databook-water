@@ -2,7 +2,7 @@
 
 - County code: 037
 - State: New York
-- Sites: 9
+- Sites: 10
 
 The USGS sites of Genesee County, New York, with daily means or annual peaks, a page each.
 
@@ -11,6 +11,7 @@ The USGS sites of Genesee County, New York, with daily means or annual peaks, a 
 | Site | Site ID | Number | Type | Drainage area | Daily from | Daily to | Days | Peaks | Field measurements |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [LITTLE TONAWANDA CR TRIB NR BATAVIA NY](./Genesee%20County/LITTLE%20TONAWANDA%20CR%20TRIB%20NR%20BATAVIA%20NY.md) | USGS-04216875 | 04216875 | Stream | 0.96 |  |  | 0 | 11 | 14 |
+| [LITTLE TONAWANDA CREEK AT LINDEN NY](./Genesee%20County/LITTLE%20TONAWANDA%20CREEK%20AT%20LINDEN%20NY.md) | USGS-04216500 | 04216500 | Stream | 22.1 | 1912-08-01 | 1992-09-30 | 25872 | 89 | 1203 |
 | [MUD CREEK NEAR LE ROY NY](./Genesee%20County/MUD%20CREEK%20NEAR%20LE%20ROY%20NY.md) | USGS-04230470 | 04230470 | Stream | 10.2 |  |  | 0 | 2 | 48 |
 | [MURDER CREEK AT PEMBROKE NY](./Genesee%20County/MURDER%20CREEK%20AT%20PEMBROKE%20NY.md) | USGS-04217700 | 04217700 | Stream | 42.5 |  |  | 0 | 25 | 40 |
 | [OAK ORCHARD CR AT BARRVILLE RD NR ELBA NY](./Genesee%20County/OAK%20ORCHARD%20CR%20AT%20BARRVILLE%20RD%20NR%20ELBA%20NY.md) | USGS-04219922 | 04219922 | Stream | 6.04 |  |  | 0 | 11 | 6 |

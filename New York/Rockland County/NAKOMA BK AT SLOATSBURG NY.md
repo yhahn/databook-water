@@ -10,6 +10,8 @@
 - HUC: 020301030204
 - Latitude: 41.1541666666667
 - Longitude: -74.1934444444445
+- Locality: Sloatsburg, NY
+- Locality ID: us/ny/sloatsburg
 - Drainage area: 5.4
 - Contributing area: 
 - Altitude: 

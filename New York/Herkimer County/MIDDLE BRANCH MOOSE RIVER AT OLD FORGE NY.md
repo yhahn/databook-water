@@ -10,6 +10,8 @@
 - HUC: 041501010503
 - Latitude: 43.7125
 - Longitude: -74.9705555555556
+- Locality: Old Forge, NY
+- Locality ID: us/ny/old-forge
 - Drainage area: 55
 - Contributing area: 
 - Altitude: 1690.63

@@ -10,6 +10,8 @@
 - HUC: 020200040703
 - Latitude: 43.0269444444444
 - Longitude: -75.1043055555556
+- Locality: Frankfort, NY
+- Locality ID: us/ny/frankfort
 - Drainage area: 18.2
 - Contributing area: 
 - Altitude: 592

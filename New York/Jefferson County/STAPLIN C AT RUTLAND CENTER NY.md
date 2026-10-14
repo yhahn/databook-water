@@ -10,6 +10,8 @@
 - HUC: 041401020302
 - Latitude: 43.9586111111111
 - Longitude: -75.8063888888889
+- Locality: Black River, NY
+- Locality ID: us/ny/black-river
 - Drainage area: 1.84
 - Contributing area: 
 - Altitude: 

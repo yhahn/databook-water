@@ -10,6 +10,8 @@
 - HUC: 020200040808
 - Latitude: 43.1013888888889
 - Longitude: -74.7697222222222
+- Locality: Dolgeville, NY
+- Locality ID: us/ny/dolgeville
 - Drainage area: 258
 - Contributing area: 
 - Altitude: 750

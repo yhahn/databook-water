@@ -10,6 +10,8 @@
 - HUC: 041401010602
 - Latitude: 43.2251388888889
 - Longitude: -77.2832777777778
+- Locality: Ontario, NY
+- Locality ID: us/ny/ontario
 - Drainage area: 6.74
 - Contributing area: 
 - Altitude: 400.92

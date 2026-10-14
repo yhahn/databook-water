@@ -10,6 +10,8 @@
 - HUC: 041503080104
 - Latitude: 44.9097222222222
 - Longitude: -74.0858333333333
+- Locality: Chateaugay, NY
+- Locality ID: us/ny/chateaugay
 - Drainage area: 112
 - Contributing area: 
 - Altitude: 847.04

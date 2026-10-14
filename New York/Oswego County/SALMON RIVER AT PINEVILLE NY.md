@@ -10,6 +10,8 @@
 - HUC: 041401020704
 - Latitude: 43.5311944444444
 - Longitude: -76.0376944444444
+- Locality: Altmar, NY
+- Locality ID: us/ny/altmar
 - Drainage area: 238
 - Contributing area: 
 - Altitude: 475.35

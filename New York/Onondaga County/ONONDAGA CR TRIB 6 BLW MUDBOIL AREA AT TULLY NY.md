@@ -10,6 +10,8 @@
 - HUC: 041402011504
 - Latitude: 42.855
 - Longitude: -76.1397222222222
+- Locality: Tully, NY
+- Locality ID: us/ny/tully
 - Drainage area: 0.32
 - Contributing area: 
 - Altitude: 

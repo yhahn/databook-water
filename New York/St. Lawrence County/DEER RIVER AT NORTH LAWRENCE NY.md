@@ -10,6 +10,8 @@
 - HUC: 041503060303
 - Latitude: 44.7991666666667
 - Longitude: -74.6730555555556
+- Locality: North Lawrence, NY
+- Locality ID: us/ny/north-lawrence
 - Drainage area: 78
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020302020406
 - Latitude: 40.6916666666667
 - Longitude: -73.355
+- Locality: Lindenhurst, NY
+- Locality ID: us/ny/lindenhurst
 - Drainage area: 3.89
 - Contributing area: 
 - Altitude: 9.71

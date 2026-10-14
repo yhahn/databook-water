@@ -10,6 +10,8 @@
 - HUC: 041503050101
 - Latitude: 43.7660472222222
 - Longitude: -74.6283694444444
+- Locality: Raquette Lake, NY
+- Locality ID: us/ny/raquette-lake
 - Drainage area: 19.2
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 041402020705
 - Latitude: 43.1294444444444
 - Longitude: -75.9469444444445
+- Locality: Kirkville, NY
+- Locality ID: us/ny/kirkville
 - Drainage area: 1.53
 - Contributing area: 
 - Altitude: 

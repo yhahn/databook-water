@@ -10,6 +10,8 @@
 - HUC: 020200041105
 - Latitude: 42.8888888888889
 - Longitude: -74.0777777777778
+- Locality: Pattersonville, NY
+- Locality ID: us/ny/pattersonville
 - Drainage area: 9.25
 - Contributing area: 
 - Altitude: 

@@ -10,6 +10,8 @@
 - HUC: 020302020402
 - Latitude: 40.7269444444444
 - Longitude: -73.2441666666667
+- Locality: Bay Shore, NY
+- Locality ID: us/ny/bay-shore
 - Drainage area: 5.25
 - Contributing area: 
 - Altitude: 6.64

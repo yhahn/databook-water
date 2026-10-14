@@ -10,6 +10,8 @@
 - HUC: 020302020401
 - Latitude: 40.7925
 - Longitude: -73.16555555555556
+- Locality: Ronkonkoma, NY
+- Locality ID: us/ny/ronkonkoma
 - Drainage area: 16.3
 - Contributing area: 
 - Altitude: 29.93
