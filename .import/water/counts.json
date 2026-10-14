@@ -1,48 +1,48 @@
 {
- "dailyRead": 1061459,
- "peaksQ": 6020,
- "peaksGH": 6450,
- "sites": 310,
- "days": 1061459,
- "discharge": 1061459,
+ "dailyRead": 3368285,
+ "peaksQ": 12586,
+ "peaksGH": 13356,
+ "sites": 511,
+ "days": 3368285,
+ "discharge": 3368285,
  "gageHeight": 0,
  "other": 0,
  "otherSeries": 0,
- "peaks": 12470,
- "peakRows": 6827,
- "field": 66929,
- "years": 3011,
- "series": 106,
- "counties": 57,
- "changes": 19,
- "datumSites": 24,
- "withDaily": 104,
+ "peaks": 25942,
+ "peakRows": 14270,
+ "field": 195201,
+ "years": 9557,
+ "series": 307,
+ "counties": 58,
+ "changes": 54,
+ "datumSites": 78,
+ "withDaily": 300,
  "waiting": {
-  "sites": 602,
-  "series": 616,
-  "peaks": 41463,
-  "field": 389206
+  "sites": 401,
+  "series": 415,
+  "peaks": 27991,
+  "field": 260934
  },
  "example": {
-  "id": "USGS-01426500",
-  "name": "WEST BRANCH DELAWARE RIVER AT HALE EDDY NY",
-  "days": 41589,
-  "first": "1912-11-15",
-  "county": "Delaware County"
+  "id": "USGS-01531000",
+  "name": "CHEMUNG RIVER AT CHEMUNG NY",
+  "days": 44621,
+  "first": "1903-09-07",
+  "county": "Chemung County"
  },
  "seriesAll": 722,
  "firstDay": "1887-10-01",
- "pages": 3380,
- "bytes": 63643601,
+ "pages": 10128,
+ "bytes": 198672133,
  "left": {
   "peaksNoSite": 27,
   "fieldNotInBook": 27640
  },
  "fetched": {
-  "dailyFiles": 109,
+  "dailyFiles": 315,
   "peaks": 53960,
   "field": 483775,
   "locations": 14369
  },
- "fetchedOn": "2026-10-13"
+ "fetchedOn": "2026-10-14"
 }

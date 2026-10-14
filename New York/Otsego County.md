@@ -2,7 +2,7 @@
 
 - County code: 077
 - State: New York
-- Sites: 9
+- Sites: 10
 
 The USGS sites of Otsego County, New York, with daily means or annual peaks, a page each.
 
@@ -10,6 +10,7 @@ The USGS sites of Otsego County, New York, with daily means or annual peaks, a p
 
 | Site | Site ID | Number | Type | Drainage area | Daily from | Daily to | Days | Peaks | Field measurements |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CHERRY VALLEY CREEK AT WESTVILLE NY](./Otsego%20County/CHERRY%20VALLEY%20CREEK%20AT%20WESTVILLE%20NY.md) | USGS-01497000 | 01497000 | Stream | 81.4 | 1930-01-05 | 1941-07-07 | 1665 | 6 | 0 |
 | [HERKIMER CR AT SCHUYLER LAKE NY](./Otsego%20County/HERKIMER%20CR%20AT%20SCHUYLER%20LAKE%20NY.md) | USGS-01496448 | 01496448 | Stream | 12 |  |  | 0 | 2 | 133 |
 | [HYDER CR NR RICHFIELD SPRINGS NY](./Otsego%20County/HYDER%20CR%20NR%20RICHFIELD%20SPRINGS%20NY.md) | USGS-01496390 | 01496390 | Stream | 9.52 |  |  | 0 | 3 | 119 |
 | [LITTLE ELK CREEK NEAR WESTFORD NY](./Otsego%20County/LITTLE%20ELK%20CREEK%20NEAR%20WESTFORD%20NY.md) | USGS-01497805 | 01497805 | Stream | 3.73 |  |  | 0 | 36 | 22 |

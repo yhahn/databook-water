@@ -1,20 +1,20 @@
 # New York's streams
 
 Every stream gauge USGS keeps in New York that has daily means of its
-discharge or gage height, or annual peaks: 310 sites in 57
-counties, 104 of them with daily means (1,061,459 days, the
-first 1887-10-01), 6,827 annual peaks (the floods), and
-66,929 field measurements (the visits that check a gauge). Today's
+discharge or gage height, or annual peaks: 511 sites in 58
+counties, 300 of them with daily means (3,368,285 days, the
+first 1887-10-01), 14,270 annual peaks (the floods), and
+195,201 field measurements (the visits that check a gauge). Today's
 readings come from the same API as a live source (below), so a river's
 flow now can be laid beside every day it has flowed before.
 
-**Not yet whole.** 602 more sites (616 daily series)
+**Not yet whole.** 401 more sites (415 daily series)
 wait on USGS's limit of 1,000 asks an hour for a program with no key;
 their pages come with the next run of the importer, once fetched. The
 counts here are of what is written.
 
 Written by its importer (`.import/`, `sh .import/build.sh`) from USGS's
-Water Data API as it stood on 2026-10-13; nothing here is edited by hand.
+Water Data API as it stood on 2026-10-14; nothing here is edited by hand.
 A databook (~/Projects/databooks): printable as a book, queryable as tables.
 
 ## How it is laid out
@@ -56,7 +56,7 @@ The sites of a county, the largest first:
 
 ```sql
 select name, "Site ID", "Drainage area", "Daily from", "Daily to"
-from Site where County = 'Delaware County'
+from Site where County = 'Chemung County'
 order by "Drainage area" desc nulls last
 ```
 
@@ -69,12 +69,12 @@ where p.Discharge is not null
 order by p.Discharge desc limit 10
 ```
 
-WEST BRANCH DELAWARE RIVER AT HALE EDDY NY (the longest record still reporting, since 1912-11-15) on this day, every year it was gauged:
+CHEMUNG RIVER AT CHEMUNG NY (the longest record still reporting, since 1903-09-07) on this day, every year it was gauged:
 
 ```sql
 select d.Day, d.Discharge, d."Discharge approval", d."Discharge codes"
 from Water_Year_Days d join "Water Year" w using (_file)
-where w."Site ID" = 'USGS-01426500'
+where w."Site ID" = 'USGS-01531000'
   and month(d.Day) = month(today()) and day(d.Day) = day(today())
 order by d.Day desc
 ```
@@ -160,17 +160,20 @@ their names and USGS's older code tables.
 | OTHERAGENCY | given by another agency |
 | REGULATED | affected by regulation or diversion |
 | REVISED | revised after it was first published |
+| SEASONAL | a seasonal record: the gauge runs part of the year |
+| UNAVAIL | the value unavailable |
 | UNKNOWNREGULATION | affected to an unknown degree by regulation or diversion |
 | URBAN | affected by urbanization, mining, farming or channel changes |
 | YEARUNKNOWN | year not known |
+| ZEROFLOW | no flow |
 
 ## Changes
 
 A change USGS marks in what a number means is a record in `Changes.md`
-(19 records, 24 datum changes in all): the gauge's
+(54 records, 78 datum changes in all): the gauge's
 datum moved in a year, so gage heights before and after are not alike.
 Nothing is split or adjusted; the peak is marked, as USGS marks it.
-The years: 1925 (1 site); 1939 (2 sites); 1940 (1 site); 1943 (1 site); 1954 (1 site); 1955 (1 site); 1956 (1 site); 1959 (1 site); 1963 (2 sites); 1964 (3 sites); 1977 (1 site); 1979 (1 site); 1980 (1 site); 1981 (1 site); 1994 (1 site); 1996 (1 site); 1997 (2 sites); 2004 (1 site); 2005 (1 site).
+The years: 1911 (1 site); 1921 (1 site); 1925 (1 site); 1933 (1 site); 1937 (1 site); 1938 (1 site); 1939 (3 sites); 1940 (3 sites); 1941 (1 site); 1942 (1 site); 1943 (1 site); 1944 (1 site); 1947 (1 site); 1953 (1 site); 1954 (1 site); 1955 (2 sites); 1956 (2 sites); 1958 (1 site); 1959 (1 site); 1963 (3 sites); 1964 (3 sites); 1965 (1 site); 1967 (1 site); 1970 (1 site); 1971 (1 site); 1972 (3 sites); 1973 (1 site); 1974 (5 sites); 1975 (2 sites); 1977 (2 sites); 1979 (1 site); 1980 (1 site); 1981 (1 site); 1986 (1 site); 1987 (1 site); 1991 (1 site); 1994 (1 site); 1996 (3 sites); 1997 (2 sites); 1999 (1 site); 2001 (1 site); 2002 (1 site); 2003 (1 site); 2004 (2 sites); 2005 (3 sites); 2007 (1 site); 2009 (1 site); 2011 (1 site); 2012 (1 site); 2013 (1 site); 2017 (1 site); 2018 (1 site); 2024 (1 site); 2025 (1 site).
 
 USGS's notes on a site's published history (a datum revised, a record
 revised, a drainage area changed) are on each site's page as `Revisions`,

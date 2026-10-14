@@ -64,9 +64,12 @@ const CODES = {
   OTHERAGENCY: 'given by another agency',
   REGULATED: 'affected by regulation or diversion',
   REVISED: 'revised after it was first published',
+  SEASONAL: 'a seasonal record: the gauge runs part of the year',
   UNKNOWNREGULATION: 'affected to an unknown degree by regulation or diversion',
+  UNAVAIL: 'the value unavailable',
   URBAN: 'affected by urbanization, mining, farming or channel changes',
   YEARUNKNOWN: 'year not known',
+  ZEROFLOW: 'no flow',
 };
 
 const readJSON = f => JSON.parse(fs.readFileSync(f, 'utf8'));

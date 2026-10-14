@@ -2,7 +2,7 @@
 
 - County code: 119
 - State: New York
-- Sites: 5
+- Sites: 9
 
 The USGS sites of Westchester County, New York, with daily means or annual peaks, a page each.
 
@@ -10,6 +10,10 @@ The USGS sites of Westchester County, New York, with daily means or annual peaks
 
 | Site | Site ID | Number | Type | Drainage area | Daily from | Daily to | Days | Peaks | Field measurements |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [BIRD BROOK NEAR CROTON NY](./Westchester%20County/BIRD%20BROOK%20NEAR%20CROTON%20NY.md) | USGS-01375500 | 01375500 | Stream | 0.4 |  |  | 0 | 7 | 1 |
+| [BRONX RIVER AT BRONXVILLE NY](./Westchester%20County/BRONX%20RIVER%20AT%20BRONXVILLE%20NY.md) | USGS-01302000 | 01302000 | Stream | 43.9 | 1944-10-01 | 1989-09-29 | 16435 | 47 | 403 |
+| [CROTON R AT NEW CROTON DAM NR CROTON-ON-HUDSON NY](./Westchester%20County/CROTON%20R%20AT%20NEW%20CROTON%20DAM%20NR%20CROTON-ON-HUDSON%20NY.md) | USGS-01375000 | 01375000 | Stream | 378 | 1933-07-29 | 2026-10-12 | 34042 | 92 | 2540 |
+| [HUNTER BROOK SOUTH OF YORKTOWN NY](./Westchester%20County/HUNTER%20BROOK%20SOUTH%20OF%20YORKTOWN%20NY.md) | USGS-0137499350 | 0137499350 | Stream | 7.42 | 1999-06-11 | 2009-06-29 | 3672 | 10 | 164 |
 | [HUTCHINSON RIVER AT PELHAM NY](./Westchester%20County/HUTCHINSON%20RIVER%20AT%20PELHAM%20NY.md) | USGS-01301500 | 01301500 | Stream | 5.78 | 1944-10-01 | 2013-04-30 | 17843 | 52 | 429 |
 | [MAMARONECK R AT WINFIELD AVE AT MAMARONECK NY](./Westchester%20County/MAMARONECK%20R%20AT%20WINFIELD%20AVE%20AT%20MAMARONECK%20NY.md) | USGS-01300800 | 01300800 | Stream | 14.6 |  |  | 0 | 15 | 36 |
 | [SAW MILL RIVER AT EASTVIEW NY](./Westchester%20County/SAW%20MILL%20RIVER%20AT%20EASTVIEW%20NY.md) | USGS-01376410 | 01376410 | Stream | 12.5 |  |  | 0 | 5 | 6 |

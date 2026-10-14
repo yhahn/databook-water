@@ -2,7 +2,7 @@
 
 - County code: 037
 - State: New York
-- Sites: 8
+- Sites: 9
 
 The USGS sites of Genesee County, New York, with daily means or annual peaks, a page each.
 
@@ -17,4 +17,5 @@ The USGS sites of Genesee County, New York, with daily means or annual peaks, a 
 | [OAK ORCHARD CREEK AT COUNTY LINE NEAR ELBA NY](./Genesee%20County/OAK%20ORCHARD%20CREEK%20AT%20COUNTY%20LINE%20NEAR%20ELBA%20NY.md) | USGS-04219930 | 04219930 | Stream | 21.9 |  |  | 0 | 4 | 0 |
 | [OAK ORCHARD CREEK NEAR ELBA NY](./Genesee%20County/OAK%20ORCHARD%20CREEK%20NEAR%20ELBA%20NY.md) | USGS-04219925 | 04219925 | Stream | 7.49 |  |  | 0 | 3 | 18 |
 | [OATKA CREEK NEAR PAVILION CENTER NY](./Genesee%20County/OATKA%20CREEK%20NEAR%20PAVILION%20CENTER%20NY.md) | USGS-04230423 | 04230423 | Stream | 110 |  |  | 0 | 3 | 65 |
+| [TONAWANDA CREEK AT BATAVIA NY](./Genesee%20County/TONAWANDA%20CREEK%20AT%20BATAVIA%20NY.md) | USGS-04217000 | 04217000 | Stream | 171 | 1944-07-30 | 2026-10-12 | 29660 | 83 | 2185 |
 | [TONAWANDA CREEK NEAR ALABAMA NY](./Genesee%20County/TONAWANDA%20CREEK%20NEAR%20ALABAMA%20NY.md) | USGS-04217500 | 04217500 | Stream | 231 | 1955-10-01 | 1989-09-29 | 12418 | 41 | 140 |

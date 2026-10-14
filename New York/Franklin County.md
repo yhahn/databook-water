@@ -2,7 +2,7 @@
 
 - County code: 033
 - State: New York
-- Sites: 7
+- Sites: 10
 
 The USGS sites of Franklin County, New York, with daily means or annual peaks, a page each.
 
@@ -11,9 +11,12 @@ The USGS sites of Franklin County, New York, with daily means or annual peaks, a
 | Site | Site ID | Number | Type | Drainage area | Daily from | Daily to | Days | Peaks | Field measurements |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [CHATEAUGAY RIVER BELOW CHATEAUGAY NY](./Franklin%20County/CHATEAUGAY%20RIVER%20BELOW%20CHATEAUGAY%20NY.md) | USGS-04270510 | 04270510 | Stream | 151 | 1965-12-01 | 1995-03-31 | 10713 | 46 | 519 |
+| [CHATEAUGAY RIVER NEAR CHATEAUGAY NY](./Franklin%20County/CHATEAUGAY%20RIVER%20NEAR%20CHATEAUGAY%20NY.md) | USGS-04270500 | 04270500 | Stream | 112 | 1926-10-01 | 1966-09-29 | 14609 | 40 | 0 |
 | [DUANE STREAM SOUTHEAST OF DUANE CENTER NY](./Franklin%20County/DUANE%20STREAM%20SOUTHEAST%20OF%20DUANE%20CENTER%20NY.md) | USGS-04269856 | 04269856 | Stream | 1.53 |  |  | 0 | 32 | 66 |
 | [E BR DEER CR AT FORT COVINGTON CENTER NY](./Franklin%20County/E%20BR%20DEER%20CR%20AT%20FORT%20COVINGTON%20CENTER%20NY.md) | USGS-04270150 | 04270150 | Stream | 23.9 |  |  | 0 | 32 | 7 |
 | [E BRANCH LITTLE SALMON R NR SKERRY NY](./Franklin%20County/E%20BRANCH%20LITTLE%20SALMON%20R%20NR%20SKERRY%20NY.md) | USGS-04270162 | 04270162 | Stream | 7.11 |  |  | 0 | 21 | 2 |
 | [FARRINGTON BK NR MOIRA NY](./Franklin%20County/FARRINGTON%20BK%20NR%20MOIRA%20NY.md) | USGS-04270180 | 04270180 | Stream | 17.7 |  |  | 0 | 9 | 0 |
 | [LAWRENCE BROOK NEAR MOIRA NY](./Franklin%20County/LAWRENCE%20BROOK%20NEAR%20MOIRA%20NY.md) | USGS-04269100 | 04269100 | Stream | 27.3 |  |  | 0 | 35 | 3 |
+| [ST. REGIS RIVER NEAR PAUL SMITHS NY](./Franklin%20County/ST.%20REGIS%20RIVER%20NEAR%20PAUL%20SMITHS%20NY.md) | USGS-04268390 | 04268390 | Stream | 22 | 1972-10-01 | 1975-09-29 | 1094 | 3 | 0 |
+| [TROUT RIVER AT TROUT RIVER NY](./Franklin%20County/TROUT%20RIVER%20AT%20TROUT%20RIVER%20NY.md) | USGS-04270700 | 04270700 | Stream | 107 | 1965-10-01 | 1966-09-29 | 245 | 85 | 220 |
 | [W BR DEER CR AT FORT COVINGTON CENTER NY](./Franklin%20County/W%20BR%20DEER%20CR%20AT%20FORT%20COVINGTON%20CENTER%20NY.md) | USGS-04270100 | 04270100 | Stream | 32.4 |  |  | 0 | 30 | 57 |

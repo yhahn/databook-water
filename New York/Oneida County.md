@@ -2,7 +2,7 @@
 
 - County code: 065
 - State: New York
-- Sites: 3
+- Sites: 8
 
 The USGS sites of Oneida County, New York, with daily means or annual peaks, a page each.
 
@@ -10,6 +10,11 @@ The USGS sites of Oneida County, New York, with daily means or annual peaks, a p
 
 | Site | Site ID | Number | Type | Drainage area | Daily from | Daily to | Days | Peaks | Field measurements |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [BLACK RIVER NEAR BOONVILLE NY](./Oneida%20County/BLACK%20RIVER%20NEAR%20BOONVILLE%20NY.md) | USGS-04252500 | 04252500 | Stream | 284 | 1911-03-27 | 2026-10-12 | 42204 | 146 | 2549 |
 | [CANADA CREEK TRIBUTARY NEAR LEE CENTER NY](./Oneida%20County/CANADA%20CREEK%20TRIBUTARY%20NEAR%20LEE%20CENTER%20NY.md) | USGS-04242795 | 04242795 | Stream | 1.34 |  |  | 0 | 10 | 0 |
+| [CINCINNATI CREEK AT BARNEVELD NY](./Oneida%20County/CINCINNATI%20CREEK%20AT%20BARNEVELD%20NY.md) | USGS-01344795 | 01344795 | Stream | 44.8 | 2022-11-23 | 2026-10-12 | 1418 | 3 | 114 |
 | [MOHAWK RIVER BELOW DELTA DAM NEAR ROME NY](./Oneida%20County/MOHAWK%20RIVER%20BELOW%20DELTA%20DAM%20NEAR%20ROME%20NY.md) | USGS-01336000 | 01336000 | Stream | 152 | 1927-10-01 | 2026-10-12 | 36170 | 101 | 2233 |
 | [NINEMILE CREEK NEAR STITTVILLE NY](./Oneida%20County/NINEMILE%20CREEK%20NEAR%20STITTVILLE%20NY.md) | USGS-01337005 | 01337005 | Stream | 58.5 | 2022-10-26 | 2026-10-12 | 1446 | 3 | 88 |
+| [NINEMILE FEEDER NR HOLLAND PAT NY](./Oneida%20County/NINEMILE%20FEEDER%20NR%20HOLLAND%20PAT%20NY.md) | USGS-01344500 | 01344500 | Stream |  | 1960-10-01 | 1968-09-29 | 1800 | 0 | 4 |
+| [ONEIDA CREEK AT ONEIDA NY](./Oneida%20County/ONEIDA%20CREEK%20AT%20ONEIDA%20NY.md) | USGS-04243500 | 04243500 | Stream | 113 | 1949-10-01 | 2026-10-12 | 28136 | 78 | 2266 |
+| [SAUQUOIT CREEK AT WHITESBORO NY](./Oneida%20County/SAUQUOIT%20CREEK%20AT%20WHITESBORO%20NY.md) | USGS-01339060 | 01339060 | Stream | 59.8 | 2014-09-26 | 2026-10-12 | 4398 | 12 | 369 |

@@ -100,3 +100,24 @@ undo it. The seat's catalog record is "USGS water: New York's streams".
   Retry-After, every worker together, six and the run stops. No key.
 - **Why:** the API allows 1,000 asks an hour with no key; a key is a
   sign-up, the person's.
+
+## A book written in part, while USGS's limit holds the rest, 10-13
+
+- **What:** `import.js --fetched` writes only the sites whose daily series
+  are all fetched, and counts the rest as waiting (`counts.json`
+  `waiting`); the README says "Not yet whole" while any wait. The first
+  commit of pages held 310 of 914 sites (106 of 722 series), the second
+  511 (307).
+- **Why:** with no key the API allowed about 130 asks in the first hour,
+  then a 429 with a Retry-After of 15 to 35 minutes, one ask let through
+  each time (the 1,000 an hour is shared by whatever else on this machine
+  asks it). A site written with half its series would be a site misread.
+- **Undo:** run `node .import/fetch.js` until it says done, then
+  `sh .import/build.sh` without `--fetched`; the flag goes when no run
+  needs it.
+
+## Sites of other agencies, 10-13
+
+- **What:** USGS's list of New York's sites holds other agencies' too
+  (`USNOS-85194830`): a site is keyed `<agency>-<number>` as USGS keys it;
+  only USGS's own are held to eight to fifteen digits.

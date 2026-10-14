@@ -23,7 +23,7 @@ const TYPES = ['ST', 'ST-TS', 'ST-CA', 'ST-DCH', 'LK', 'ES'];
 const BOX = '-79.8,40.45,-71.8,45.05'; // New York and a margin; sites outside are dropped by state
 const NY = 'state_name=New%20York';
 const PARAMS = ['00060', '00065'];
-const WORKERS = 1;
+const WORKERS = 2;
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 let refusals = 0;
@@ -34,7 +34,8 @@ let asks = 0;
 let pausedUntil = 0;
 async function get(url) {
   for (;;) {
-    while (Date.now() < pausedUntil) await sleep(pausedUntil - Date.now());
+    // in minutes by the wall clock, so a machine asleep does not stretch the wait
+    while (Date.now() < pausedUntil) await sleep(Math.min(60000, pausedUntil - Date.now()));
     asks++;
     const r = await fetch(url, { headers: { 'User-Agent': 'databook-water (a personal databook)' } });
     if (r.status === 429) {

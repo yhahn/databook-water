@@ -2,7 +2,7 @@
 
 - County code: 027
 - State: New York
-- Sites: 8
+- Sites: 10
 
 The USGS sites of Dutchess County, New York, with daily means or annual peaks, a page each.
 
@@ -10,6 +10,8 @@ The USGS sites of Dutchess County, New York, with daily means or annual peaks, a
 
 | Site | Site ID | Number | Type | Drainage area | Daily from | Daily to | Days | Peaks | Field measurements |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CASPER CREEK NEAR WAPPINGERS FALLS NY](./Dutchess%20County/CASPER%20CREEK%20NEAR%20WAPPINGERS%20FALLS%20NY.md) | USGS-01372065 | 01372065 | Stream | 10.1 | 1969-01-01 | 1975-12-31 | 2556 | 8 | 8 |
+| [EAST BRANCH WAPPINGER CR NEAR CLINTON CORNERS NY](./Dutchess%20County/EAST%20BRANCH%20WAPPINGER%20CR%20NEAR%20CLINTON%20CORNERS%20NY.md) | USGS-01372100 | 01372100 | Stream | 33.6 | 1956-01-01 | 1963-09-29 | 2829 | 8 | 0 |
 | [FALL KILL AT POUGHKEEPSIE NY](./Dutchess%20County/FALL%20KILL%20AT%20POUGHKEEPSIE%20NY.md) | USGS-01372051 | 01372051 | Stream | 18.8 | 1993-03-26 | 1995-09-30 | 911 | 3 | 53 |
 | [FISHKILL CREEK AT HOPEWELL JUNCTION NY](./Dutchess%20County/FISHKILL%20CREEK%20AT%20HOPEWELL%20JUNCTION%20NY.md) | USGS-01372800 | 01372800 | Stream | 57.3 | 1957-10-01 | 1975-12-31 | 5939 | 47 | 513 |
 | [HUDSON RIVER BELOW POUGHKEEPSIE NY](./Dutchess%20County/HUDSON%20RIVER%20BELOW%20POUGHKEEPSIE%20NY.md) | USGS-01372058 | 01372058 | Estuary | 11876 |  |  | 0 | 17 | 292 |

@@ -2,7 +2,7 @@
 
 - County code: 109
 - State: New York
-- Sites: 10
+- Sites: 12
 
 The USGS sites of Tompkins County, New York, with daily means or annual peaks, a page each.
 
@@ -10,11 +10,13 @@ The USGS sites of Tompkins County, New York, with daily means or annual peaks, a
 
 | Site | Site ID | Number | Type | Drainage area | Daily from | Daily to | Days | Peaks | Field measurements |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CAYUGA INLET NEAR ITHACA NY](./Tompkins%20County/CAYUGA%20INLET%20NEAR%20ITHACA%20NY.md) | USGS-04233000 | 04233000 | Stream | 35.2 | 1937-03-03 | 2012-09-29 | 27605 | 78 | 590 |
 | [CAYUGA LAKE TRIB NO. 8 NR JACKSONVILLE NY](./Tompkins%20County/CAYUGA%20LAKE%20TRIB%20NO.%208%20NR%20JACKSONVILLE%20NY.md) | USGS-042340202 | 042340202 | Stream | 1.41 |  |  | 0 | 12 | 4 |
 | [COY GLEN CREEK AT ITHACA NY](./Tompkins%20County/COY%20GLEN%20CREEK%20AT%20ITHACA%20NY.md) | USGS-04233258 | 04233258 | Stream | 3.56 |  |  | 0 | 25 | 17 |
 | [FALL CR AT FREEVILLE NY](./Tompkins%20County/FALL%20CR%20AT%20FREEVILLE%20NY.md) | USGS-04233648 | 04233648 | Stream | 55.9 |  |  | 0 | 5 | 18 |
 | [FALL CR TR NO. 7 AT STEVENS CORNERS NY](./Tompkins%20County/FALL%20CR%20TR%20NO.%207%20AT%20STEVENS%20CORNERS%20NY.md) | USGS-04233632 | 04233632 | Stream | 0.52 |  |  | 0 | 2 | 19 |
 | [SALMON CREEK AT LUDLOWVILLE NY](./Tompkins%20County/SALMON%20CREEK%20AT%20LUDLOWVILLE%20NY.md) | USGS-04234018 | 04234018 | Stream | 81.7 | 1964-10-01 | 1968-09-29 | 1460 | 10 | 17 |
+| [SIXMILE CREEK AT BETHEL GROVE NY](./Tompkins%20County/SIXMILE%20CREEK%20AT%20BETHEL%20GROVE%20NY.md) | USGS-04233300 | 04233300 | Stream | 39 | 1995-03-09 | 2026-10-12 | 11541 | 30 | 1477 |
 | [SIXMILE CREEK AT BROOKTONDALE NY](./Tompkins%20County/SIXMILE%20CREEK%20AT%20BROOKTONDALE%20NY.md) | USGS-04233286 | 04233286 | Stream | 27 | 2002-11-14 | 2024-02-14 | 7763 | 23 | 852 |
 | [SIXMILE CREEK NEAR ITHACA NY](./Tompkins%20County/SIXMILE%20CREEK%20NEAR%20ITHACA%20NY.md) | USGS-04233310 | 04233310 | Stream | 42 |  |  | 0 | 18 | 16 |
 | [TRUMANSBURG CREEK NEAR TRUMANSBURG NY](./Tompkins%20County/TRUMANSBURG%20CREEK%20NEAR%20TRUMANSBURG%20NY.md) | USGS-0423403092 | 0423403092 | Stream | 2.74 |  |  | 0 | 24 | 52 |
