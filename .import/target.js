@@ -13,6 +13,7 @@ const { spawnSync } = require('node:child_process');
 
 const REPO = path.join(__dirname, '..');
 const counts = JSON.parse(fs.readFileSync(path.join(__dirname, 'water', 'counts.json'), 'utf8'));
+counts.faq = { questions: (fs.readFileSync(path.join(__dirname, 'faq.md'), 'utf8').match(/^### Question: /gm) || []).length };
 const fill = text => text.replace(/\{([\w.]+)\}/g, (_, k) => {
   const v = k.split('.').reduce((o, p) => (o == null ? undefined : o[p]), counts);
   if (v === undefined) throw new Error(`counts.json has no ${k}`);

@@ -1,6 +1,7 @@
 #!/bin/sh
 # Writes every page of databook-water from the source as fetched (its
-# shape checked first, V1), then the README; plays every vector (V2) and the
+# shape checked first, V1), then the README and FAQ.md (its answers from
+# the source, SPEC B9); plays every vector (V2) and the
 # live source's cases; then checks what proper gathers (V3, target.sql).
 # Fetch first, if the source is to be read again: node .import/fetch.js
 # (--again for a new release). The gather wants about 6G:
@@ -12,7 +13,9 @@ set -e
 cd "$(dirname "$0")/.."
 node --max-old-space-size=4096 .import/water/import.js "$@"
 node .import/water/readme.js
+node --max-old-space-size=4096 .import/faq.js
 node --test .import/water/import.test.js
+node --test .import/faq.test.js
 node ~/Projects/proper-sources/bin/proper-sources.js check .source
 proper check
 node .import/target.js

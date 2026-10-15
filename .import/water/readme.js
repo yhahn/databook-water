@@ -14,6 +14,7 @@ const n = x => Number(x).toLocaleString('en-US');
 const changes = [...fs.readFileSync(path.join(REPO, 'Changes.md'), 'utf8').matchAll(/^### Change: (.*)$\n[\s\S]*?^- Places: (\d+)$/gm)].map(m => `${m[1]} (${m[2]} ${m[2] === '1' ? 'site' : 'sites'})`);
 
 const sql = s => '```sql\n' + s.trim() + '\n```';
+const faqN = (fs.readFileSync(path.join(__dirname, '..', 'faq.md'), 'utf8').match(/^### Question: /gm) || []).length;
 const text = `# New York's streams
 
 Every stream gauge USGS keeps in New York that has daily means of its
@@ -29,9 +30,43 @@ wait on USGS's limit of 1,000 asks an hour for a program with no key;
 their pages come with the next run of the importer, once fetched. The
 counts here are of what is written.
 
-` : ''}Written by its importer (\`.import/\`, \`sh .import/build.sh\`) from USGS's
-Water Data API as it stood on ${c.fetchedOn}; nothing here is edited by hand.
-A databook (~/Projects/databooks): printable as a book, queryable as tables.
+` : ''}Read it as a book, county by county and gauge by gauge, a page a
+gauge and a page for each of its water years; or gather it with
+[proper.md](https://github.com/proper-md/proper.md) and ask it in SQL.
+
+It is a *databook*: a repo of data only, written whole by its importer
+(\`.import/\`) from USGS's Water Data API as it stood on ${c.fetchedOn},
+never edited by hand, and made again, the same, by running the importer
+again.
+
+[Questions and answers](./FAQ.md): ${faqN} questions a reader of this book can answer, from one river's flow on one day to which year was New York's wettest, each with its answer and the page to look in.
+
+## Its source and its terms
+
+U.S. Geological Survey, Water Data for the Nation: the Water Data APIs
+(https://api.waterdata.usgs.gov/ogcapi/v1): monitoring-locations,
+time-series-metadata, daily, peaks, field-measurements, latest-continuous.
+USGS data are in the public domain (USGS Government Work; the daily
+collection's license is CC0-1.0). USGS: provisional data are subject to
+revision; recent data have not been reviewed and may be changed or removed.
+
+Each site's locality is placescope's, from its maps of New York (release
+${c.placescope}).
+
+## Making it again
+
+\`\`\`sh
+node .import/fetch.js   # USGS's files, fetched again (--again for a new release)
+sh .import/build.sh     # every page, the README and FAQ.md written; the tests; what proper gathers checked
+\`\`\`
+
+USGS allows a program without a key 1,000 asks an hour, so a whole fetch
+takes some hours. The importer checks the files against their shape as
+last read before it writes a page, and stops on a field, a code or a
+reading it has not seen. Gathered whole, the book wants about 6 GB, and
+proper's Node a heap to match (\`NODE_OPTIONS=--max-old-space-size=6000\`).
+FAQ.md's answers are worked out again from USGS's files at every release,
+never copied from the pages.
 
 ## How it is laid out
 
@@ -142,7 +177,7 @@ USGS's latest-continuous, about 800 series in one ask, no key. Installed
 from this repo at its commit, caught up, and turned on:
 
 \`\`\`
-proper sources add ~/Projects/databook-water/.source
+proper sources add <this repo>/.source
 proper sources catch-up usgs_water
 \`\`\`
 
@@ -183,15 +218,6 @@ renumbered; none is guessed.
   but not among its surface-water sites (wells, springs and the like).
 - The 15-minute record (USGS's continuous values): the live source holds
   the newest reading; the record itself is a later book's.
-
-## Source
-
-U.S. Geological Survey, Water Data for the Nation: the Water Data APIs
-(https://api.waterdata.usgs.gov/ogcapi/v1): monitoring-locations,
-time-series-metadata, daily, peaks, field-measurements, latest-continuous.
-USGS data are in the public domain (USGS Government Work; the daily
-collection's license is CC0-1.0). USGS: provisional data are subject to
-revision; recent data have not been reviewed and may be changed or removed.
 `;
 fs.writeFileSync(path.join(REPO, 'README.md'), text);
 console.log('README.md', text.length);

@@ -35,7 +35,7 @@ select string_agg(column_name, ', ' order by ordinal_position) from information_
 where table_name = 'Water_Year_Days' and column_name not in ('record', '_file', '_line');
 
 -- name: B5 the kinds
--- want: Change, County, Site, State, Water Year
+-- want: Change, County, Question, Site, State, Water Year
 select string_agg(distinct table_name, ', ' order by table_name) from information_schema.columns
 where column_name = '_end_line';
 
@@ -100,4 +100,26 @@ select count(*) || ' ' || sum(Places) from Change;
 
 -- name: Pages
 -- want: {pages}
-select count(*) from files where path like '%.md' and path not like 'README.md';
+select count(*) from files where path like '%.md' and path not in ('README.md', 'FAQ.md');
+
+-- The questions (FAQ.md, SPEC B9: written by .import/faq.js from .import/faq.md)
+
+-- name: B9 every question in faq.md a Question record in FAQ.md, one an id
+-- want: {faq.questions} {faq.questions}
+select count(*) || ' ' || count(distinct name) from Question where _file = 'FAQ.md';
+
+-- name: B3 the keys of Question
+-- want: Tier, Ask, Answer, Type, Tolerance, Look in
+select string_agg(column_name, ', ' order by ordinal_position) from information_schema.columns
+where table_name = 'Question' and column_name not in ('name', '_file', '_line', '_end_line');
+
+-- name: B9 no answer blank; a Gap question's (Type none) says the book does not say, and no other's does
+-- want: 0 0
+select count(*) filter (where Answer is null or trim(Answer) = '') || ' ' ||
+  count(*) filter (where (Type = 'none') <> (Answer = 'The book does not say.')) from Question;
+
+-- name: B9 every Look in resolves: links from FAQ.md that lead nowhere, and questions not a Gap with none to follow
+-- want: 0 0
+select (select count(*) from links where _file = 'FAQ.md' and path not in (select path from files)) || ' ' ||
+  (select count(*) from Question q where Type <> 'none' and not exists (
+    select 1 from links l where l._file = q._file and l._line between q._line and q._end_line));

@@ -143,3 +143,33 @@ key is the person's to get; whether the add's yes may be given for them.
 **In a line:** the importer, its checks and the live source are whole and
 held; the book is 511 of 914 sites until USGS's limit lets the rest be
 fetched (`node .import/fetch.js`, then `sh .import/build.sh`).
+
+# Notes: FAQ.md (deputy, 10-15)
+
+Asked: an FAQ.md by SPEC B9, as HUD's; the README's opening for a
+stranger. Made: `.import/faq.md` (24 questions), `.import/faq.js`,
+`.import/faq.test.js` (12 tests), four B9 checks in target.sql, build.sh
+and the README (readme.js). Every answer agrees with its page.
+
+For the seat:
+- **A whole gather needs a bigger Node heap.** `proper query` on the
+  whole book died at Node's 2 GB default ("JavaScript heap out of
+  memory", 35 s in) under `crew run 6G`; with
+  `NODE_OPTIONS=--max-old-space-size=6000` under `crew run 7G` it
+  gathered in 59 s. For proper (engine): its gather holds more in the JS
+  heap than Node's default allows at 24,000 pages.
+- **What may mislead a reader:** the site page's "Discharge by month"
+  card is the mean of each month's means; a reader after a typical
+  August at Prattsville reads 159 ft³/s where the median day is 48. The
+  Years table's `Water year` is gathered as its link
+  (`[2020](./.../2020.md)`), so `where "Water year" = 2020` finds
+  nothing in `Site_Years`. The greatest "peak" in the book (St. Lawrence
+  at Cornwall, 378,000) is another agency's highest daily mean, as its
+  codes say.
+- **Checks:** every target.sql check holds, with the four B9 checks. Two
+  missed on the first run: Pages (FAQ.md is a page more; the check now
+  leaves it out) and README query 5, because the repo's own folder had no
+  `.proper/` (the last build ran in the worktree, whose local settings
+  turn usgs_water on). I turned it on in the folder's gitignored
+  `.proper/README.md` as the worktree had it; the source was already
+  added on this machine. Build 2m under crew (the gather 56 s).

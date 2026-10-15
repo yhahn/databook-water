@@ -126,3 +126,32 @@ undo it. The seat's catalog record is "USGS water: New York's streams".
 - **What:** USGS's list of New York's sites holds other agencies' too
   (`USNOS-85194830`): a site is keyed `<agency>-<number>` as USGS keys it;
   only USGS's own are held to eight to fifteen digits.
+
+## FAQ.md: 24 questions, answered from USGS's files by readers of their own (SPEC B9), 10-15
+
+`.import/faq.md` holds the questions (by hand, only added to);
+`.import/faq.js` answers them and writes FAQ.md; `faq.test.js` freezes
+five records, one of each Type; target.sql checks what proper gathers of
+them (as HUD's). faq.js borrows nothing of the importer: it reads the
+locations, peaks, field measurements and every daily series itself
+(about 10 s, under 4G). Undo: delete the three files and their lines in
+build.sh and target.sql.
+
+- **A site's series:** of two daily series of one measure, the one with
+  the most days (the importer takes the longest by its metadata's span;
+  only USGS-04279000 has two, and no question asks of it).
+- **A full water year** is one with a value on every day (365, or 366);
+  the wettest year (wa-analysis-1) counts sites with thirty such years or
+  more, each at the year of its highest mean.
+- **A river's gauges** are the locations named for it (`ESOPUS CREEK ...`),
+  downstream by drainage area: USGS's names are the only river the source
+  gives. Two streams named Beaver Kill (one the Esopus's, one the
+  Delaware's) show why no question asks of that name.
+- **Nearest** is by great circle between the locations' points.
+- **The live source's install line** in the README no longer names a
+  local path (`<this repo>/.source`).
+- **The README opens for a stranger** (readme.js): what the book is,
+  what is in it, its source and terms, how to make it again; no local
+  path. It says a whole gather wants proper's Node a 6 GB heap.
+- **The Pages check leaves FAQ.md out** (`path not in ('README.md',
+  'FAQ.md')`): it counts the importer's pages, and FAQ.md is faq.js's.
