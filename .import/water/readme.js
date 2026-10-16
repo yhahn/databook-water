@@ -53,6 +53,13 @@ revision; recent data have not been reviewed and may be changed or removed.
 Each site's locality is placescope's, from its maps of New York (release
 ${c.placescope}).
 
+## Licence
+
+This book, its pages and its importer, is given to the public domain
+under CC0 1.0 ([LICENSE](LICENSE)): copy it, change it and use it as you
+like, without asking. Its sources are free of copyright too, as above;
+citing them is still the courteous thing.
+
 ## Making it again
 
 \`\`\`sh
